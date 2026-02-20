@@ -16,6 +16,10 @@ from typing import List, Dict, Any, Optional, Tuple, Union
 
 import google.generativeai as genai
 from langfuse import Langfuse
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # ==================== CONFIGURATION ====================
 
@@ -34,9 +38,10 @@ LANGFUSE_PUBLIC_KEY = os.getenv("LANGFUSE_PUBLIC_KEY")
 LANGFUSE_HOST = os.getenv("LANGFUSE_HOST", "http://localhost:3000")
 
 if not GEMINI_API_KEY:
-    print("⚠️  GEMINI_API_KEY not found. API calls will fail.")
+    print("⚠️  GEMINI_API_KEY not found in environment. API calls will fail.")
 if not LANGFUSE_SECRET_KEY or not LANGFUSE_PUBLIC_KEY:
-    print("⚠️  Langfuse keys not found. Tracing will be disabled or fail.")
+    print("⚠️  Langfuse keys not found in environment. Tracing will be disabled or fail.")
+
 
 
 # API Configuration - OPTIMIZED FOR 25 RPM WITH ASYNC
