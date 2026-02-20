@@ -1,0 +1,4 @@
+## 3.0 TERM
+
+- (a) This  Contract  shall  become  effective  on  the  Effective  Date  and,  unless  it  is  earlier  terminated pursuant  to  the  terms  and  conditions  of  this  Contract,  shall  continue  in  force  for  a  period  of  3 (Three) years from the Effective Date (the " Initial Term ").  This Contract may be extended by the mutual agreement of the Parties hereto for additional periods of 2 (Two) year (the Initial Term and any extension(s) are collectively referred to as the " Term ").
+- (b) Notwithstanding the foregoing, if  any  Purchase  Order  is  incomplete  on  the  expiry  or  termination date of this Contract, this Contract shall continue until the completion of all Purchase Orders that are  incomplete  at  the  time  of  such  expiry  or  termination  and  the  definition  of  ' Term '  shall  be automatically  amended  to  include  such  additional  period  of  time  for  completion  of  all  Purchase Orders.

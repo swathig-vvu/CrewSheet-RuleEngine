@@ -1,0 +1,277 @@
+{
+  "source_file": "NMA-Alberta-Province_new.md",
+  "total_chunks": 43,
+  "toc_entries": 43,
+  "learned_keywords": [
+    "IOL",
+    "ADMINISTRATION",
+    "APPENDIX",
+    "ALBERTA",
+    "ARTICLE",
+    "TRADE"
+  ],
+  "numbering_types": [
+    "letter",
+    "numeric"
+  ],
+  "chunks": [
+    {
+      "chunk_num": 1,
+      "heading": "## ARTICLE 1.000 RECOGNITION",
+      "length": 294,
+      "filename": "01_ ARTICLE 1000 RECOGNITION.txt"
+    },
+    {
+      "chunk_num": 2,
+      "heading": "## ARTICLE 2.000 THE COMPANY AND THE UNIONS",
+      "length": 789,
+      "filename": "02_ ARTICLE 2000 THE COMPANY AND THE UNIONS.txt"
+    },
+    {
+      "chunk_num": 3,
+      "heading": "## ARTICLE 3.000 UNION SECURITY",
+      "length": 1542,
+      "filename": "03_ ARTICLE 3000 UNION SECURITY.txt"
+    },
+    {
+      "chunk_num": 4,
+      "heading": "## ARTICLE 4.000 SCOPE OF WORK",
+      "length": 744,
+      "filename": "04_ ARTICLE 4000 SCOPE OF WORK.txt"
+    },
+    {
+      "chunk_num": 5,
+      "heading": "## ARTICLE 5.000 DEFINITIONS",
+      "length": 1596,
+      "filename": "05_ ARTICLE 5000 DEFINITIONS.txt"
+    },
+    {
+      "chunk_num": 6,
+      "heading": "## ARTICLE 6.000 GRIEVANCE PROCEDURE",
+      "length": 4145,
+      "filename": "06_ ARTICLE 6000 GRIEVANCE PROCEDURE.txt"
+    },
+    {
+      "chunk_num": 7,
+      "heading": "## ARTICLE 7.000 UNION REPRESENTATION",
+      "length": 571,
+      "filename": "07_ ARTICLE 7000 UNION REPRESENTATION.txt"
+    },
+    {
+      "chunk_num": 8,
+      "heading": "## ARTICLE 8.000 STEWARDS",
+      "length": 1092,
+      "filename": "08_ ARTICLE 8000 STEWARDS.txt"
+    },
+    {
+      "chunk_num": 9,
+      "heading": "## ARTICLE 9.000 WAGES",
+      "length": 6952,
+      "filename": "09_ ARTICLE 9000 WAGES.txt"
+    },
+    {
+      "chunk_num": 10,
+      "heading": "## ARTICLE 10.000 BENEFITS AND OTHER MONETARY FUNDS",
+      "length": 1416,
+      "filename": "10_ ARTICLE 10000 BENEFITS AND OTHER MONETARY FUNDS.txt"
+    },
+    {
+      "chunk_num": 11,
+      "heading": "## ARTICLE 11.000 STATUTORY HOLIDAYS",
+      "length": 3017,
+      "filename": "11_ ARTICLE 11000 STATUTORY HOLIDAYS.txt"
+    },
+    {
+      "chunk_num": 12,
+      "heading": "## ARTICLE 12.000 MINIMUM PAY AND REPORTING TIME",
+      "length": 390,
+      "filename": "12_ ARTICLE 12000 MINIMUM PAY AND REPORTING TIME.txt"
+    },
+    {
+      "chunk_num": 13,
+      "heading": "## ARTICLE 13.000 TRAVEL AND SUBSISTENCE",
+      "length": 8864,
+      "filename": "13_ ARTICLE 13000 TRAVEL AND SUBSISTENCE.txt"
+    },
+    {
+      "chunk_num": 14,
+      "heading": "## ARTICLE 14.000 WORK BREAKS",
+      "length": 549,
+      "filename": "14_ ARTICLE 14000 WORK BREAKS.txt"
+    },
+    {
+      "chunk_num": 15,
+      "heading": "## ARTICLE 15.000 WORK HOURS PER DAY, OVERTIME AND OVERTIME MEAL BREAKS",
+      "length": 12619,
+      "filename": "15_ ARTICLE 15000 WORK HOURS PER DAY OVERTIME AND OVERTIME MEAL BREAKS.txt"
+    },
+    {
+      "chunk_num": 16,
+      "heading": "## ARTICLE 16.000 SAFETY",
+      "length": 1064,
+      "filename": "16_ ARTICLE 16000 SAFETY.txt"
+    },
+    {
+      "chunk_num": 17,
+      "heading": "## ARTICLE 17.000 APPRENTICES",
+      "length": 1094,
+      "filename": "17_ ARTICLE 17000 APPRENTICES.txt"
+    },
+    {
+      "chunk_num": 18,
+      "heading": "## ARTICLE 18.000 HIRING AND TRANSFER OF WORKERS",
+      "length": 8319,
+      "filename": "18_ ARTICLE 18000 HIRING AND TRANSFER OF WORKERS.txt"
+    },
+    {
+      "chunk_num": 19,
+      "heading": "## ARTICLE 19.000 CREW SIZE, SUPERVISION AND FOREPERSONS",
+      "length": 488,
+      "filename": "19_ ARTICLE 19000 CREW SIZE SUPERVISION AND FOREPERSONS.txt"
+    },
+    {
+      "chunk_num": 20,
+      "heading": "## ARTICLE 20.000 LOCKOUT AND WORK STOPPAGE",
+      "length": 1226,
+      "filename": "20_ ARTICLE 20000 LOCKOUT AND WORK STOPPAGE.txt"
+    },
+    {
+      "chunk_num": 21,
+      "heading": "## ARTICLE 21.000 TOOL ROOMS AND TOOLS",
+      "length": 2050,
+      "filename": "21_ ARTICLE 21000 TOOL ROOMS AND TOOLS.txt"
+    },
+    {
+      "chunk_num": 22,
+      "heading": "## ARTICLE 22.000 MANAGEMENT CLAUSE",
+      "length": 629,
+      "filename": "22_ ARTICLE 22000 MANAGEMENT CLAUSE.txt"
+    },
+    {
+      "chunk_num": 23,
+      "heading": "## ARTICLE 23.000 TRADE CO-OPERATION",
+      "length": 415,
+      "filename": "23_ ARTICLE 23000 TRADE CO-OPERATION.txt"
+    },
+    {
+      "chunk_num": 24,
+      "heading": "## ARTICLE 24.000 DURATION AND TERMINATION OF AGREEMENT",
+      "length": 721,
+      "filename": "24_ ARTICLE 24000 DURATION AND TERMINATION OF AGREEMENT.txt"
+    },
+    {
+      "chunk_num": 25,
+      "heading": "## ARTICLE 25.000 ELECTRONIC SIGNATURE",
+      "length": 697,
+      "filename": "25_ ARTICLE 25000 ELECTRONIC SIGNATURE.txt"
+    },
+    {
+      "chunk_num": 26,
+      "heading": "## APPENDIX A",
+      "length": 13,
+      "filename": "26_ APPENDIX A.txt"
+    },
+    {
+      "chunk_num": 27,
+      "heading": "SIGNATORY UNIONS",
+      "length": 1155,
+      "filename": "27_SIGNATORY UNIONS.txt"
+    },
+    {
+      "chunk_num": 28,
+      "heading": "## APPENDIX B",
+      "length": 13,
+      "filename": "28_ APPENDIX B.txt"
+    },
+    {
+      "chunk_num": 29,
+      "heading": "## SIGNATORY EMPLOYERS",
+      "length": 3653,
+      "filename": "29_ SIGNATORY EMPLOYERS.txt"
+    },
+    {
+      "chunk_num": 30,
+      "heading": "NATIONAL MAINTENANCE AGREEMENT FOR ALBERTA HOURS OF WORK PROVISIONS,SUNCOR REFINERY, EDMONTON, ALBERTA",
+      "length": 5094,
+      "filename": "30_NATIONAL MAINTENANCE AGREEMENT FOR ALBERTA HOURS OF WORK PROVISIONSSUNCOR REFINE.txt"
+    },
+    {
+      "chunk_num": 31,
+      "heading": "## APPENDIX D - APPROVED WORK WEEK ALTERATIONS",
+      "length": 176,
+      "filename": "31_ APPENDIX D - APPROVED WORK WEEK ALTERATIONS.txt"
+    },
+    {
+      "chunk_num": 32,
+      "heading": "## 9/80 WORK SCHEDULE",
+      "length": 2477,
+      "filename": "32_ 980 WORK SCHEDULE.txt"
+    },
+    {
+      "chunk_num": 33,
+      "heading": "## IOL STRATHCONA",
+      "length": 2771,
+      "filename": "33_ IOL STRATHCONA.txt"
+    },
+    {
+      "chunk_num": 34,
+      "heading": "## APPENDIX E",
+      "length": 1376,
+      "filename": "34_ APPENDIX E.txt"
+    },
+    {
+      "chunk_num": 35,
+      "heading": "## APPENDIX F",
+      "length": 13,
+      "filename": "35_ APPENDIX F.txt"
+    },
+    {
+      "chunk_num": 36,
+      "heading": "POLICY",
+      "length": 924,
+      "filename": "36_POLICY.txt"
+    },
+    {
+      "chunk_num": 37,
+      "heading": "## ALBERTA BEREAVEMENT PROTOCOL",
+      "length": 31,
+      "filename": "37_ ALBERTA BEREAVEMENT PROTOCOL.txt"
+    },
+    {
+      "chunk_num": 38,
+      "heading": "THE NATIONAL MAINTENANCE COUNCIL FOR CANADA (BEREAVEMENT PROTOCOL)",
+      "length": 7225,
+      "filename": "38_THE NATIONAL MAINTENANCE COUNCIL FOR CANADA BEREAVEMENT PROTOCOL.txt"
+    },
+    {
+      "chunk_num": 39,
+      "heading": "## ADMINISTRATION FUND (A)",
+      "length": 26,
+      "filename": "39_ ADMINISTRATION FUND A.txt"
+    },
+    {
+      "chunk_num": 40,
+      "heading": "## NATIONAL MAINTENANCE COUNCIL FOR CANADA",
+      "length": 1449,
+      "filename": "40_ NATIONAL MAINTENANCE COUNCIL FOR CANADA.txt"
+    },
+    {
+      "chunk_num": 41,
+      "heading": "## ADMINISTRATION FUND (B)",
+      "length": 26,
+      "filename": "41_ ADMINISTRATION FUND B.txt"
+    },
+    {
+      "chunk_num": 42,
+      "heading": "## NATIONAL MAINTENANCE COUNCIL FOR CANADA",
+      "length": 1273,
+      "filename": "42_ NATIONAL MAINTENANCE COUNCIL FOR CANADA.txt"
+    },
+    {
+      "chunk_num": 43,
+      "heading": "## TRADE APPENDIX",
+      "length": 2482,
+      "filename": "43_ TRADE APPENDIX.txt"
+    }
+  ]
+}

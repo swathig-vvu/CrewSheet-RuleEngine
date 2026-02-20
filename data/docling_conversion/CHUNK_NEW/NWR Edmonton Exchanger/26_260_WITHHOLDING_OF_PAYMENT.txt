@@ -1,0 +1,15 @@
+## 26.0 WITHHOLDING OF PAYMENT
+
+Upon written notification to Supplier specifying the grounds relied on, Owner may withhold the whole or a part of any payment on any Supplier's invoice to such extent as may be necessary to protect Owner from loss on account of:
+
+- (a) the Work supplied by Supplier not being in compliance with the technical specifications required by this Contract;
+
+<!-- image -->
+
+- (b) claims or Liens filed against the Site or Owner Group property or reasonable evidence indicating probable filing of such a claim or Lien;
+- (c) claims by third parties against Owner or for which Owner may become liable that are attributable to acts or omissions of Supplier Group;
+- (d) failure of Supplier to make payments due for services, materials, equipment, labour or to a workers' compensation board or similar body related to the Work;
+- (e) evidence of financial difficulty, reasonable possibility of creditor enforcement  proceedings, prospective dissolution of Supplier or of its inability to fully supply the Work;
+- (f) any discrepancies evidenced by an audit conducted pursuant to the provisions of this Contract or any Purchase Order issued hereunder, provided that Supplier has been provided a copy of such audit report and a reasonable opportunity to respond;
+- (g) adjustments  that  are  due  from  Supplier  to  Owner  in  respect  of  previous  overpayment(s),  audit results, liquidated damages or credits due to Owner; and
+- (h) failure  of  Supplier  to  perform  any  of  its  obligations  under  this  Contract  or  any  Purchase  Order issued hereunder, including the failure to deliver any Documents or deliverable to Owner.

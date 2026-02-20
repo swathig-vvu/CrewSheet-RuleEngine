@@ -1,0 +1,50 @@
+## 15.0 TERMINATION
+
+## 15.1 Termination for Convenience
+
+Owner may, without prejudice to any of its other rights hereunder and subject to the applicable provisions hereof relating to payment upon termination, terminate this Contract or any Purchase Order (or both) issued hereunder  at  Owner's  sole  discretion  and  without  cause,  at  any  time  by  giving  seventy  two  (72)  hours' written notice to Supplier.  Upon receiving notice as aforesaid, Supplier shall:
+
+- (a) immediately stop all Work as directed by Owner and place no further orders or subcontracts for Work, except as may be necessary to completion portions of the Work as directed by Owner;
+- (b) on the request of the Owner, assign to the Owner, in the manner and to the extent directed, all of the rights of the Supplier under purchase orders and subcontracts relating to the terminated portion of the Work;
+
+<!-- image -->
+
+- (c) on  the  request  of  the  Owner,  terminate  purchase  orders  and  subcontracts  outstanding,  to  the extent they relate to the terminated portion of the Work and are not assigned to the Owner;
+- (d) take any necessary action to protect the property in the Supplier's possession in which the Owner may acquire an interest;
+- (e) complete performance of the continuing portion of the Work, if any, in accordance with the terms of this Contract;
+- (f) provide suggestions to the Owner as to the best method to mitigate any Loss or delay arising from the termination of the Work; and
+- (g) take any other action in relation to the termination which the Owner may reasonably direct.
+
+## 15.2 Termination by Owner for Default
+
+- (a) Supplier  shall  be  in  default  of  this  Contract  upon  the  occurrence  of  any  one  or  more  of  the following:
+- (i) Supplier  materially  breaches  this  Contract  and  in  Owner's  sole  determination  such material breach cannot be remedied;
+- (ii) Supplier fails to fulfill any term or condition of this Contract or any Purchase Order issued hereunder and fails to;
+- (A) remedy  such  default,  at  its  expense,  within  two  (2)  Days  of  receiving  notice thereof from Owner; or
+- (B) where such default cannot be corrected within two (2) Days, takes effective steps towards  correcting  such  default  within  such  two  (2)  Day  period  and  diligently completes  such  cure  no  later  than  thirty  (30)  Days  of  receiving  notice  of  the particular default from Owner;
+- (iii) a breach by Supplier of Applicable Laws, or HSE obligations;.
+- (iv) failure by Suppler to promptly correct an unsafe conditions after notice from Owner;
+- (v) Supplier ceases to carry on business or abandons the Work;
+- (vi) theft or misappropriation of Owner property by any member of Supplier Group;
+- (vii) the  bankruptcy  or  insolvency  of  Supplier,  or  upon  receipt  of  a  receiving  order  made against it or making an arrangement with its creditors, or commencing to be wound up, or carrying on its business or any significant part thereof by or under the supervision of a receiver or administrator (or similar Person or entity) for the benefit of its creditors or any of  them  or  Supplier's  equipment  or  other  property  involved  in  the  performance  of Supplier's obligations under this Contract is lawfully seized;
+- (viii) Supplier's contravention of Article 30.0 (Key Personnel); and
+- (ix) failure to provide the Security in accordance with Article 31.0 (Performance Security).
+- (b) Without prejudice to any other right or remedy which Owner may have, upon the occurrence of a default pursuant to this Article, Owner may avail itself of any one or more of the following remedies at its sole discretion, whether or not any of the Goods have been accepted by Owner:
+- (i) terminate all or a portion of this Contract;
+- (ii) rescind the applicable Purchase Order;
+- (iii) reject the Work;
+
+<!-- image -->
+
+- (iv) provide Supplier the opportunity at Supplier's expense either to remedy any deficiency or defect in the Work or to perform any other necessary acts to ensure that the terms of this Contract are fulfilled;
+- (v) refuse to accept any further delivery of the Goods or performance of the Services without any liability to Owner;
+- (vi) take possession of the Work or any of the Goods;
+- (vii) take any action at Supplier's expense to make the Work comply with this Contract; or
+- (viii) claim such damages as may have been sustained in consequence of Supplier's breach of this Contract.
+
+## 15.3 Payment on Termination
+
+- (a) If  this  Contract,  or  any  Purchase  Order issued  hereunder, is terminated for convenience, Owner shall  be  relieved of  all  further  obligations  under  this  Contract,  or  the  applicable  Purchase  Order, except  for  payment  of  the  balance  outstanding  for  the  Work  properly  performed  prior  to  the effective  date  of  termination and  reasonable termination costs incurred by Supplier and Supplier shall  be  relieved  of  all  further  obligations  under  this  Contract  or  the  applicable  Purchase  Order. Any amounts claimed by Supplier as termination costs shall be evidenced by contracts, invoices and such other documentation as may be requested by Owner.  Supplier waives all claims for loss of anticipated profit and overhead arising from such termination for convenience.
+- (b) If this Contract is terminated for default, Owner shall be relieved of all further obligations under this Contract, or the applicable Purchase Order, except for payment of the balance outstanding for the Work properly performed prior to the effective date of termination.
+
+If  at  the  date  of  termination  Owner  has  paid  Supplier  an  amount  greater  than  that  to  which  Supplier  is entitled under this Contract, Supplier shall promptly repay the surplus to Owner.

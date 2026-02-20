@@ -1,0 +1,191 @@
+{
+  "report_generated": "2026-01-13T15:15:19.395877",
+  "overview": {
+    "total_rules": 688,
+    "total_documents": 4,
+    "total_chunks": 42,
+    "unique_variables": 780
+  },
+  "data_quality": {
+    "completeness_percentage": 99.4,
+    "rules_with_secondary_topics": 15
+  },
+  "complexity": {
+    "avg_variables_per_rule": 2.11,
+    "median_variables_per_rule": 2.0,
+    "min_variables": 0,
+    "max_variables": 7
+  },
+  "topic_distribution": {
+    "LABOR_WORKED_TIME": 530,
+    "LABOR_SUBSISTENCE_ALLOWANCE": 110,
+    "LABOR_MEAL_ALLOWANCE": 47,
+    "LABAOR_SUBSISTENCE_ALLOWANCE": 1
+  },
+  "document_statistics": {
+    "Boilermakers Collective-Agreement": {
+      "chunks": 14,
+      "rules": 243,
+      "avg_rules_per_chunk": 17.4
+    },
+    "NMA-Alberta-Province_new": {
+      "chunks": 12,
+      "rules": 193,
+      "avg_rules_per_chunk": 16.1
+    },
+    "NWR Edmonton Exchanger": {
+      "chunks": 1,
+      "rules": 13,
+      "avg_rules_per_chunk": 13.0
+    },
+    "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile": {
+      "chunks": 15,
+      "rules": 239,
+      "avg_rules_per_chunk": 15.9
+    }
+  },
+  "top_10_chunks": [
+    {
+      "chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+      "rules": 56
+    },
+    {
+      "chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/29__ARTICLE_TWENTY-NINE_-_TRAVEL_TRAVEL_ALLOWANCE_TRANSPORTATION_AND_ACCOMMODATION.txt",
+      "rules": 37
+    },
+    {
+      "chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+      "rules": 34
+    },
+    {
+      "chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/08_ARTICLE_EIGHT_-_WAGES_BENEFITS_amp_MONETARY_CONDITIONS.txt",
+      "rules": 32
+    },
+    {
+      "chunk": "Boilermakers Collective-Agreement/37__APPENDIX_D_-SIGNATORY_EMPLOYERS.txt",
+      "rules": 31
+    },
+    {
+      "chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+      "rules": 30
+    },
+    {
+      "chunk": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt",
+      "rules": 30
+    },
+    {
+      "chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+      "rules": 28
+    },
+    {
+      "chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+      "rules": 23
+    },
+    {
+      "chunk": "Boilermakers Collective-Agreement/16__ARTICLE_1600_-TRAVEL_AND_SUBSISTENCE.txt",
+      "rules": 23
+    }
+  ],
+  "top_20_variables": [
+    {
+      "variable": "schedule_type",
+      "usage_count": 63,
+      "percentage": 9.2
+    },
+    {
+      "variable": "day_of_week",
+      "usage_count": 51,
+      "percentage": 7.4
+    },
+    {
+      "variable": "work_type",
+      "usage_count": 39,
+      "percentage": 5.7
+    },
+    {
+      "variable": "daily_hours",
+      "usage_count": 33,
+      "percentage": 4.8
+    },
+    {
+      "variable": "employee_role",
+      "usage_count": 20,
+      "percentage": 2.9
+    },
+    {
+      "variable": "test_result",
+      "usage_count": 19,
+      "percentage": 2.8
+    },
+    {
+      "variable": "schedule",
+      "usage_count": 15,
+      "percentage": 2.2
+    },
+    {
+      "variable": "employee_type",
+      "usage_count": 15,
+      "percentage": 2.2
+    },
+    {
+      "variable": "week_number",
+      "usage_count": 14,
+      "percentage": 2.0
+    },
+    {
+      "variable": "project_location",
+      "usage_count": 12,
+      "percentage": 1.7
+    },
+    {
+      "variable": "daily_hours_worked",
+      "usage_count": 11,
+      "percentage": 1.6
+    },
+    {
+      "variable": "employment_status",
+      "usage_count": 11,
+      "percentage": 1.6
+    },
+    {
+      "variable": "holiday_date",
+      "usage_count": 10,
+      "percentage": 1.5
+    },
+    {
+      "variable": "effective_date",
+      "usage_count": 10,
+      "percentage": 1.5
+    },
+    {
+      "variable": "test_type",
+      "usage_count": 9,
+      "percentage": 1.3
+    },
+    {
+      "variable": "work_schedule_type",
+      "usage_count": 9,
+      "percentage": 1.3
+    },
+    {
+      "variable": "overtime_type",
+      "usage_count": 9,
+      "percentage": 1.3
+    },
+    {
+      "variable": "day_type",
+      "usage_count": 9,
+      "percentage": 1.3
+    },
+    {
+      "variable": "regular_hours",
+      "usage_count": 8,
+      "percentage": 1.2
+    },
+    {
+      "variable": "shift_type",
+      "usage_count": 8,
+      "percentage": 1.2
+    }
+  ]
+}

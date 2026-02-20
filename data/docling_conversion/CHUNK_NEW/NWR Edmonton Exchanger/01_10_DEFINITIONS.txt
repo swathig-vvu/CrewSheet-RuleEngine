@@ -1,0 +1,108 @@
+## 1.0 DEFINITIONS
+
+In  this  Contract,  including  the  recitals  hereto,  the  following  capitalized  words  and  phrases,  and  the  grammatical variations thereof, shall have the meanings indicated below:
+
+" Affiliate " means in reference to a Party hereto or to a Person, any other Person that directly or indirectly controls, is controlled by, or is under common control with, the first Person; a Person shall control another Person if such Person has the power to direct the management and policies of the other Person, whether directly or indirectly; for greater certainty any Person having a partnership interest in Owner shall be deemed to be an Affiliate of Owner;
+
+" Applicable  Laws "  means  any  law,  judgment,  injunction,  writ,  approval,  exemption,  license,  permit,  authorization consent, order, treaty, statute, ordinance, regulation, policy, rule, right, directive, decree, by-law, code, standard or published policies  that  are enacted,  made, issued or  granted  by  any  government,  regulatory  agency,  department, ministry, commission, certifying authority, board, court or other regulatory or rule-making entity having jurisdiction, to which the Work, this Contract, any Purchase Order issued hereunder, Owner Group or Supplier Group are subject;
+
+" Business Day " means Monday to Friday from 8:00 a.m. to 5:00 p.m., Mountain Standard Time, excluding statutory holidays declared under the laws of Alberta;
+
+" Change Order " means a written order issued by the Owner and signed by the Owner and Supplier which authorizes a modification, deletion, alteration, substitution or other revision to the Contract Documents (other than the Terms and
+
+<!-- image -->
+
+Conditions), effected in accordance with the provisions of Article 5.0 (Changes to the Work) and Change Orders shall include all attachments thereto;
+
+' Change  Request '  means  any  modification,  deletion,  alteration,  substitution  or  other  revision  to  the  Contract Documents (other than Terms and Conditions) requested by Owner in writing (including by email), in accordance with Article 5.0 (Changes to the Work);
+
+" Contract " means all of the Contract Documents;
+
+" Contract Documents " has the meaning set forth in Section 2.1 (Contract Documents);
+
+" Day " or " day " means calendar day;
+
+" Dispute Notice " means the notice to be given to initiate the Dispute Resolution Procedure;
+
+' Dispute  Resolution  Procedure ' means  the  dispute  resolution  procedure  set  forth  in Article 22.0 (Dispute Resolution Procedure);
+
+" Documents "  means  all  designs,  drawings,  plans,  specifications,  calculations,  notes,  studies,  reports,  computer programs and data (other than Supplier Group's proprietary computer programs), technical information, product data, source data, other data, e-mails, and any other documents, including engineering documents, whatsoever relating to the Refinery or the Work and generated, developed, prepared or compiled in connection with Supplier's performance of the Work and for greater certainty, 'Documents' includes the electronic version of any documents stored on any computer drives, servers or laptops maintained by Supplier Group or to which member of Supplier Group has access;
+
+" Effective Date " means the date first written above;
+
+" Exhibits " means the exhibits which are attached to the Terms and Conditions, and "Exhibit" means any one of them;
+
+" Goods "  means  the  goods,  materials,  bulk  materials,  equipment,  and/or  other  items  specified  in  the  applicable Contract Documents, including, but not limited to, Exhibit A (Scope of Work) and the applicable Purchase Order and Change Order, and which are ordered by Owner from Supplier in connection with this Contract;
+
+' Governing Documents ' means the processes, practices, procedures, standards, specifications and requirements of Owner  that govern the  Work as enumerated in Exhibit B (Engineering/Technical Specifications/Governing Documents);
+
+' Governmental Authority ' includes (i) any national, federal, provincial, state, municipal, local or other government or political subdivision, government department, central bank, court, commission, board, bureau, agency or instrumentality, domestic or foreign; (ii) any subdivision or authority of any of the foregoing; or (iii) quasi-governmental or  private  body  exercising  any  regulatory,  administrative, judicial,  expropriation or  taxing  authority  under  or  for  the account of any of the above;
+
+" GST "  means  the  goods  and  services  tax  levied  pursuant  to  the  Excise  Tax  Act  (Canada)  and  the  regulations promulgated thereunder, all as amended from time to time;
+
+' Hazardous Substance ' means any natural or man-made element, compound, mixture, solution, gas, vapor, particle or  substance  (i)  which  is  included,  prior  to,  at  or  after  commencement  of  the  Work,  within  the  definitions  of  (A) 'hazardous substances,' 'hazardous wastes,' 'toxic substances,' 'hazardous pollutants,' 'toxic pollutants,' 'medical wastes,' or terms of similar import under any Applicable Laws; (B) any polychlorinated biphenyls ('PCBs') or 'PCB items' the presence of which requires investigation or remediation under any Applicable Laws;
+
+" Initial Term " has the meaning set forth in Article 3.0 (Term and Termination);
+
+" Intellectual  Property "  means,  without  limitation,  all  patents,  trade-marks,  copyrights,  inventions,  discoveries (whether or not patentable) industrial designs, trade secrets and other similar rights, wheresoever arising in the world;
+
+" Key Personnel " means the Personnel of Supplier as identified in Exhibit H (Key Personnel);
+
+' Loss '  means  any  claim,  liability,  loss,  demand,  damage,  cause  of  action  of  any  kind,  obligation,  cost,  expense (including mediation, arbitration and litigation expense), royalty, assessment, penalty, fine, judgment, interest, award or fee (including consultant and expert fees and legal fees on a solicitor and own-client basis), whether arising by law, contract, tort, voluntary settlement or otherwise;
+
+<!-- image -->
+
+' Lien ' means any mortgage, pledge, assignment by way of security, charge, lien, security interest or other interest, right of set-off intended to secure payment or performance of an obligation or other encumbrance, whether fixed or floating,  or  any  property,  and  any  agreement,  option,  right  or  privilege  (whether  by  Applicable  Laws,  contract  or otherwise) capable of becoming any of the foregoing;
+
+' Owner Group ' means Owner, its Affiliates and their respective Personnel;
+
+" Person " means  any individual, partnership, limited partnership, firm, trust, body corporate, government, governmental  body,  agency  or  instrumentality,  unincorporated  body  of  persons  or  association  and  the  heirs, executors and administrators or other legal representative of an individual;
+
+" Personnel "  means in relation to any Person, the directors, officers, employees (including contract and seconded employees), contractors, consultants, non-employed representatives and agents thereof;
+
+' Prime Contractor ' means the prime contractor as defined in the Occupational Health and Safety Act (Alberta);
+
+' Prime Rate' means the prime rate of interest for commercial loans to its preferred customers as published at the main branch of the Royal Bank of Canada at Calgary, Alberta;
+
+" Purchase Order " means any order for Work received by Supplier from Owner and issued pursuant to the terms of this Contract and for greater certainty, Purchase Orders include the Change Orders thereto;
+
+" Refinery " means the Sturgeon County Refinery located in the Province of Alberta;
+
+" Security " has the meaning set forth in Article 31.0 (Performance Security);
+
+" Services "  means  performance  of  all  services,  and  the  provision  of  all  labour,  materials,  parts,  equipment  and supplies required to complete the services, as more particularly described in the Contract Documents, including, but not  limited  to,  Exhibit  A  (Scope  of  Work)  and  the  applicable  Purchase  Order  and  Change  Order;  and  for  greater certainty,  Services  includes  all  deliverables  but  does  not  include  Supplier's  tools,  machinery,  equipment  and installation aids required to complete the Work;
+
+" Site " means Owner's plant site and the additional lands on which the operations of Owner are located;
+
+" Subcontract "  means  any  agreement  (including  any  supplement  or  amendment  thereto)  entered  into  between Supplier and any Subcontractor in connection with the Work;
+
+" Subcontractor " means any Person hired or contracted by Supplier to perform part of the Work or to assist Supplier in  the  performance  of  its  obligations  under  this  Contract,  including,  but  not  limited  to,  suppliers,  agents  and subcontractors of every tier and their successors and permitted assigns;
+
+" Supplier  Group '  means  Supplier  (as  the  context  allows)  and  Subcontractors  and  their  respective  Affiliates  and Personnel;
+
+" Suspended Activities " has the meaning set forth in Article 16 (Suspension);
+
+' Tax Act ' means the Income Tax Act (Canada);
+
+" Taxes " means all taxes, however denominated, imposed by any Governmental Authority, which taxes shall include, all  income  or  profits  taxes  (including,  but  not  limited  to,  federal  and  provincial  income  taxes),  capital  taxes, withholding taxes, payroll and employee withholding taxes (including provincial health insurance, old age benefits, welfare funds, pensions and annuities and disability insurance), employment insurance premiums, social insurance taxes, sales and use taxes, GST, harmonized sales tax, value added taxes, ad valorem taxes, excise taxes, customs duties,  tariffs,  franchise  taxes,  gross  receipts  taxes,  business  license  taxes,  occupation  taxes,  real  and  personal property  taxes,  stamp  taxes,  environmental  taxes,  transfer  taxes,  workers'  compensation  and  other  governmental charges, and other obligations of the same or of a similar nature to any of the foregoing, together with any penalties, interest or additions thereto;
+
+" Term " has the meaning set forth in Article 3.0 (Term);
+
+' Terms  and  Conditions ' means  the  information, rights, obligations, remedies, limitations, representations, warranties, guarantees and covenants contained in Article 1.0 through Article 35.0 in the main body of this Contract.
+
+<!-- image -->
+
+" Warranty Period " has the meaning set forth in Article 14 (Warranty);
+
+" Warranty Work " has the meaning set forth in Article 14 (Warranty); and
+
+" Work " means the provision of either Goods or Services, or both, as applicable.
+
+## 1.1 Interpretation
+
+- (a) The terms "herein", "hereto", "hereof", "hereunder", "hereby" and similar terms mean and refer to this  Contract  as  a  whole  and  not,  unless  a  particular  provision  is  expressly  stipulated,  to  any particular  provision.    All  references  to  sections,  subsections  and  schedules  are  to  sections  and subsections of and schedules to this Contract unless otherwise specified.
+- (b) Words in  this  Contract  referring  to  the  singular  include  the  plural  and  vice-versa.    Reference  to individuals  includes  partnerships,  joint  ventures  corporations,  trusts  and  other  unincorporated entities and governments or governmental authorities and vice versa.
+- (c) Except as otherwise expressly provided or as the context otherwise requires, the word "including" shall mean "including without limitation".
+- (d) Unless expressly stated otherwise all references to 'Article', 'Section' and 'Subsection' in:
+- (i) the Terms and Conditions shall mean a reference to an Article, Section or Subsection in the Terms and Conditions; and
+- (ii) an  Exhibit,  Appendix  or  attachment  shall  mean  a  reference  to  an  Article,  Section  or Subsection in that Exhibit, Appendix or attachment.

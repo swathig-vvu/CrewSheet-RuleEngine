@@ -1,0 +1,1397 @@
+[
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/01__ARTICLE_100_-PURPOSE.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text's primary purpose is to define the scope of the agreement, detailing the types of work covered (maintenance, repair, etc.) and the overall purpose of the relationship, as stated in the heading and section 1.02."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/02__ARTICLE_200_-RECOGNITION_AND_CRAFT_JURISDICTION.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the scope of the agreement by specifying the geographic area (Province of Alberta), the type of work covered (maintenance, shutdown, turnaround), and which parties and employee roles are included or excluded."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/03__ARTICLE_300_-MANAGEMENT_RIGHTS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk details the employer's rights to manage its business, including hiring, discipline, setting rules, and selecting personnel. It does not contain any rules related to compensation, time categorization, or monetary allowances."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/04__ARTICLE_400_-UNION_SECURITY_AND_DUES_COLLECTION.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk details union security, hiring procedures through the union, and the administrative process for deducting and remitting union dues. It does not define compensation for work performed (e.g., wages, overtime, allowances)."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/05__ARTICLE_500_-NO_STRIKES_OR_LOCKOUTS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines rules regarding strikes and lockouts, which are general terms of the agreement and do not fit into the specific categories of Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/06__ARTICLE_600_-WORKING_CONDITIONS_SAFEFTY_MEASURES_HEALTH_AND_SANITATION.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The chunk contains rules defining paid time intervals. Specifically, section 6.03 grants fifteen minutes of paid wash-up time, and section 6.06 mandates payment for time spent on employer-required online orientation. These rules define specific intervals as paid time, which is a foundational component of worked time categorization, thus triggering the 'LABOUR' classification due to the critical instruction to bias for labour-related content."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains rules for a subsistence allowance applicable to welders who travel for tests (7.03). It also defines a specific financial premium for alloy welders per hour worked (7.08). The presence of subsistence allowance and qualification-based premium logic mandates a LABOUR classification."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/08__ARTICLE_800_-ACCESS_TO_JOBS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This clause outlines the procedural rules for union representatives to access job sites. This is a general administrative term and does not relate to compensation, commercial terms, scope, parties, term, or definitions."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/09__ARTICLE_900_-JOB_STEWARDS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the role, appointment, and rights of a Job Steward, which is an administrative or union representation matter. While it mentions overtime in the context of work allocation (9.05), it does not contain rules for categorizing worked time, meal allowances, or subsistence, and therefore does not meet the criteria for a LABOUR classification."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/10__ARTICLE_1000_-GRIEVANCE_PROCEDURE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details the grievance and arbitration procedure, which is an administrative process for dispute resolution. It does not contain any rules related to compensation, commercial terms, or specific labour logic like time categorization or allowances."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the normal workday and workweek (8 hours/day, 40 hours/week), which serves as the baseline for calculating overtime. It contains specific logic for categorizing hours on a 'make-up day' into straight time and double time based on a weekly threshold. It also includes a monetary allowance for working through a lunch break, which is a pay entitlement tied to a work event."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains a rule (12.04) that re-categorizes all worked time to overtime rates if an employee returns to work without an eight (8) hour break. This is a clear example of Worked Time Categorization logic, where a condition (insufficient rest) triggers a change in the time bucket."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains extensive rules for Worked Time Categorization, defining thresholds for when hours are classified as Straight Time, Time and One Half, and Double Time based on daily hours and work schedules (e.g., 5x8, 4x10). It also includes detailed logic for Meal Allowances based on work, specifying when an employee is entitled to a meal, a paid break, or a monetary allowance ($40.00) after working a certain number of hours (e.g., beyond ten hours)."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains rules for Worked Time Categorization. Article 14.03 specifies that any hours worked on a Recognized Holiday are categorized as double time. Article 14.04 further modifies the weekly straight-time threshold for a 4x10 schedule when a holiday occurs, which is a core rule for categorizing time."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines rules for reporting and waiting time, which are forms of worked time categorization that guarantee minimum pay blocks (e.g., 2 hours). It also explicitly links these conditions to subsistence allowance entitlement (Sections 15.01 and 15.03), which is a critical indicator for the LABOUR classification."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/16__ARTICLE_1600_-TRAVEL_AND_SUBSISTENCE.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains detailed rules for Subsistence/Living Allowances. It defines eligibility based on distance from a hiring hall, specifies monetary amounts per day worked for numerous locations, and outlines conditions for payment and forfeiture. This directly matches the critical instruction to classify subsistence allowance logic as LABOUR."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/17__ARTICLE_1700_-VACATION_WITH_PAY.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the calculation basis for vacation pay, which is a form of employee compensation. It does not contain the specific logic for worked time categorization (e.g., defining what constitutes overtime), meal allowances, or subsistence allowances, therefore it is classified as OTHER at the third level."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains definitive penalties for administrative errors related to the timely payment of wages. Sections 18.03, 18.04, and 18.05 establish monetary penalties (e.g., 8 hours of pay per day, $100 per day) that the employer must pay for failing to issue final pay or correct pay shortages on time. This aligns with the critical instruction to capture detailed rules of employee financial entitlement as high-priority LABOUR content."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/19__ARTICLE_1900_-WAGES.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "This section discusses wage rates, fund contributions, and the timing of implementing monetary changes. It does not contain the specific logic required for a 'LABOUR' classification, such as rules for categorizing worked time (e.g., overtime triggers), meal allowances, or subsistence allowances."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/20__ARTICLE_2000_-PARTICIPATION_AGREEMENT.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details employer contributions to Health, Welfare, and Pension funds. While this is a form of compensation, it does not meet the specific criteria for a PAYABLE_ENTITLEMENT (which explicitly excludes benefit fund contributions) or any of the high-priority LABOUR definitions (worked time categorization, meal allowances, or subsistence)."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/21__ARTICLE_2100_-TANK_WORK_EMPLOYEES.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk's purpose is to reference an external letter regarding the performance of 'tank work'. It does not contain any specific rules, definitions, or compensation logic itself, making it a referential clause."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/22__ARTICLE_2200_-ADMINISTRATION_OF_AGREEMENT.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk describes administrative aspects of the agreement, including the formation of a Liaison Committee and employer contributions to a fund for the negotiation and administration of the agreement. This does not fall under Parties, Scope, Term, Definitions, or Compensation."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/23__ARTICLE_2300_-IMPLEMENTATION_DURATION_AND_RENEWAL_OF_AGREEMENT.txt",
+    "classification": {
+      "Contract Section Type": "TERM",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk's primary purpose is to define the agreement's effective date, expiration date, and the conditions for its renewal or termination, which directly aligns with the 'TERM' classification."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/24__ARTICLE_2400_-SUBMISSION_OF_DUES_AND_OTHER_CONTRIBUTIONS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details the administrative process for the submission of union dues and other contributions. It outlines the employer's obligations, penalties for non-compliance, and reporting requirements, which are administrative functions rather than rules defining employee compensation, work scope, or other primary contract terms."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/25__ARTICLE_2500_-ENABLING_CLAUSE.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The chunk's primary purpose is to capture the signatures of the legal entities binding the agreement (Local Lodge 146 and the Boilermaker Contractors' Association)."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains rules for reporting time (show-up pay) for inclement weather or lack of available work. This establishes a minimum compensated time block ('shall be paid two (2) hours reporting time') when an employee reports for duty, which is a form of worked time categorization."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the administrative requirements for an employee to receive a subsistence reimbursement. According to the critical instruction, any logic related to Subsistence/Living Allowances must be classified as LABOUR."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/28__LETTER_3.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This text is a Letter of Understanding that outlines policies and procedures for substance abuse testing, aftercare, and site access. It deals with administrative rules, safety protocols, and employee conduct, which do not fall under the primary categories of Parties, Scope, Term, Definitions, Compensation, or Commercials. There is no mention of worked time categorization, meal allowances, or subsistence allowances."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/29__LETTER_4.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The chunk is a Letter of Understanding that primarily identifies the parties involved ('Boilermaker Contractors' Association of Alberta' and 'International Brotherhood of Boilermakers Local Lodge 146') and includes their signatures, making its main purpose the establishment of a binding agreement between these specific entities."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/30__LETTER_5.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk is a Letter of Understanding that establishes rules and cost responsibilities for a substance abuse aftercare program. This subject matter does not fit into the primary categories of Parties, Scope, Term, Definitions, Compensation, or Commercials, and it does not contain any labour-related logic concerning worked time, meal allowances, or subsistence."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/31__LETTER_6.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The primary purpose of this chunk is to identify the parties to the Letter of Understanding ('By and Between The Boilermaker Contractors' Association of Alberta... and International Brotherhood of Boilermakers...') and includes the signature blocks that bind these parties to the letter."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/32__LETTER_7.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk is a letter of understanding that specifies the basis (hours worked vs. hours earned) for employer remittances to various benefit and welfare funds. This falls under the general category of Compensation. However, it does not define a direct payable entitlement to an employee, nor does it contain any of the specific logic for time categorization, meal allowances, or subsistence required for a 'LABOUR' classification."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/33_Letter_8.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk is a Letter of Understanding that outlines an administrative commitment to create an online portal for training records. It does not fall into the primary categories of Parties, Scope, Term, Definitions, Compensation, or Commercials. The signature blocks are for the letter itself, not the main agreement, which excludes it from the 'Parties' classification."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the normal workday (9 hours) and workweek (45 hours), establishing the baseline for straight time. It then provides explicit rules for categorizing hours into different pay buckets, such as time and one-half for the ninth hour for short-term employees, and time and one-half or double-time for work on scheduled days off, Sundays, and Statutory Holidays. This is the core logic of Worked Time Categorization."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines a 9/80 work schedule and provides explicit rules for categorizing worked time into straight time, overtime (1.5x), and double time based on daily hour thresholds and specific days of the week. It also contains a rule triggering an overtime meal entitlement for working more than ten hours, which meets the criteria for LABOUR."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the regular workday (8.6 hours at straight time), establishes the threshold for when overtime begins ('after the eight and sixth tenths'), categorizes work on scheduled days off (EDOs) as double time, and establishes an entitlement to an overtime meal break after working ten hours. This constitutes rules for both Worked Time Categorization and Meal Allowances."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/37__APPENDIX_D_-SIGNATORY_EMPLOYERS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains extensive rules for categorizing worked time. It defines standard work schedules (e.g., 5x8, 4x10, compressed work weeks) and sets explicit hourly thresholds (e.g., after 8 or 10 hours) and day-based conditions (e.g., Saturdays, Sundays, Holidays) that convert straight time into overtime or double time, which is the core logic of Worked Time Categorization."
+    }
+  },
+  {
+    "chunk_file": "Boilermakers Collective-Agreement/38__ADDRESSES.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk provides a list of addresses and contact information for the parties, which is administrative content not covered by the other primary labels."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/01__ARTICLE_1000_RECOGNITION.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk defines the scope of the agreement by specifying the bargaining unit (the group of employees covered) and the type of work ('maintenance work') to which the agreement applies."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/02__ARTICLE_2000_THE_COMPANY_AND_THE_UNIONS.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section's primary purpose is to establish the recognition between the parties and define the work jurisdiction for the participating unions, which falls under the definition of Scope."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/03__ARTICLE_3000_UNION_SECURITY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the requirements for union membership as a condition of employment and the procedures for the company to request and hire workers through the union. It does not pertain to compensation, scope, term, parties, or definitions."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/04__ARTICLE_4000_SCOPE_OF_WORK.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text explicitly defines the boundaries of the agreement by stating what work is covered (maintenance) and what is excluded (new construction). This directly aligns with the definition of the SCOPE classification."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/05__ARTICLE_5000_DEFINITIONS.txt",
+    "classification": {
+      "Contract Section Type": "DEFINITIONS",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The chunk's primary purpose is to define key terms like 'maintenance', 'repair', and 'renovation' as indicated by the heading 'DEFINITIONS' and the content structure."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/06__ARTICLE_6000_GRIEVANCE_PROCEDURE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk details the administrative and procedural steps for handling grievances. It does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/07__ARTICLE_7000_UNION_REPRESENTATION.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the rights and procedures for a Union Representative to access a job site. It does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials, making it an administrative or representational clause classified as OTHER."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/08__ARTICLE_8000_STEWARDS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the role, appointment, and protections for a Union Steward. While it mentions overtime, it refers to the opportunity to work, not the rules for categorizing or compensating for that time. Therefore, it falls under general terms and conditions."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The chunk contains detailed rules for employee financial entitlements that go beyond a simple rate table. Specifically, it defines financial premiums based on qualifications (Forepersons, Alloy Welders) and sets definitive financial penalties for administrative errors related to the timely payment of wages, which qualifies it as high-priority LABOUR content per the instructions."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/10__ARTICLE_10000_BENEFITS_AND_OTHER_MONETARY_FUNDS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details employer contributions to various funds (pension, welfare, administration) based on hours worked. This falls under Compensation but is not a direct payable entitlement to an employee, nor does it contain logic for time categorization, meal, or subsistence allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the pay rate for working on a statutory holiday as double-time (2x). This is a rule that categorizes hours worked on specific days (holidays) into a premium pay category, which qualifies as Worked Time Categorization."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines a rule for reporting time (show-up pay), guaranteeing a minimum of two hours of pay when an employee reports for work. This establishes a minimum paid time block for a specific work event, which is a form of Worked Time Categorization."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/13__ARTICLE_13000_TRAVEL_AND_SUBSISTENCE.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains detailed rules defining employee eligibility for subsistence and accommodation allowances based on work location distance from a hiring hall. It specifies monetary amounts, provides a table of location-specific rates, and outlines conditions for payment and forfeiture, which directly aligns with the definition of Subsistence/Living Allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/14__ARTICLE_14000_WORK_BREAKS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk defines the duration and number of rest breaks based on shift length. While this is an employee entitlement under Compensation, it does not meet the specific criteria for the 'LABOUR' classification as it lacks logic for worked time categorization (e.g., ST to OT), monetary meal allowances, or subsistence pay."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The chunk defines standard work schedules (5x8, 4x10) and contains detailed tables and rules that categorize worked time into Straight Time, Overtime, and Double Time based on daily/weekly thresholds and specific days. It also establishes the conditions for entitlement to overtime meal allowances based on the duration of work, including monetary payments in lieu of a meal. This directly aligns with the definitions of Worked Time Categorization and Meal Allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/16__ARTICLE_16000_SAFETY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines safety rules, the provision of safety equipment, and support for a safety awards program. These are general operational terms and do not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials. The content does not contain any logic related to worked time categorization, meal allowances, or subsistence allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/17__ARTICLE_17000_APPRENTICES.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the rules and targets for apprentice ratios and employment opportunities, which falls under general workforce or administrative terms rather than the specific categories of Parties, Scope, Term, Definitions, or Compensation."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains multiple rules that qualify as LABOUR under the critical instruction. It establishes rules for subsistence by defining a 'local resident' (18.301), a key eligibility criterion for subsistence allowances. It also contains rules for reporting/show-up pay, mandating compensation for employees who report to a cancelled job (18.307), and for time spent on mandatory orientation (18.103, 18.104)."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/19__ARTICLE_19000_CREW_SIZE_SUPERVISION_AND_FOREPERSONS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk outlines management's rights regarding crew size and the duties of a foreperson. It does not contain any rules related to compensation, pay categorization, or allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/20__ARTICLE_20000_LOCKOUT_AND_WORK_STOPPAGE.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the conditions for retroactive payment of wages and benefits to employees in the event of a work stoppage during negotiations. This is a payable entitlement. However, it does not contain rules for worked time categorization, meal allowances, or subsistence, so the third level is OTHER."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/21__ARTICLE_21000_TOOL_ROOMS_AND_TOOLS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text outlines rules for personal tools, including maintenance, replacement, storage, and return upon termination. This is a general working condition and does not fall under the primary classification categories like Compensation, Scope, or Term. It also lacks any specific logic for worked time categorization, meal allowances, or subsistence allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/22__ARTICLE_22000_MANAGEMENT_CLAUSE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk outlines management rights, such as directing work and disciplinary actions, and the union's right to grievance. These are standard administrative and operational clauses that do not fit into the specific categories of Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/23__ARTICLE_23000_TRADE_CO-OPERATION.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section describes general working conditions related to trade cooperation and the formation of mixed crews. It does not contain rules for compensation, billing, scope, term, parties, or definitions."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/24__ARTICLE_24000_DURATION_AND_TERMINATION_OF_AGREEMENT.txt",
+    "classification": {
+      "Contract Section Type": "TERM",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk's primary purpose is to define the agreement's start date, end date, and renewal/termination conditions, which directly corresponds to the 'TERM' classification."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/25__ARTICLE_25000_ELECTRONIC_SIGNATURE.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text's primary purpose is to describe the method and validity of electronic signatures used to execute the collective agreement, which falls under the definition of capturing signatures that bind the agreement itself."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/26__APPENDIX_A.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk is a structural heading for an appendix and does not contain any substantive contractual rules."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/27_SIGNATORY_UNIONS.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text chunk lists the signatory unions and the titles of their representatives, clearly identifying the parties bound by the agreement."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/28__APPENDIX_B.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk is a structural heading for an appendix and does not contain any substantive contractual rules."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/29__SIGNATORY_EMPLOYERS.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text's primary purpose is to list the signatory employers who are legally bound by the agreement, which directly aligns with the definition of the 'PARTIES' classification."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the normal work day (9 hours) and work week (45 hours), which establishes the baseline for overtime calculations. It then specifies rules for when time is categorized as overtime, such as paying time and one-half for the ninth hour for short-term employees and double time for work on scheduled days off. This is explicit worked time categorization logic."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text explicitly references 'overtime provisions' and a '9/80 Schedule'. This indicates rules for defining the standard work week, which is the baseline for categorizing worked time into straight time and overtime, meeting the criteria for LABOUR."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines a specific work schedule (9/80) to establish the baseline for straight time hours. It then provides explicit rules and thresholds for categorizing hours worked beyond the regular schedule into overtime (1.5x) and double time (2x). Furthermore, it contains a rule that triggers an overtime meal entitlement for employees working more than ten hours. Both the worked time categorization and the meal allowance logic meet the critical instruction for LABOUR classification."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains rules for Worked Time Categorization by defining a regular workday (8.6 hours at straight-time) and setting thresholds for when time converts to overtime (after 8.6 hours) and double-time (after 10 hours, or on Saturdays, Sundays, and EDOs). It also includes a rule for a Meal Allowance based on work, stating that an overtime meal break is triggered after working more than ten hours."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/34__APPENDIX_E.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the rules for providing an advance on a subsistence allowance, including eligibility requirements and an exclusion when a camp is available. This directly relates to Subsistence/Living Allowances, which is a mandatory LABOUR category."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/35__APPENDIX_F.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text is a non-substantive heading for an appendix and does not contain any contractual logic to classify under Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/36_POLICY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk outlines an agreement to adopt a specific policy regarding alcohol and drugs in the workplace. This falls under general workplace rules and safety, not one of the primary contractual categories like Parties, Scope, Term, Compensation, or Commercials. It does not contain any labour-related logic for time categorization or allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/37__ALBERTA_BEREAVEMENT_PROTOCOL.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "The heading 'BEREAVEMENT PROTOCOL' indicates rules governing paid leave for employees, which is a form of compensation and a payable entitlement. However, it does not relate to the specific categories of worked time categorization, meal allowances, or subsistence allowances required for the 'LABOUR' label."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/38_THE_NATIONAL_MAINTENANCE_COUNCIL_FOR_CANADA_BEREAVEMENT_PROTOCOL.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "The text establishes the rules and conditions for bereavement pay, which is a payable entitlement for employees. It does not meet the specific criteria for the 'LABOUR' classification as it does not involve worked time categorization, meal allowances based on work, or subsistence allowances."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/39__ADMINISTRATION_FUND_A.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The heading 'ADMINISTRATION FUND' refers to a financial or administrative topic that does not fit into the specific categories of Parties, Scope, Term, Definitions, Compensation, or Commercials. It lacks any specific rules related to labour entitlements."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/40__NATIONAL_MAINTENANCE_COUNCIL_FOR_CANADA.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details administrative payments from the employer to an industry fund (National Maintenance Council for Canada). It is not direct employee compensation, nor does it define the scope, term, or parties of the agreement. The payment is based on 'hours worked' but does not contain logic for categorizing that time, meal allowances, or subsistence, so it does not meet the criteria for a LABOUR classification."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/41__ADMINISTRATION_FUND_B.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The heading 'ADMINISTRATION FUND' refers to an administrative or industry fund, which is a general contractual term and does not fit into the specific categories of Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/42__NATIONAL_MAINTENANCE_COUNCIL_FOR_CANADA.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk details the administrative requirement for employers to contribute to an industry fund (Administration Fund of the Association of Maintenance Contractors of Canada) based on hours worked. It is not direct employee compensation, nor does it define commercial billing terms. The focus is on the payment process and remittance details for an industry association, which falls under the 'OTHER' category."
+    }
+  },
+  {
+    "chunk_file": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text provides a formula for calculating benefits that explicitly depends on the categorization of worked time ('Calculated on straight time and overtime hours worked'). This constitutes logic related to Worked Time Categorization, triggering the LABOUR classification under the critical instruction."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/01_10_DEFINITIONS.txt",
+    "classification": {
+      "Contract Section Type": "DEFINITIONS",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text chunk's primary and sole purpose is to provide a glossary of capitalized terms used throughout the contract. It lists terms and their corresponding meanings, which is the function of a Definitions section."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/02_20_CONTRACT_DOCUMENTS_AND_PRECEDENCE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section lists the documents that form the contract and establishes their order of precedence. It is an administrative clause and does not contain rules related to compensation, commercial terms, scope, parties, or term."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/03_30_TERM.txt",
+    "classification": {
+      "Contract Section Type": "TERM",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk's primary purpose is to define the contract's effective date, initial duration (Initial Term), and conditions for extension or continuation, which directly aligns with the definition of the TERM classification."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/04_40_PROVISION_OF_WORK.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details the supplier's obligations regarding the performance of work, including standards of care, compliance with laws, and the process for issuing purchase orders. This content defines the boundaries and expectations of the work, which aligns with the 'SCOPE' classification. It does not contain any commercial or compensation logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/05_50_CHANGES_TO_THE_WORK.txt",
+    "classification": {
+      "Contract Section Type": "COMMERCIALS",
+      "Second Level": "BILLABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the process and conditions for billing for work that deviates from the original Purchase Order. It explicitly states that extras or changes are not billable without a prior written Change Order, which is a core rule of billable entitlement. The text does not contain any specific labour logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/06_60_TITLE_AND_RISK_OF_LOSS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the legal terms for the transfer of ownership (title) and responsibility for loss or damage (risk of loss) for goods and services. It is a standard legal clause and does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/07_70_SUPPLIER_REPRESENTATIONS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section contains standard legal representations and warranties made by the supplier. It does not define parties, scope, term, compensation, or commercial terms, and therefore falls under the 'OTHER' category."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/08_80_OWNERSHIP_OF_DOCUMENTS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section's primary purpose is to define the ownership and handling of project-related documents, which is a general administrative or legal term. It does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials, and contains no labour-related logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/09_90_SUPPLIERS_EQUIPMENT_AND_MATERIALS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the quality standards and maintenance requirements for the supplier's equipment and materials. It does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials. It is a general contractual obligation."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/10_100_LIENS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details legal obligations and procedures regarding liens, which are third-party claims. This is a general legal and administrative topic, not fitting into the primary categories of Parties, Scope, Term, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/11_110_INSURANCE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk details insurance requirements for the supplier, including types of coverage, limits, and administrative obligations. It does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials, making it an 'OTHER' section."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/12_120_INSPECTION_AND_EXPEDITING.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the procedures, rights, and obligations for inspection, expediting, and quality control. It does not define the parties, scope, term, compensation, or commercial terms of the agreement, making it a general contractual clause."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/13_130_LIABILITY_AND_INDEMNITY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details legal responsibilities, indemnification, and limits of liability between the parties. It does not fall under the main commercial or compensation categories, nor does it define the parties, scope, term, or specific terms. It contains no labour-related logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/14_140_WARRANTY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The chunk's primary purpose is to define the supplier's warranty obligations for goods and services, including the warranty period and the process for correcting defects. This is a standard legal/administrative term and does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/15_150_TERMINATION.txt",
+    "classification": {
+      "Contract Section Type": "TERM",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text's primary purpose is to define the conditions and procedures for ending the contract, both for convenience and for default. This directly relates to the duration and end of the agreement, fitting the 'TERM' classification. It does not contain any specific labour-related compensation rules."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/16_160_SUSPENSION.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the rights, obligations, and procedures related to the suspension of work. It is a general contractual term, not a core section like Parties, Scope, Term, Compensation, or Commercials. It does not contain any labour-related rules."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/17_170_INTELLECTUAL_PROPERTY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section exclusively deals with intellectual property rights, ownership, licensing, and indemnities. It does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials, and contains no labour-related logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/18_180_CONFIDENTIALITY_AND_PUBLICITY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines standard contractual obligations regarding confidentiality and publicity. It does not define the parties, scope, term, compensation, or commercial terms, nor does it contain any labour-related rules."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/19_190_SUBCONTRACTS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details the administrative and legal procedures for subcontracting work, including requirements for owner approval and the supplier's continued responsibility. It does not fit into the primary categories of Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/20_200_EXCUSED_NON-PERFORMANCE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section describes the conditions for excused non-performance (Force Majeure), which is a general legal and administrative clause. It does not fit into Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/21_210_ETHICAL_CONDUCT.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines rules for ethical conduct, including prohibitions on gifts and requirements for disclosing conflicts of interest. It is a general administrative clause and does not fit into the primary categories of Parties, Scope, Term, Definitions, Compensation, or Commercials. It contains no labour-related logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/22_220_DISPUTE_RESOLUTION_PROCEDURE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the procedural steps for resolving disputes, including negotiation and binding arbitration. It is a standard legal/administrative clause and does not pertain to the core commercial, compensation, scope, term, parties, or definitions of the agreement."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/23_230_MATERIALS_MANAGEMENT_amp_HAZARDOUS_SUBSTANCES.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details requirements for materials management systems and the handling of hazardous substances. These are operational and safety protocols, not related to the core classifications of Parties, Scope, Term, Compensation, or Commercials. There is no labour-related content."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/24_240_PRICING_INVOICING_AND_PAYMENT.txt",
+    "classification": {
+      "Contract Section Type": "COMMERCIALS",
+      "Second Level": "BILLABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "The text outlines the commercial terms for invoicing and payment between a Supplier and an Owner. It establishes conditions for what is considered a valid, billable charge (e.g., work must be compliant and meet standards), which falls under BILLABLE_ENTITLEMENT. The content does not contain any specific labour rules like time categorization, meal allowances, or subsistence."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/25_250_TAXES.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the legal and administrative responsibilities for various taxes (GST, employment, withholding). It does not define the scope, parties, term, or commercial/compensation terms of the agreement. It is a general administrative clause."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/26_260_WITHHOLDING_OF_PAYMENT.txt",
+    "classification": {
+      "Contract Section Type": "COMMERCIALS",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text outlines the conditions under which a customer (Owner) can withhold payment from a supplier. This relates to payment disputes and commercial risk, not the rules defining billable items or any specific labour compensation logic (worked time categorization, meal allowances, or subsistence)."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/27_270_SET-OFF_AND_BACKCHARGES.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section describes the owner's right to withhold payments (set-off) or charge the supplier for failures (backcharges). These are standard legal and administrative clauses related to financial remedies and do not fall under the primary categories of Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/28_280_RIGHT_TO_AUDIT.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section describes the right to audit financial records and the process for handling discrepancies. It is a general administrative and legal clause that does not define compensation, commercial terms, or any specific labour logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/29_290_DELIVERY.txt",
+    "classification": {
+      "Contract Section Type": "COMMERCIALS",
+      "Second Level": "BILLABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "The chunk contains commercial rules, specifically stating that all delivery costs are included in the prices, which is a rule about what is not separately billable. It also defines financial consequences (refunds, replacement at supplier's expense) for failure to deliver."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/30_300_KEY_PERSONNEL.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk describes an administrative requirement for the supplier to create an organization chart for owner approval. It does not fall into any of the specific categories like Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/31_310_PERFORMANCE_SECURITY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details requirements for performance security, such as guarantees or letters of credit. This is a general contractual term related to risk management and does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials. It contains no labour-related logic."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/32_320_SECURITY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details the supplier's responsibilities regarding site security. It is a general operational requirement and does not fit into the specific categories of Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/33_330_GOVERNING_LAW.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk's primary purpose is to define the governing law and legal jurisdiction for the contract, which are standard administrative/legal terms classified as OTHER."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/34_340_NOTICES.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines the administrative procedures for sending and receiving official notices, including addresses and deemed receipt times. This is a general contractual clause and does not fall under Parties, Scope, Term, Definitions, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "classification": {
+      "Contract Section Type": "COMMERCIALS",
+      "Second Level": "BILLABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The chunk contains extensive labour and equipment rate tables for billing purposes. Crucially, the 'Additional Charges' section explicitly references rules for 'LOA/day' (Subsistence Allowance), 'Meal Break/allowance', and the definitions for 'Overtime' and 'Double Time', which are all high-priority labour topics that mandate the LABOUR classification."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/01__ARTICLE_ONE_-_RECOGNITION.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section's primary purpose is to identify the legal entities (the Union and the Employers' Organization) and establish their mutual recognition as the sole bargaining representatives for the agreement."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/02__ARTICLE_TWO_-_SUB-CONTRACTORS_CLAUSE.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This clause sets conditions on subcontracting work that falls under the agreement's jurisdiction, which is a matter of scope and application. It does not contain rules about compensation, pay, or allowances."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/03__ARTICLE_THREE_-_TRADE_OR_WORK_JURISDICTION.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text's primary purpose is to define the trade or work jurisdiction, outlining the specific types of work (plumbing, pipefitting) and the geographic area covered by the agreement. This directly aligns with the 'SCOPE' classification."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/04__ARTICLE_FOUR_-_SCOPE_OF_AGREEMENT.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text's primary purpose is to define the boundaries of the agreement by specifying what types of work (Industrial, Commercial/Institutional) and projects are included or excluded, which is the core function of a Scope section."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/05__ARTICLE_FIVE_-_MANAGEMENTS_RIGHTS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section outlines management's rights to direct the workforce and manage the business, which is a general administrative clause not related to compensation, scope, term, or parties."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/06__ARTICLE_SIX_-_UNION_SECURITY.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section's primary purpose is to define Union Security rules, including mandatory membership, dues deductions, and the rights and responsibilities of the Job Steward. It does not fall under Parties, Scope, Term, Definitions, or Compensation."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "Clause 7.11 contains a reporting pay rule, stating that employees who report for work but are not engaged shall receive a minimum of two or four hours of pay. This establishes a minimum compensable time block based on the event of reporting for duty, which falls under the definition of Worked Time Categorization."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/08_ARTICLE_EIGHT_-_WAGES_BENEFITS_amp_MONETARY_CONDITIONS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains multiple wage schedules and rules for employee compensation. It qualifies as LABOUR due to the presence of a premium based on qualification ('B Pressure Welder with Alloy Certificates receive an additional $3.25 per hour worked'), penalties for late or incorrect payment of wages (8.05b, 8.06a), and the requirement to report categorized time such as 'Straight time hours' and 'Overtime hours' (8.08), which are all forms of high-priority labour logic."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/09__ARTICLE_NINE_-_HEALTH_AND_WELFARE_TRUST_FUNDS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section describes employer contributions to a Health and Welfare fund, which is a form of employee compensation. However, it does not define direct pay entitlements based on work events (making it 'OTHER' for Level 2) and lacks any specific logic for worked time categorization, meal allowances, or subsistence allowances (making it 'OTHER' for Level 3)."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/10__ARTICLE_TEN_-_PENSION_TRUST_FUNDS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details employer contributions to a pension fund, which is a form of compensation. However, it does not contain rules for payable entitlements like overtime or allowances, nor does it meet the specific criteria for the LABOUR classification (worked time categorization, meal allowances, or subsistence)."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/11__ARTICLE_ELEVEN_-_JOINT_EDUCATIONAL_TRUST_FUNDS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section describes employer contributions to a trust fund based on hours worked. While this is a form of compensation, it falls under the negative constraint for PAYABLE_ENTITLEMENT (employer contributions to funds). It does not contain any logic for worked time categorization, meal allowances, or subsistence, so the third level is OTHER."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/12__ARTICLE_TWELVE_-_SUPPLEMENTARY_BENEFIT_TRUST_FUNDS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details employer contributions to a supplementary benefit trust fund. While this is a form of compensation and a payable entitlement based on hours worked, it does not contain the specific logic for worked time categorization (ST/OT/DT), meal allowances, or subsistence allowances required for a 'LABOUR' classification."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/13__ARTICLE_THIRTEEN_-_CUSTOMER_WELDING_TESTS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains rules for payable entitlements related to work activities (welding tests), including forfeiture conditions for subsistence allowances (13.04), the definition of a 'work cycle' (13.07c) which is foundational to time categorization, and the application of premiums for 'all hours worked' under specific conditions. This meets the criteria for LABOUR."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains rules for worked time categorization. Specifically, clause 14.01 states that all work performed on recognized holidays shall be paid at the rate of double time. This rule categorizes hours worked on specific days into a premium pay category, which is a core function of labour logic."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The chunk contains rules that categorize time for compensation purposes. Specifically, section 15.03 mandates payment for a delayed lunch break, and section 15.05 states that a missed break shall be paid at applicable overtime rates, which is a direct rule for worked time categorization."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines the normal workday (8 hours) and workweek (40 hours), establishing the baseline for straight time. It then provides explicit rules and thresholds for categorizing hours worked beyond these limits, or on specific days (Saturdays, Sundays, Holidays), as different types of overtime (1.5x and 2x), which is the core logic of Worked Time Categorization."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines various compressed work week schedules (e.g., 4x10, 10 on/4 off) and establishes the specific thresholds for categorizing worked hours into straight time, overtime (1.5x), and double time (2x). It specifies that hours worked \"in excess of ten (10) hours per day\" or on specific days off are paid at premium rates. This is a core example of Worked Time Categorization."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains rules that categorize time for call-outs, guaranteeing a minimum number of hours (2 or 3) are paid at the overtime rate. It also includes logic that overrides normal pay if a required eight-hour rest break is not provided, which is a core rule for worked time categorization."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains multiple rules for worked time categorization. It defines conditions that convert regular hours into overtime, such as failing to work a minimum number of consecutive shifts (19.01), working more than one shift in 24 hours without an 8-hour break (19.05), and exceeding daily/weekly hour thresholds (19.03 and final paragraph)."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text establishes rules for when an employee is entitled to a meal or a monetary meal allowance ($45.00) based on a specific work duration threshold (working in excess of ten hours). This directly fits the definition of LABOUR for meal allowances."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines rules for show-up time, which establishes a minimum paid time block for reporting to work, a form of worked time categorization. Additionally, section 21.03 explicitly states that employees qualifying for show-up time are also entitled to subsistence, which is a specific trigger for the LABOUR classification."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/22__ARTICLE_TWENTY-TWO_-_MATERIAL_HANDLING_AND_FABRICATION.txt",
+    "classification": {
+      "Contract Section Type": "SCOPE",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section defines the scope of work, specifically which material handling and fabrication tasks fall under the Union's jurisdiction. It does not contain any rules related to compensation, time categorization, or allowances."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines a 'local resident' and then establishes rules for their entitlement or non-entitlement to subsistence, travel, and meal allowances. Specifically, it links overtime work to an entitlement for overtime meals (23.01e) and sets distance-based criteria for subsistence eligibility (23.01b & c), which are core LABOUR concepts."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/24__ARTICLE_TWENTY-FOUR_-_TOOLS_AND_PROTECTIVE_CLOTHING.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details the responsibilities of the Employer and Employees regarding the provision, care, and use of tools and protective clothing. It does not contain any rules related to compensation, commercial terms, or the specific labour logic for time categorization or allowances."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text defines specific wage premiums for Foremen, General Foremen, and those with ICCS certification. This establishes rules for financial entitlements based on an employee's role and qualifications, which is classified as high-priority LABOUR content."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/26__ARTICLE_TWENTY-SIX_-_GRIEVANCE_AND_ARBITRATION_PROCEDURE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details the procedural rules for handling grievances and arbitration. It does not contain any rules related to compensation, pay entitlements, or the specific labour logic for time categorization or allowances."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/27__ARTICLE_TWENTY-SEVEN_-_JOINT_CONFERENCE_BOARD.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section describes the establishment, composition, and function of a Joint Conference Board, which is an administrative or governance matter. It does not contain any rules related to compensation, billing, scope, term, parties, or definitions."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/28__ARTICLE_TWENTY-EIGHT_-_SAVING_CLAUSE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk contains a standard severability or 'Saving Clause', which is a general legal provision ensuring the remainder of the agreement stays in effect if one part is found void. This does not fit into any of the specific primary categories like Parties, Scope, Term, Compensation, or Commercials."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/29__ARTICLE_TWENTY-NINE_-_TRAVEL_TRAVEL_ALLOWANCE_TRANSPORTATION_AND_ACCOMMODATION.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "LABOUR",
+      "Reasoning": "The text contains extensive rules defining eligibility for, and the conditions of payment for, subsistence and living-out allowances based on work location and distance (e.g., Clause 29.04). This directly matches the criteria for the LABOUR classification under Subsistence/Living Allowances."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/30__ARTICLE_THIRTY_-_ENABLING_CLAUSE.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk describes a procedural 'enabling clause' that allows the parties to renegotiate terms, conditions, and wages for specific projects to remain competitive. It does not contain any specific rules for compensation, time categorization, or allowances, but rather a mechanism to potentially alter them."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/31__ARTICLE_THIRTY-ONE_-_EMPLOYER_ASSOCIATION_FUNDS.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details employer contributions to an association fund, not direct compensation to employees. It does not contain rules for worked time categorization, meal allowances, or subsistence allowances, therefore it is classified as OTHER."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/32_ARTICLE_THIRTY-TWO_-_INDUSTRY_STANDARD_IMPROVEMENT_TRUST_FUND_Mechanical_Members.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This section details employer contributions to an industry fund based on hours worked. While this is a form of compensation, it falls under the negative constraints for PAYABLE_ENTITLEMENT as it concerns contributions to an industry fund, not direct payments to an employee for work performed. It does not contain logic for worked time categorization, meal allowances, or subsistence."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/33__ARTICLE_THIRTY-THREE_-_DURATION.txt",
+    "classification": {
+      "Contract Section Type": "OTHER",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "This chunk contains multiple distinct sections, including the agreement's duration (Term), the signing parties (Parties), and a policy on substance abuse. As it does not have a single primary purpose fitting another category, it is classified as OTHER."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/34_Letter_of_Understanding_Re_Referral_for_Case_Managed_Aftercare.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text chunk is a Letter of Understanding that explicitly names the parties to the agreement ('Construction Labour Relations - An Alberta Association...' and 'The United Association...') and includes signature blocks to bind these specific parties to the terms of the letter."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/35_Letter_of_Understanding_re_Rapid_Site_Access_Program.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The chunk's primary purpose is to name the specific organizations ('Association' and 'Union') that are legally bound by this Letter of Understanding and to capture their signatures, which formalize the agreement."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/36_Letter_of_Understanding_re_Special_Project_Needs_Agreements_SPNA.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The primary purpose of this chunk is to identify the parties entering into a Letter of Understanding and to capture their binding signatures for this specific side agreement. It outlines a process for creating Special Project Needs Agreements but does not contain the substantive terms of those agreements."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/37_Letter_of_Understanding_Re_Training_Initiatives.txt",
+    "classification": {
+      "Contract Section Type": "COMPENSATION",
+      "Second Level": "PAYABLE_ENTITLEMENT",
+      "Third Level": "OTHER",
+      "Reasoning": "The text establishes the employer's financial responsibility to pay for the re-certification of an employee's safety certificates after they have been employed for more than sixty days. This creates a payable entitlement for the employee. The rule does not meet the specific criteria for the LABOUR classification (worked time categorization, meal allowances, or subsistence)."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/38_Memorandum_of_Commitment_RE_BTUREO_Industry_Committee.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The text's primary purpose is to name the organizations entering into the 'Memorandum of Commitment' and includes the signature blocks that bind them to this specific agreement."
+    }
+  },
+  {
+    "chunk_file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/39_Letter_of_Intent_RE_JOINT_INDEPENDENT_ALCOHOL_amp_DRUG_PROGRAM.txt",
+    "classification": {
+      "Contract Section Type": "PARTIES",
+      "Second Level": "OTHER",
+      "Third Level": "OTHER",
+      "Reasoning": "The primary purpose of this chunk is to identify the legal entities entering into the Letter of Intent, explicitly naming them and concluding with signature blocks for their representatives."
+    }
+  }
+]

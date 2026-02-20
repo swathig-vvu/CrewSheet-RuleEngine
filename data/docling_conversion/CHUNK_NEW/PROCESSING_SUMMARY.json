@@ -1,0 +1,28 @@
+{
+  "total_files": 6,
+  "successful": 4,
+  "failed": 0,
+  "total_chunks": 155,
+  "results": [
+    {
+      "file": "Boilermakers Collective-Agreement.md",
+      "chunks": 38,
+      "success": true
+    },
+    {
+      "file": "NMA-Alberta-Province_new.md",
+      "chunks": 43,
+      "success": true
+    },
+    {
+      "file": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile.md",
+      "chunks": 39,
+      "success": true
+    },
+    {
+      "file": "NWR Edmonton Exchanger.md",
+      "chunks": 35,
+      "success": true
+    }
+  ]
+}

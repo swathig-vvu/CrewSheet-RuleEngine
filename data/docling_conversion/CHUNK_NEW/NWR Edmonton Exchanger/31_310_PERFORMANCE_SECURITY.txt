@@ -1,0 +1,15 @@
+## 31.0 PERFORMANCE SECURITY
+
+## 31.1 Form of Security
+
+If required by Owner, Supplier shall provide Owner with the following performance security:
+
+- (a) a parent company guarantee and legal opinion in substantially; or
+- (b) a letter of credit on substantially the same terms as provided at Owner cost; or
+- (c) Removed
+
+(collectively, the " Security ").
+
+- 31.2 Delivery of Security
+- (a) If  Owner  has advised  Supplier  that  it  requires  the  Security  to  be  provided,  the  Security  shall  be delivered to Owner concurrently with the execution of this Contract.
+- (b) Owner shall have no obligation to make any payment to Supplier until Supplier has provided the Security.  If Supplier fails to provide the Security, Owner shall have the right at any time, without prior notification and without any liability whatsoever on the part of Owner, to suspend or terminate this Contract and/or any Purchase Order issued hereunder.

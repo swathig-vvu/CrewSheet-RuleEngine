@@ -1,0 +1,5450 @@
+[
+  {
+    "name": "Maintenance Wage Rate Reduction",
+    "rule_text": "Wage rates for maintenance work shall be $0.75 per hour less than base rates set forth in the Area Labour Agreement of the Member Union where such work is to be performed and shall be paid to all employees under the terms of this agreement.",
+    "summary": "For maintenance work, the hourly wage rate is reduced by $0.75 from the base rate defined in the applicable Area Labour Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "work_type (llm)"
+    ],
+    "logical_representation": "IF work_type (llm) == 'MAINTENANCE' -> APPLY_RATE_MODIFIER(-$0.75/hr)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt",
+    "article_section": "9.100",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "A rate modifier of -$0.75/hr is applied for maintenance work."
+    },
+    "reasoning": "This rule defines a conditional wage rate adjustment based on the type of work. It is classified as LABOR_WORKED_TIME as it directly affects pay for hours worked. It's condition_based as it depends on the 'work_type'. It overrides the standard base rate by applying a reduction.",
+    "chunk_id": 47,
+    "source_chunk": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt"
+  },
+  {
+    "name": "Ft. McMurray Maintenance Wage Rate Exception",
+    "rule_text": "For projects that are located within a one hundred (100) radius kilometers of Ft. McMurray city hall, wage rates for maintenance shall be 100% of base rates set forth in the Area Labour Agreement.",
+    "summary": "The standard $0.75/hour wage reduction for maintenance work is waived for projects within a 100km radius of Ft. McMurray city hall. Workers on these projects receive 100% of the base rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 52,
+    "depends_on": [
+      "Maintenance Wage Rate Reduction"
+    ],
+    "overrides": [
+      "Maintenance Wage Rate Reduction"
+    ],
+    "produces": [],
+    "context_variables": [
+      "work_type (llm)",
+      "project_location (Unsupported)"
+    ],
+    "logical_representation": "IF work_type (llm) == 'MAINTENANCE' AND project_location (Unsupported) == 'FT_MCMURRAY_100KM_RADIUS' -> OVERRIDE('Maintenance Wage Rate Reduction')",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt",
+    "article_section": "9.100",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "The -$0.75/hr rate modifier is not applied for maintenance work in the Ft. McMurray area."
+    },
+    "reasoning": "This rule explicitly overrides the 'Maintenance Wage Rate Reduction' rule based on a geographic condition. It is a clear exception_override affecting labor billing.",
+    "chunk_id": 47,
+    "source_chunk": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt"
+  },
+  {
+    "name": "ICCS Foreman Premium",
+    "rule_text": "General Forepersons and Forepersons who have achieved the status of Industrial Construction Crew Supervisor designation from the Alberta Apprenticeship Industry Training will receive an additional one dollar and fifty cents ($1.50) over the regular General Forepersons and Forepersons rates (for all hours worked) contained in the applicable reference agreement. The premium is not to be pyramided.",
+    "summary": "General Forepersons and Forepersons with an Industrial Construction Crew Supervisor (ICCS) designation receive a $1.50/hour premium for all hours worked. This premium is flat and not multiplied by overtime rates.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 53,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "is_foreman",
+      "iccs_designated (llm)"
+    ],
+    "logical_representation": "IF is_foreman == true AND iccs_designated (llm) == true -> APPLY_PREMIUM($1.50, non_pyramiding=true) FOR all_hours_worked",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt",
+    "article_section": "9.100",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "A non-pyramiding premium of $1.50/hr should be applied to all hours for forepersons with ICCS designation."
+    },
+    "reasoning": "This rule defines a conditional premium for a specific role and certification. It is 'condition_based' and classified as LABOR_WORKED_TIME. The premium applies to all hours worked (ST, OT, DT), modifying the base pay, hence 'APPLY_OVERRIDE' is the most suitable action.",
+    "chunk_id": 47,
+    "source_chunk": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt"
+  },
+  {
+    "name": "Alloy Welder Premium (Dispatch)",
+    "rule_text": "Alloy welders with a valid alloy welding certificate will be paid an additional premium of three dollars and twenty-five cents ($3.25) per hour worked if certification was a requirement for dispatch.\n\nThis premium shall not pyramid on an overtime hour; however, it will attract applicable Vacation and Statutory Holiday Pay.",
+    "summary": "Welders who hold a valid alloy welding certificate receive a $3.25/hour premium for all hours worked, provided the certification was a requirement for their dispatch. This premium is flat and not multiplied by overtime rates.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "WELDER"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 54,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "position_classification",
+      "has_alloy_welding_cert (llm)",
+      "dispatch_required_cert (llm)"
+    ],
+    "logical_representation": "IF position_classification == 'WELDER' AND has_alloy_welding_cert (llm) == true AND dispatch_required_cert (llm) == true -> APPLY_PREMIUM($3.25, non_pyramiding=true) FOR all_hours_worked",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt",
+    "article_section": "9.104",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "A non-pyramiding premium of $3.25/hr should be applied to all hours for welders dispatched for alloy work."
+    },
+    "reasoning": "This rule defines a premium based on position, certification, and dispatch conditions. It is condition_based. The text specifies the premium should not pyramid, which is a key part of the billing logic. It modifies the pay for all hours worked.",
+    "chunk_id": 47,
+    "source_chunk": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt"
+  },
+  {
+    "name": "Alloy Welder Premium (On-site Re-classification)",
+    "rule_text": "If a welder on site who was not dispatched as an alloy welder, but has the certification, or is requested to  be  certified  by  the  employer  and  is  requested  to  perform  alloy  welding,  the  worker  will  be  reclassified as an alloy welder and paid the alloy welder premium from the date of re-classification.\n\nThis premium shall not pyramid on an overtime hour; however, it will attract applicable Vacation and Statutory Holiday Pay.",
+    "summary": "A welder on site (not originally dispatched for alloy work) who has or obtains the required certification and is asked to perform alloy welding will be reclassified and receive the $3.25/hour non-pyramiding premium from the date of reclassification.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "WELDER"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 55,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "position_classification",
+      "has_alloy_welding_cert (llm)",
+      "performs_alloy_welding (llm)"
+    ],
+    "logical_representation": "IF position_classification == 'WELDER' AND has_alloy_welding_cert (llm) == true AND performs_alloy_welding (llm) == true -> APPLY_PREMIUM($3.25, non_pyramiding=true) FOR hours_worked_from_reclassification_date",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt",
+    "article_section": "9.104",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "A non-pyramiding premium of $3.25/hr should be applied from the date a welder is reclassified to perform alloy welding."
+    },
+    "reasoning": "This rule provides an alternative condition for receiving the Alloy Welder premium, based on on-site re-classification rather than initial dispatch. It's a separate logical path for the same entitlement and shares the non-pyramiding characteristic.",
+    "chunk_id": 47,
+    "source_chunk": "NMA-Alberta-Province_new/09__ARTICLE_9000_WAGES.txt"
+  },
+  {
+    "name": "Recognized Statutory Holidays List",
+    "rule_text": "11.100 The following days will constitute the recognized holidays within the terms of this Agreement. ... 1. New Years Day 2. Family Day 3. Good Friday 4. Victoria Day 5. Canada Day 6. Civic Holiday 7. Labour Day 8. National Day for Truth & Reconciliation 9. Thanksgiving Day 10. Remembrance Day 11. Christmas Day 12. Boxing Day",
+    "summary": "This rule lists the twelve specific calendar days that are recognized as statutory holidays under this agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 5,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "is_stat_holiday"
+    ],
+    "logical_representation": "IF calendar_date IN ('New Years Day', 'Family Day', 'Good Friday', 'Victoria Day', 'Canada Day', 'Civic Holiday', 'Labour Day', 'National Day for Truth & Reconciliation', 'Thanksgiving Day', 'Remembrance Day', 'Christmas Day', 'Boxing Day') THEN SET is_stat_holiday = true",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.100",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": null,
+    "reasoning": "This rule defines the set of days that are considered statutory holidays, which is a foundational condition for other holiday pay rules. Therefore, it is classified as condition_based and part of LABOR_WORKED_TIME.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Automatic Recognition of New Government Holidays",
+    "rule_text": "Any other holiday proclaimed by either the Provincial or Federal Government will be automatically recognized within this Agreement.",
+    "summary": "Any new holiday officially declared by the Provincial or Federal Government is automatically added to the list of recognized statutory holidays for this agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 6,
+    "depends_on": [
+      "Recognized Statutory Holidays List"
+    ],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "is_stat_holiday",
+      "is_government_proclaimed_holiday (llm)"
+    ],
+    "logical_representation": "IF is_government_proclaimed_holiday (llm) == true THEN SET is_stat_holiday = true",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.100",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": null,
+    "reasoning": "This rule adds a condition for a day to be considered a statutory holiday. It is condition_based and expands the list defined in the primary holiday list rule.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Statutory Holiday Pay Rate",
+    "rule_text": "On the day of observance, the Company may either pay the workforce at double-time (2) the total package straight time hourly rate or provide the day off.",
+    "summary": "If an employee works on the observed day of a statutory holiday, all hours worked are paid at double time (2x). Alternatively, the company can provide the day off with pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": 2.0
+    },
+    "execution_order": 45,
+    "depends_on": [
+      "Recognized Statutory Holidays List"
+    ],
+    "overrides": [
+      "weekday_rules",
+      "weekend_rules"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "is_stat_holiday"
+    ],
+    "logical_representation": "IF is_stat_holiday == true THEN ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.200",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "All hours worked on a recognized statutory holiday."
+    },
+    "reasoning": "This is a day_based rule because it applies to all hours worked on a specific type of day (a statutory holiday) and dictates a specific pay rate (double time), overriding any standard daily threshold rules.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Movement of Specific Holidays into Work Week",
+    "rule_text": "When any of these three identified holidays: Family Day, Victoria Day, Labour Day fall outside of the regularly scheduled work week, they will be moved into the work week for observance.",
+    "summary": "If Family Day, Victoria Day, or Labour Day occurs on a non-scheduled workday (like a weekend), the day of observance is shifted to a day within the regular work week.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "scheduled_off",
+        "weekend"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "is_scheduled_work_day",
+      "holiday_name (llm)"
+    ],
+    "logical_representation": "IF holiday_name (llm) IN ('Family Day', 'Victoria Day', 'Labour Day') AND is_scheduled_work_day == false THEN observed_date = next_scheduled_work_day",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.100",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": null,
+    "reasoning": "This rule creates a specific exception to how holidays are observed. It overrides the default behavior of observing a holiday on its calendar date for three specific holidays under certain conditions, making it an exception_override.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Maintenance Project Stat Holiday Harmonization",
+    "rule_text": "On maintenance, the overriding factor is harmonizing statutory holidays with in-plant workers. Should the Owner determine another day be recognized for its people, this day will be recognized by Company forces.",
+    "summary": "On maintenance projects, if the facility Owner designates a different day for a statutory holiday observance for their employees, the contractor's employees will also observe the holiday on that same designated day.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 52,
+    "depends_on": [
+      "Harmonization Triggered by Client Direction",
+      "Harmonization Notification to GPMC"
+    ],
+    "overrides": [
+      "Statutory Holiday Pay Rate",
+      "Movement of Specific Holidays into Work Week"
+    ],
+    "produces": [],
+    "context_variables": [
+      "project_nature (llm)",
+      "owner_designated_holiday_date (llm)"
+    ],
+    "logical_representation": "IF project_nature (llm) == 'MAINTENANCE' AND owner_designated_holiday_date (llm) IS NOT NULL THEN SET observed_date = owner_designated_holiday_date (llm)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.300",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": null,
+    "reasoning": "This is a clear exception_override rule. It applies only to maintenance work and allows an external factor (the Owner's schedule) to override the agreement's default holiday observance dates.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Harmonization Triggered by Client Direction",
+    "rule_text": "The day of observance for the Holiday remains as identified, unless direction has been given by the Client requesting for our employers to observe it at the same time as the in-plant personnel.",
+    "summary": "The statutory holiday date can only be changed for harmonization if the Client gives a specific direction to the contractor to do so. It is not automatic.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 53,
+    "depends_on": [
+      "Maintenance Project Stat Holiday Harmonization"
+    ],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "client_direction_to_harmonize (llm)"
+    ],
+    "logical_representation": "REQUIRE(client_direction_to_harmonize (llm) == true) FOR 'Maintenance Project Stat Holiday Harmonization'",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.300",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": null,
+    "reasoning": "This rule establishes a prerequisite condition that must be met for the harmonization override to be valid. Therefore, it is classified as condition_based.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Harmonization Notification Requirement",
+    "rule_text": "In order for the harmonization principle to be applicable, the Contractor must notify the GPMC in advance of the pending movement of the Holiday along with the designated day for observance.",
+    "summary": "For a statutory holiday date to be changed under the harmonization rule, the contractor must provide advance notification to the GPMC about the move and the new date.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 54,
+    "depends_on": [
+      "Maintenance Project Stat Holiday Harmonization"
+    ],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "gpmc_notification_provided (llm)"
+    ],
+    "logical_representation": "REQUIRE(gpmc_notification_provided (llm) == true) FOR 'Maintenance Project Stat Holiday Harmonization'",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.300",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": null,
+    "reasoning": "Similar to the client direction rule, this establishes a mandatory procedural condition (notification) for the harmonization override to be applied, making it a condition_based rule.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Posting of Observed Holiday Date",
+    "rule_text": "Employers will post the date to be observed no later than seven (7) days prior to the holiday.",
+    "summary": "Employers are obligated to post the official date of observance for a statutory holiday at least seven days before the holiday occurs.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 8,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "holiday_posting_notice_days (llm)"
+    ],
+    "logical_representation": "VALIDATE(holiday_posting_notice_days (llm) >= 7)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "article_section": "11.300",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": null,
+    "reasoning": "This is a procedural rule that sets a condition (7 days notice) for the employer. While not directly a pay calculation, it's a mandatory condition related to holiday observance, thus classified as condition_based.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "name": "Minimum 2 Hours Reporting Pay Guarantee",
+    "rule_text": "When an employee reports for work, unless previously advised there is no work available, they shall be entitled to two (2) hours pay at the appropriate day or shift rate.",
+    "summary": "If an employee reports for a scheduled shift without being told beforehand there is no work, they are guaranteed a minimum of 2 hours of pay at the applicable rate (ST, OT, or DT).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "daily_hours",
+      "has_reported_for_work (llm)",
+      "was_previously_advised_no_work (llm)"
+    ],
+    "logical_representation": "IF has_reported_for_work (llm) == true AND was_previously_advised_no_work (llm) == false AND daily_hours < 2 -> VALIDATE(payable_hours (llm) >= 2)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt",
+    "article_section": "12.100",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "When an employee shows up without cancellation notice and works or waits for less than 2 hours, they must be paid for a minimum of 2 hours."
+    },
+    "reasoning": "This rule sets a conditional minimum pay guarantee (show-up time). It is 'condition_based' because it depends on the employee reporting for work and not being previously notified. It falls under 'LABOR_WORKED_TIME' as it dictates the minimum hours to be paid.",
+    "chunk_id": 50,
+    "source_chunk": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt"
+  },
+  {
+    "name": "Pay for Actual Time When Exceeding Minimum Reporting Pay",
+    "rule_text": "Should the employee start work or be required to wait at the jobsite, they shall be paid for hours worked or actual waiting time past the two (2) hours minimum.",
+    "summary": "If an employee who qualifies for reporting pay works or waits on site for more than the two-hour minimum, they are to be paid for their actual hours worked or waited, not just the 2-hour minimum.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 52,
+    "depends_on": [
+      "Minimum 2 Hours Reporting Pay Guarantee"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "daily_hours"
+    ],
+    "logical_representation": "IF daily_hours > 2 -> VALIDATE(payable_hours (llm) == daily_hours)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt",
+    "article_section": "12.100",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "If actual time worked or waited exceeds 2 hours, the 2-hour minimum guarantee is overridden, and the employee is paid for actual time."
+    },
+    "reasoning": "This rule clarifies that the 2-hour minimum from the preceding clause is a floor, not a ceiling. It acts as an 'exception_override' to the minimum guarantee, ensuring employees who work longer are compensated for their full time. It's classified under 'LABOR_WORKED_TIME' because it governs the total payable hours under these specific circumstances.",
+    "chunk_id": 50,
+    "source_chunk": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt"
+  },
+  {
+    "name": "5x8 Standard Work Day Definition",
+    "rule_text": "Eight (8) hours per day shall constitute a day's work and forty (40) hours per week, Monday to Friday inclusive, shall constitute a week's work.",
+    "summary": "A standard 5x8 work week is defined as 8 hours per day, Monday to Friday, for a total of 40 hours per week.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "5x8"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": null,
+      "weekly_ot_start": 40,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 1,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "schedule_type"
+    ],
+    "logical_representation": "IF schedule_type == '5x8' -> DEFINE(daily_work_hours=8, weekly_work_hours=40, work_days=['MON', 'TUE', 'WED', 'THU', 'FRI'])",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.100",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "The first 8 hours on a weekday for a 5x8 schedule."
+    },
+    "reasoning": "This rule defines the fundamental parameters of a 5x8 schedule, classifying it as a 'schedule_definition'. It sets the baseline for straight time hours, which is essential for subsequent overtime calculations.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "4x10 Work Week Option Definition",
+    "rule_text": "As an option, ten (10) hours per day, Monday to Thursday or Tuesday to Friday may be worked at straight time. The ten (10) hour system must operate for a minimum period of four (4) consecutive days before it is established as the regular hours of work.",
+    "summary": "A 4x10 schedule can be established, where employees work 10 hours per day at straight time, either Monday-Thursday or Tuesday-Friday. This schedule must run for at least four consecutive days to be considered the regular work pattern.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "4x10_mon_thu",
+        "4x10_tue_fri"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 10,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": null,
+      "weekly_ot_start": 40,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 2,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "shift_consecutive_days"
+    ],
+    "logical_representation": "IF (schedule_type == '4x10_mon_thu' OR schedule_type == '4x10_tue_fri') AND shift_consecutive_days >= 4 -> DEFINE(daily_work_hours=10, weekly_work_hours=40)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.100",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "The first 10 hours on a scheduled weekday for a 4x10 schedule."
+    },
+    "reasoning": "This rule defines the 4x10 schedule and its establishment criteria, making it a 'schedule_definition'. It specifies the straight time hours for this work pattern.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "5x8 Weekday Overtime Thresholds",
+    "rule_text": "Monday to Friday: 8 hours Straight Time, Up to 2 hours Time and One Half (1.5x), After 10 hours Double Time (2x)",
+    "summary": "On a 5x8 schedule from Monday to Friday, the first 8 hours are at straight time. Hours worked between 8 and 10 are at time and a half. All hours worked beyond 10 are at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "5x8"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8,
+      "ot_daily_start": 8,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10,
+      "weekly_ot_start": 40,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 11,
+    "depends_on": [
+      "5x8 Standard Work Day Definition"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '5x8' AND day_of_week IN ['MON', 'TUE', 'WED', 'THU', 'FRI'] -> THRESHOLD(ST, 8) AND THRESHOLD(OT, 10, 1.5) AND AFTER(10, DT, 2.0)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(a)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "ST/OT/DT",
+      "condition": "Hours on a 5x8 weekday are bucketed as 8 ST, then 2 OT, then DT."
+    },
+    "reasoning": "This rule clearly defines the hour thresholds for ST, OT, and DT on a standard weekday for the 5x8 schedule. This is a classic 'threshold_based' rule.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "5x8 Weekend and Holiday Double Time",
+    "rule_text": "Saturday: All hours Double Time (2x)\nSunday: All hours Double Time (2x)\nStat Holiday: All hours Double Time (2x)",
+    "summary": "For a 5x8 schedule, all hours worked on a Saturday, Sunday, or Statutory Holiday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "5x8"
+      ],
+      "day_types": [
+        "weekend",
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": 0,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": null,
+      "OT": null,
+      "DT": 2.0
+    },
+    "execution_order": 41,
+    "depends_on": [],
+    "overrides": [
+      "5x8 Weekday Overtime Thresholds"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "is_stat_holiday"
+    ],
+    "logical_representation": "IF schedule_type == '5x8' AND (day_of_week IN ['SAT', 'SUN'] OR is_stat_holiday == true) -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(a)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "All hours worked on a Saturday, Sunday, or Stat Holiday."
+    },
+    "reasoning": "This rule applies to specific entire days (Saturday, Sunday, Holiday), making it 'day_based'. It overrides the normal weekday threshold rules for those days.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "4x10 Mon-Thu Scheduled Day Overtime",
+    "rule_text": "Monday to Thursday: 10 hours Straight Time, After 10 hours Double Time (2x)",
+    "summary": "On a Monday-Thursday 4x10 schedule, the first 10 hours worked on a scheduled day (Mon-Thu) are at straight time. All hours worked beyond 10 are at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "4x10_mon_thu"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 10,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": 10,
+      "weekly_ot_start": 40,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": 2.0
+    },
+    "execution_order": 12,
+    "depends_on": [
+      "4x10 Work Week Option Definition"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "is_scheduled_work_day",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '4x10_mon_thu' AND is_scheduled_work_day == true -> THRESHOLD(ST, 10) AND AFTER(10, DT, 2.0)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(b)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "ST/DT",
+      "condition": "Hours on a scheduled day (Mon-Thu) for a 4x10 Mon-Thu schedule are bucketed as 10 ST, then DT."
+    },
+    "reasoning": "This rule sets the specific hour thresholds for a scheduled workday within the 4x10 Monday-Thursday schedule, making it 'threshold_based'.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "4x10 Mon-Thu Friday Overtime",
+    "rule_text": "Friday: Up to 10 hours Time and One Half (1.5x), After 10 hours Double Time (2x)",
+    "summary": "On a Monday-Thursday 4x10 schedule, Friday is a scheduled day off. If worked, the first 10 hours are paid at time and a half, and any hours beyond 10 are at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "4x10_mon_thu"
+      ],
+      "day_types": [
+        "scheduled_off"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": 0,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": null,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 42,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '4x10_mon_thu' AND day_of_week == 'FRI' -> THRESHOLD(OT, 10, 1.5) AND AFTER(10, DT, 2.0)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(b)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "OT/DT",
+      "condition": "On a 4x10 Mon-Thu schedule, hours worked on Friday are bucketed as 10 OT, then DT."
+    },
+    "reasoning": "This rule is specific to Friday, which is a scheduled day off in this pattern, making it 'day_based'. It defines unique overtime tiers for that specific day.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "4x10 Mon-Thu Weekend and Holiday Double Time",
+    "rule_text": "Saturday: All hours Double Time (2x)\nSunday: All hours Double Time (2x)\nStat Holiday: All hours Double Time (2x)",
+    "summary": "For a Monday-Thursday 4x10 schedule, all hours worked on a Saturday, Sunday, or Statutory Holiday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "4x10_mon_thu"
+      ],
+      "day_types": [
+        "weekend",
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": 0,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": null,
+      "OT": null,
+      "DT": 2.0
+    },
+    "execution_order": 43,
+    "depends_on": [],
+    "overrides": [
+      "4x10 Mon-Thu Scheduled Day Overtime"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "is_stat_holiday"
+    ],
+    "logical_representation": "IF schedule_type == '4x10_mon_thu' AND (day_of_week IN ['SAT', 'SUN'] OR is_stat_holiday == true) -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(b)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "All hours worked on a Saturday, Sunday, or Stat Holiday."
+    },
+    "reasoning": "This rule applies to entire days and overrides standard weekday rules for this schedule, making it 'day_based'.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "4x10 Tue-Fri Scheduled Day Overtime",
+    "rule_text": "Tuesday to Friday: 10 hours Straight Time, After 10 hours Double Time (2x)",
+    "summary": "On a Tuesday-Friday 4x10 schedule, the first 10 hours worked on a scheduled day (Tue-Fri) are at straight time. All hours worked beyond 10 are at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "4x10_tue_fri"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 10,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": 10,
+      "weekly_ot_start": 40,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": 2.0
+    },
+    "execution_order": 13,
+    "depends_on": [
+      "4x10 Work Week Option Definition"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "is_scheduled_work_day",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '4x10_tue_fri' AND is_scheduled_work_day == true -> THRESHOLD(ST, 10) AND AFTER(10, DT, 2.0)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(c)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "ST/DT",
+      "condition": "Hours on a scheduled day (Tue-Fri) for a 4x10 Tue-Fri schedule are bucketed as 10 ST, then DT."
+    },
+    "reasoning": "This rule sets the specific hour thresholds for a scheduled workday within the 4x10 Tuesday-Friday schedule, making it 'threshold_based'.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "4x10 Tue-Fri Monday Overtime",
+    "rule_text": "Monday: Up to 10 hours Time and One Half (1.5x), After 10 hours Double Time (2x)",
+    "summary": "On a Tuesday-Friday 4x10 schedule, Monday is a scheduled day off. If worked, the first 10 hours are paid at time and a half, and any hours beyond 10 are at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "4x10_tue_fri"
+      ],
+      "day_types": [
+        "scheduled_off"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": 0,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": null,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 44,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '4x10_tue_fri' AND day_of_week == 'MON' -> THRESHOLD(OT, 10, 1.5) AND AFTER(10, DT, 2.0)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(c)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "OT/DT",
+      "condition": "On a 4x10 Tue-Fri schedule, hours worked on Monday are bucketed as 10 OT, then DT."
+    },
+    "reasoning": "This rule is specific to Monday, which is a scheduled day off in this pattern, making it 'day_based'. It defines unique overtime tiers for that specific day.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "4x10 Tue-Fri Weekend and Holiday Double Time",
+    "rule_text": "Saturday: All hours Double Time (2x)\nSunday: All hours Double Time (2x)\nStat Holiday: All hours Double Time (2x)",
+    "summary": "For a Tuesday-Friday 4x10 schedule, all hours worked on a Saturday, Sunday, or Statutory Holiday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "4x10_tue_fri"
+      ],
+      "day_types": [
+        "weekend",
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": 0,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": null,
+      "OT": null,
+      "DT": 2.0
+    },
+    "execution_order": 45,
+    "depends_on": [],
+    "overrides": [
+      "4x10 Tue-Fri Scheduled Day Overtime"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "is_stat_holiday"
+    ],
+    "logical_representation": "IF schedule_type == '4x10_tue_fri' AND (day_of_week IN ['SAT', 'SUN'] OR is_stat_holiday == true) -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.300(c)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "All hours worked on a Saturday, Sunday, or Stat Holiday."
+    },
+    "reasoning": "This rule applies to entire days and overrides standard weekday rules for this schedule, making it 'day_based'.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "Shift Premium for Non-Daywork",
+    "rule_text": "Employees working any shift that is outside of daywork conditions, shall receive a shift premium of four dollars and fifty cents ($4.50) per hour worked.",
+    "summary": "A shift premium of $4.50 per hour is paid for all hours worked on a shift that is not considered a standard day shift.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "PREMIUM"
+    ],
+    "context_variables": [
+      "shift_type"
+    ],
+    "logical_representation": "IF shift_type != 'DAY' -> ADD_PREMIUM($4.50, per_hour)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.200",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "PREMIUM",
+      "condition": "A $4.50/hr premium is added for all hours worked on a non-day shift."
+    },
+    "reasoning": "This rule applies a premium based on the condition of the shift type, making it 'condition_based'. It doesn't categorize time but adds a monetary amount to it.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "Penalty for Insufficient Shift Change Notice",
+    "rule_text": "If eight (8) hours notice is not provided then all regular hours worked on the first shift on the new schedule will be paid at time and one-half the straight time total package rate (1-1/2).",
+    "summary": "If an employee is not given at least 8 hours' notice of a shift change, all regular (straight time) hours on their first new shift are paid at time and a half.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.5
+    },
+    "execution_order": 52,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "OT"
+    ],
+    "context_variables": [
+      "shift_change_notice_hours (llm)"
+    ],
+    "logical_representation": "IF shift_change_notice_hours (llm) < 8 -> RECALCULATE(ST, OT, 1.5) FOR first_shift",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.200",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "OT",
+      "condition": "Straight time hours become time-and-a-half hours if shift change notice is less than 8 hours."
+    },
+    "reasoning": "This rule is a penalty that applies only when a specific condition (short notice) is met, so it's 'condition_based'. It changes the rate of pay for hours that would otherwise be straight time.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "Call Out Minimum Pay",
+    "rule_text": "Employees called out between regular shifts will be entitled to a minimum of two (2) hours pay at double (2x) the straight time total package hourly rate. All hours worked beyond the minimum two (2) hour threshold will be paid at double (2x) the straight time total package hourly rate.",
+    "summary": "For a call-out between regular shifts, an employee is guaranteed a minimum of 2 hours' pay at double time. All hours worked on the call-out, even beyond 2 hours, are also paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": 0,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "DT": 2.0
+    },
+    "execution_order": 53,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "overtime_type"
+    ],
+    "logical_representation": "IF overtime_type == 'EMERGENCY_CALLOUT' -> ASSIGN(DT, ALL) AND GUARANTEE(minimum_hours=2, rate=2.0)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.800",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "All hours worked during a call-out are paid at double time, with a 2-hour minimum guarantee."
+    },
+    "reasoning": "This rule applies to a specific work condition (call-out), making it 'condition_based'. It establishes both a minimum payment and the rate for all hours worked in that situation.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "8-Hour Rest Period Rule",
+    "rule_text": "it is established that the employee must have eight (8) continuous hours off between regular shifts or they will be paid overtime rates for all hours worked in excess of the first eight (8) until such times as they have eight (8) continuous hours off.",
+    "summary": "An employee must have an 8-hour continuous break between shifts. If not, any hours worked on the next shift will be paid at overtime rates until the 8-hour break is taken.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 54,
+    "depends_on": [],
+    "overrides": [
+      "5x8 Weekday Overtime Thresholds",
+      "4x10 Mon-Thu Scheduled Day Overtime",
+      "4x10 Tue-Fri Scheduled Day Overtime"
+    ],
+    "produces": [
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "hours_off_between_shifts (llm)"
+    ],
+    "logical_representation": "IF hours_off_between_shifts (llm) < 8 -> OVERRIDE(regular_rates) AND PAY(applicable_overtime_rate) FOR all_hours_worked UNTIL break_is_taken",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.900",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "OT/DT",
+      "condition": "Hours that would normally be straight time are paid at overtime rates if the 8-hour rest period was not observed."
+    },
+    "reasoning": "This rule overrides standard pay rates under the exceptional circumstance of insufficient rest, making it an 'exception_override'.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "12hr Turnaround Shift on 4x10 Schedule",
+    "rule_text": "4 x 10 Monday to Thursday or Tuesday to Friday: 10 hours @ straight time, 2 hours @ doubletime (2x)",
+    "summary": "For a 12-hour turnaround shift based on a 4x10 schedule, employees are paid for 12 hours, consisting of 10 hours at straight time and 2 hours at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "12hr_shift"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 10,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": 10
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "DT": 2.0
+    },
+    "execution_order": 14,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "daily_hours",
+      "based_on_schedule (llm)"
+    ],
+    "logical_representation": "IF schedule_type == '12hr_shift' AND based_on_schedule (llm) IN ['4x10_mon_thu', '4x10_tue_fri'] AND daily_hours == 12 -> ASSIGN(ST, 10) AND ASSIGN(DT, 2)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.901",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "ST/DT",
+      "condition": "A 12-hour shift based on 4x10 schedule is split into 10 ST and 2 DT."
+    },
+    "reasoning": "This rule specifies the exact bucketing of hours for a special 12-hour shift based on a 10-hour threshold, making it 'threshold_based'.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "12hr Turnaround Shift on 5x8 Schedule",
+    "rule_text": "5 x 8 Monday to Friday: 8 hours @ straight time, 2 hours at time and one half (1 \u00bd), 2 hours at doubletime (2x)",
+    "summary": "For a 12-hour turnaround shift based on a 5x8 schedule, employees are paid for 12 hours, consisting of 8 hours at straight time, 2 hours at time and a half, and 2 hours at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "12hr_shift"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8,
+      "ot_daily_start": 8,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 15,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "daily_hours",
+      "based_on_schedule (llm)"
+    ],
+    "logical_representation": "IF schedule_type == '12hr_shift' AND based_on_schedule (llm) == '5x8' AND daily_hours == 12 -> ASSIGN(ST, 8) AND ASSIGN(OT, 2) AND ASSIGN(DT, 2)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "article_section": "15.901",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "ST/OT/DT",
+      "condition": "A 12-hour shift based on 5x8 schedule is split into 8 ST, 2 OT, and 2 DT."
+    },
+    "reasoning": "This rule specifies the exact bucketing of hours for a special 12-hour shift based on 8 and 10-hour thresholds, making it 'threshold_based'.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "name": "Employer Online Orientation & Onboarding Allowance",
+    "rule_text": "If an employer requires an employee to complete online orientation and on-boarding, where applicable, the Employer shall estimate a reasonable amount of time to complete the online orientation and on-boarding where applicable. The Employer shall pay an allowance for completing the course(s) equal to that time estimate, to a maximum of eight (8) hours, at the straight time total package hourly rate.",
+    "summary": "Employees are paid an allowance at their straight time rate for the estimated time to complete required employer online orientation and onboarding, up to a maximum of 8 hours.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "is_employer_orientation_required (llm)",
+      "estimated_orientation_hours (llm)"
+    ],
+    "logical_representation": "IF is_employer_orientation_required (llm) == true -> ASSIGN(ST, MIN(estimated_orientation_hours (llm), 8))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.103",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Payment for employer-required online orientation, capped at 8 hours."
+    },
+    "reasoning": "This rule defines a specific payment entitlement based on a condition (required orientation) rather than hours worked on a shift. It's a conditional allowance, so rule_type is 'condition_based'. The topic is LABOR_WORKED_TIME as it results in paid hours.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "Client Online Orientation & Onboarding Compensation",
+    "rule_text": "Employees will be compensated for the prescribed amount of time, at the straight time total package hourly rate, for completing any Owner / Client online orientation, onboarding or basic training courses required of an employee.",
+    "summary": "Employees are paid at their straight time rate for the prescribed amount of time required to complete any owner/client online orientation, onboarding, or basic training.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "is_client_orientation_required (llm)",
+      "prescribed_orientation_hours (llm)"
+    ],
+    "logical_representation": "IF is_client_orientation_required (llm) == true -> ASSIGN(ST, prescribed_orientation_hours (llm))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.104",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Payment for the prescribed duration of client-required online orientation."
+    },
+    "reasoning": "This rule provides a payment entitlement based on the condition of completing client-required orientation. Unlike regular work hours, this is a special allowance for a specified duration, making it 'condition_based' under the LABOR_WORKED_TIME topic.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "Compensation for Cancelled Job Call After Client Orientation",
+    "rule_text": "When a job call is cancelled, and employees at the direction of the Employer have completed the required course(s), this Article shall apply and those affected shall be compensated.",
+    "summary": "If a job call is cancelled after an employee has completed the required client orientation, they must still be compensated for the orientation time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 52,
+    "depends_on": [
+      "Client Online Orientation & Onboarding Compensation"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "is_client_orientation_completed (llm)",
+      "is_job_call_cancelled (llm)"
+    ],
+    "logical_representation": "IF is_client_orientation_completed (llm) == true AND is_job_call_cancelled (llm) == true -> VALIDATE(PAYMENT_FOR_ORIENTATION_IS_DUE)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.104",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Ensures orientation pay is provided even if the job is cancelled after course completion."
+    },
+    "reasoning": "This rule specifies a condition (job call cancelled) under which the primary orientation pay rule still applies. It's a 'condition_based' rule that ensures payment occurs in a specific scenario.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "No Compensation for Client Orientation if Employee Fails to Report",
+    "rule_text": "Alternatively, compensation will not be provided to employees who complete the required course(s) but fail to report for duty.",
+    "summary": "Employees who complete the required client orientation but then fail to report to work are not entitled to compensation for the orientation time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 53,
+    "depends_on": [],
+    "overrides": [
+      "Client Online Orientation & Onboarding Compensation"
+    ],
+    "produces": [],
+    "context_variables": [
+      "is_client_orientation_completed (llm)",
+      "failed_to_report (llm)"
+    ],
+    "logical_representation": "IF is_client_orientation_completed (llm) == true AND failed_to_report (llm) == true -> OVERRIDE('Client Online Orientation & Onboarding Compensation')",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.104",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "No payment for orientation is made if the employee is a no-show."
+    },
+    "reasoning": "This rule explicitly negates the orientation payment entitlement under a specific condition (failure to report). This makes it a clear 'exception_override' of the base compensation rule.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "Camp Move Allowance for Transferred Employees",
+    "rule_text": "Transfer from one site to another will not trigger additional initial and terminal travel payments, however, should an employee be required to move from one camp to another, they will be entitled to a payment of two (2) hours at the straight time rate should this occur outside of regular scheduled work hours",
+    "summary": "If an employee is required to move from one camp to another as part of a transfer, and the move occurs outside of their regular scheduled work hours, they are entitled to a payment of 2 hours at the straight time rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "employee_status (Unsupported)",
+      "is_camp_move_required (llm)",
+      "move_occurs_outside_work_hours (llm)"
+    ],
+    "logical_representation": "IF employee_status (Unsupported) == 'TRANSFER' AND is_camp_move_required (llm) == true AND move_occurs_outside_work_hours (llm) == true -> ASSIGN(ST, 2)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.200",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "A 2-hour ST payment is made when a transferred employee moves camps outside of work hours."
+    },
+    "reasoning": "This rule grants a specific payment allowance (2 hours ST) based on a set of conditions (transfer, camp move, outside work hours). This fits the 'condition_based' rule type within the LABOR_WORKED_TIME topic.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "Reporting Pay for Cancelled Job Call (Non-Local)",
+    "rule_text": "When personnel requests are cancelled by the Employer after employees have been dispatched by their respective Union, the Union and the Employer agree to make every attempt to contact the affected employees. Employees who cannot be contacted will receive eight (8) hours pay at the straight time total package hourly rate for reporting for work, and must be, at the Company's discretion, prepared to remain on the job. This provision does not apply to local hires.",
+    "summary": "A non-local employee who is dispatched, cannot be contacted about a job cancellation, and reports for work as scheduled will receive 8 hours of pay at their straight time rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "is_local_resident (Unsupported)",
+      "is_job_call_cancelled_after_dispatch (llm)",
+      "is_employee_uncontactable (llm)",
+      "did_employee_report_for_work (llm)"
+    ],
+    "logical_representation": "IF is_local_resident (Unsupported) == false AND is_job_call_cancelled_after_dispatch (llm) == true AND is_employee_uncontactable (llm) == true AND did_employee_report_for_work (llm) == true -> ASSIGN(ST, 8)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.307",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "An 8-hour ST payment is made to non-local hires for reporting to a cancelled job."
+    },
+    "reasoning": "This is a reporting pay or minimum guarantee rule, which is triggered by a series of conditions (cancellation, unable to contact, reporting to work, non-local status). This makes it a 'condition_based' rule under LABOR_WORKED_TIME.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "Room or Camp Move Allowance (Outside Work Hours)",
+    "rule_text": "Should an employee residing in camp accommodation be requested by the Employer or the Clients' designated camp management personnel to move to another room or camp, they are to do it during work hours and will be paid at appropriate rates or the employee shall be paid two (2) hours at the applicable straight time rate to carry out the move, if done outside work hours.",
+    "summary": "An employee in camp who is required to move rooms or camps outside of their regular work hours will be paid a 2-hour allowance at the straight time rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": null,
+      "DT": null
+    },
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "is_camp_provided (Unsupported)",
+      "is_room_move_required (llm)",
+      "move_occurs_outside_work_hours (llm)"
+    ],
+    "logical_representation": "IF is_camp_provided (Unsupported) == true AND is_room_move_required (llm) == true AND move_occurs_outside_work_hours (llm) == true -> ASSIGN(ST, 2)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.400",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "A 2-hour ST payment is made for moving camp/room outside of work hours at employer's request."
+    },
+    "reasoning": "This rule defines a specific payment allowance triggered by a combination of conditions (camp resident, required move, outside work hours). This is a classic 'condition_based' rule for a special payment.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "No Camp Move Allowance for End-of-Cycle or Furlough Moves",
+    "rule_text": "This provision will not apply where employees are required to pack their room at the end of a work cycle or to facilitate a move that will occur during the employees furlough.",
+    "summary": "The 2-hour allowance for moving rooms/camps does not apply if the move is for packing up at the end of a work cycle or occurs during the employee's time off (furlough).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 52,
+    "depends_on": [],
+    "overrides": [
+      "Room or Camp Move Allowance (Outside Work Hours)"
+    ],
+    "produces": [],
+    "context_variables": [
+      "is_move_for_end_of_cycle (llm)",
+      "is_move_during_furlough (llm)"
+    ],
+    "logical_representation": "IF is_move_for_end_of_cycle (llm) == true OR is_move_during_furlough (llm) == true -> OVERRIDE('Room or Camp Move Allowance (Outside Work Hours)')",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "article_section": "18.400",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "No payment is made for moves at the end of a cycle or during furlough."
+    },
+    "reasoning": "This rule explicitly states conditions under which the camp move allowance 'will not apply'. This makes it an 'exception_override' that negates the primary allowance rule.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "name": "CWW Schedule Definition (Long Term)",
+    "rule_text": "The  parties  to  this  Agreement  agree  that  the  maximum  of  nine  (9)  hours  shall constitute  a  normal  days  work  beginning  at  7:30  a.m.  and  ending  at  5:00  p.m. (excluding a one-half hour (1/2) lunch break)... the maximum normal work week shall be forty-five (45) hours beginning Monday at 7:30 a.m. and ending Friday at 5:00 p.m.",
+    "summary": "For Long Term Base Crew Employees on the Compressed Work Week (CWW), the standard schedule is five 9-hour days, Monday to Friday, for a total of 45 hours per week. This schedule applies specifically to Edmonton Exchanger employees.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 1,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "schedule_definition"
+    ],
+    "context_variables": [
+      "employee_type (llm)"
+    ],
+    "logical_representation": "IF employee_type (llm) == 'LONG_TERM_BASE_CREW' THEN DEFINE_SCHEDULE('5x9_mon_fri', {daily_hours: 9, weekly_hours: 45, days: ['MON', 'TUE', 'WED', 'THU', 'FRI']})",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) a)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Defines the standard 5x9 work week for Long Term Crew."
+    },
+    "reasoning": "This rule defines the standard work hours and days for a specific employee group, which is a foundational 'schedule_definition' rule.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "CWW Straight Time (Long Term)",
+    "rule_text": "the  maximum  of  nine  (9)  hours  shall constitute  a  normal  days  work... the maximum normal work week shall be forty-five (45) hours... this work schedule is utilized to compensate the Employees for hours lost during the twenty-six (26) yearly earned days off (EDO's)",
+    "summary": "For Long Term Base Crew Employees on the Compressed Work Week, all 9 hours per day and 45 hours per week (Monday-Friday) are considered normal work and paid at straight time. This is to bank time for 26 annual Earned Days Off (EDOs).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "5x9_mon_fri"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 9,
+      "ot_daily_start": null,
+      "ot_daily_max": null,
+      "dt_daily_start": null,
+      "weekly_ot_start": 45,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 11,
+    "depends_on": [
+      "CWW Schedule Definition (Long Term)"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "daily_hours",
+      "weekly_hours",
+      "employee_type (llm)"
+    ],
+    "logical_representation": "IF employee_type (llm) == 'LONG_TERM_BASE_CREW' AND is_scheduled_work_day == true -> THRESHOLD(ST, 9) AND THRESHOLD(ST_WEEKLY, 45)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) a)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Hours up to 9 per day and 45 per week should be straight time for Long Term Crew."
+    },
+    "reasoning": "This rule establishes the straight time hour threshold for a specific schedule and employee type, making it a 'threshold_based' rule for bucketing time.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Long Term Employee Definition",
+    "rule_text": "It is understood that when an employee is hired with the intentions of an employment term of more than a six (6) week period, that employee will be automatically on the aforementioned Compressed Work Week arrangements and be considered as a Long Term Base Crew Employee.",
+    "summary": "An employee hired with the intent to work for more than six weeks is automatically classified as a Long Term Base Crew Employee and falls under the Compressed Work Week rules.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 2,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "employee_type (llm)"
+    ],
+    "context_variables": [
+      "employment_term_weeks (llm)"
+    ],
+    "logical_representation": "IF employment_term_weeks (llm) > 6 THEN SET_ATTRIBUTE(employee_type (llm), 'LONG_TERM_BASE_CREW')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) a)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Checks if an employee's intended or actual employment duration qualifies them as Long Term."
+    },
+    "reasoning": "This rule defines an employee classification based on a specific condition (duration of employment), making it 'condition_based'.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Short Term Employee 9th Hour Overtime",
+    "rule_text": "It  is  understood  that  when  employees  are  hired  with  the  intentions  of  short-term employment (defined as less than six (6) weeks from the date of hire) that they will be paid in the following manner. During this six (6) week period, employees will be paid time and one-half (1 1/2) for the ninth (9th) hour.",
+    "summary": "Employees hired for short-term work (less than 6 weeks) are paid overtime at 1.5x for the 9th hour worked in a day. The first 8 hours are paid at straight time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8,
+      "ot_daily_start": 8,
+      "ot_daily_max": 9,
+      "dt_daily_start": null,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 12,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT"
+    ],
+    "context_variables": [
+      "daily_hours",
+      "employment_duration_weeks (llm)",
+      "employee_type (llm)"
+    ],
+    "logical_representation": "IF employee_type (llm) == 'SHORT_TERM' AND employment_duration_weeks (llm) <= 6 -> THRESHOLD(ST, 8) AND BETWEEN(8, 9, OT)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) b)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "OT",
+      "condition": "The 9th hour of work for a short-term employee must be bucketed as OT."
+    },
+    "reasoning": "This rule sets a specific daily hour threshold for overtime for a certain class of employee, making it a classic 'threshold_based' rule.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Transition from Short Term to Long Term Status",
+    "rule_text": "Should the employee be employed onsite after six (6) weeks on the job, that employee will then be considered part of the Long Term Crew and paid in accordance with the Compressed Work Week payment terms (except as outlined in item (e) below).",
+    "summary": "An employee who was initially hired for short-term work but remains employed for more than six weeks is reclassified as a Long Term Crew member and will be paid according to the Compressed Work Week rules from that point forward.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 3,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "employee_type (llm)"
+    ],
+    "context_variables": [
+      "employment_duration_weeks (llm)"
+    ],
+    "logical_representation": "IF employment_duration_weeks (llm) > 6 THEN SET_ATTRIBUTE(employee_type (llm), 'LONG_TERM_BASE_CREW')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) b)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Validates that an employee's status changes to Long Term after 6 weeks of employment."
+    },
+    "reasoning": "This rule alters an employee's classification and applicable pay rules based on the condition of their employment duration, making it 'condition_based'.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Double Time for Work on Scheduled EDO",
+    "rule_text": "Overtime  payments  for  work  on  the  scheduled  eighteen  (18)  days  off  will  be  at doubletime (2x).",
+    "summary": "All hours worked by a Long Term Crew employee on one of their 18 pre-scheduled Earned Days Off (EDOs) must be paid at double time (2.0x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "5x9_mon_fri"
+      ],
+      "day_types": [
+        "scheduled_off"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 41,
+    "depends_on": [],
+    "overrides": [
+      "CWW Straight Time (Long Term)"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "is_scheduled_edo (llm)"
+    ],
+    "logical_representation": "IF is_scheduled_edo (llm) == true THEN ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) c)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "All hours worked on a pre-scheduled EDO must be in the DT bucket."
+    },
+    "reasoning": "This rule applies a specific pay rate to all hours worked on a particular type of day (a scheduled EDO), making it a 'day_based' rule.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Double Time for Work on Flex EDO (Short Notice)",
+    "rule_text": "If an employee is asked to work their scheduled flex day off without being given forty-eight (48) hours notice, then the employee will be paid overtime at doubletime (2x).",
+    "summary": "If a Long Term Crew employee is required to work on one of their flexible Earned Days Off (EDOs) without receiving at least 48 hours' notice, all hours worked on that day must be paid at double time (2.0x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "5x9_mon_fri"
+      ],
+      "day_types": [
+        "scheduled_off"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 42,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "is_flex_edo (llm)",
+      "overtime_notice_hours (llm)"
+    ],
+    "logical_representation": "IF is_flex_edo (llm) == true AND overtime_notice_hours (llm) < 48 THEN ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) c)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "All hours worked on a flex EDO with less than 48 hours notice must be in the DT bucket."
+    },
+    "reasoning": "The application of this rule is contingent on multiple specific conditions being met (day type and notice period), making it 'condition_based'.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Termination Pay Adjustment (Long Term)",
+    "rule_text": "If a long term employee is terminated without having a flex EDO within the previous six (6) weeks, then an adjustment will be made to pay any regular hours worked in excess of two hundred and forty (240) hours over the previous six (6) weeks at the applicable overtime rate.",
+    "summary": "Upon termination, if a long-term employee has not taken a flex EDO in the last six weeks, any regular hours worked beyond 240 in that 6-week period must be paid out at the overtime rate (1.5x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1.0,
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "OT"
+    ],
+    "context_variables": [
+      "employee_status (Unsupported)",
+      "employee_type (llm)",
+      "flex_edo_in_last_6_weeks (llm)",
+      "total_regular_hours_last_6_weeks (llm)"
+    ],
+    "logical_representation": "IF employee_status (Unsupported) == 'TERMINATED' AND employee_type (llm) == 'LONG_TERM_BASE_CREW' AND flex_edo_in_last_6_weeks (llm) == false AND total_regular_hours_last_6_weeks (llm) > 240 THEN ASSIGN(OT, total_regular_hours_last_6_weeks (llm) - 240)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) c)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": "OT",
+      "condition": "Verifies that banked hours over 240 are paid as OT upon termination under specific conditions."
+    },
+    "reasoning": "This rule is a special payout calculation triggered only by a specific set of conditions related to termination and time off, making it 'condition_based'.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Plant Shutdown Schedule Definition (Short Term Hires)",
+    "rule_text": "During a period of Plant Shutdown, all employees hired with the intentions of shortterm employment shall be paid based on five (5) eight (8) hour days Monday to Friday or four (4) ten (10) hour days Monday to Thursday and or Tuesday to Friday.",
+    "summary": "During a Plant Shutdown, employees hired for short-term work will be placed on either a 5x8 (Mon-Fri) or a 4x10 (Mon-Thu or Tue-Fri) schedule.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 4,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "schedule_definition"
+    ],
+    "context_variables": [
+      "is_plant_shutdown (llm)",
+      "employee_type (llm)"
+    ],
+    "logical_representation": "IF is_plant_shutdown (llm) == true AND employee_type (llm) == 'SHORT_TERM' THEN DEFINE_SCHEDULE(['5x8', '4x10_mon_thu', '4x10_tue_fri'])",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) e)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Defines the standard work schedules for short-term hires during a plant shutdown."
+    },
+    "reasoning": "This rule explicitly defines the possible work schedules under a special circumstance (shutdown), making it a 'schedule_definition' rule.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Plant Shutdown Pay Exception (Short Term Hires)",
+    "rule_text": "Those hired for the Plant Shutdown will continue to receive compensation under the terms of short term employment until the conclusion of the work even if they are on site longer than  six  (6)  weeks.",
+    "summary": "Employees hired specifically for a Plant Shutdown will remain on short-term pay rules for the entire duration of the shutdown work, even if their employment exceeds six weeks. They will not transition to Long Term Crew status.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 52,
+    "depends_on": [
+      "Transition from Short Term to Long Term Status"
+    ],
+    "overrides": [
+      "Transition from Short Term to Long Term Status"
+    ],
+    "produces": [
+      "employee_type (llm)"
+    ],
+    "context_variables": [
+      "is_plant_shutdown (llm)"
+    ],
+    "logical_representation": "IF is_plant_shutdown (llm) == true THEN OVERRIDE('Transition from Short Term to Long Term Status')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) e)",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Ensures that shutdown hires are not reclassified as Long Term after 6 weeks."
+    },
+    "reasoning": "This rule explicitly states that a standard rule (transitioning to long-term status) does not apply under specific circumstances (a plant shutdown), making it a clear 'exception_override'.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Plant Shutdown Pay (Long Term Crew)",
+    "rule_text": "All  Long  Term  Base  Crew  employees  shall  remain  on  the compensation terms of the Compressed Work Week arrangements where applicable overtime payments will be made for work on a scheduled day off as per Clause c).",
+    "summary": "During a Plant Shutdown, all Long Term Base Crew employees continue to be paid under their normal Compressed Work Week rules, including overtime for work on scheduled days off.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "5x9_mon_fri"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 5,
+    "depends_on": [
+      "CWW Straight Time (Long Term)"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "is_plant_shutdown (llm)",
+      "employee_type (llm)"
+    ],
+    "logical_representation": "IF is_plant_shutdown (llm) == true AND employee_type (llm) == 'LONG_TERM_BASE_CREW' THEN REQUIRE(CWW rules apply)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "1) e)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Confirms that Long Term Crew members remain on their standard CWW pay rules during a shutdown."
+    },
+    "reasoning": "This rule clarifies that existing pay arrangements remain in effect for a specific group under a special condition (shutdown), making it 'condition_based'.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "Coker Shift Rotation Grandfathering",
+    "rule_text": "The parties  agree  to  \"grandfather\"  the  current  coker  shift  rotation  that  is  in  place  and operating  at  the  site  under  the  current  arrangements  and  rules.  This  would  apply  to members of Labourers Local 92 currently involved in this rotation.",
+    "summary": "The existing Coker shift rotation for members of Labourers Local 92 is 'grandfathered' and continues to apply. The specific rules of this rotation are not defined in this agreement and must be referenced from the existing arrangements.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "LABOURER"
+      ],
+      "project_types": [
+        "INDUSTRIAL"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 6,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "position_classification"
+    ],
+    "logical_representation": "IF position_classification == 'LABOURER' AND work_area (llm) == 'COKER' THEN REQUIRE(External Coker Shift Rules apply)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "Suncor Refinery, Edmonton",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "article_section": "2)",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "This rule acts as a placeholder, indicating that a separate, undefined set of rules applies to Labourers on the Coker shift."
+    },
+    "reasoning": "This rule establishes that a specific condition (being a Labourer on the Coker shift) triggers an entirely different, externally defined set of rules, making it 'condition_based'.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "name": "9/80 Schedule Authorization for Shell Scotford and IOL Strathcona",
+    "rule_text": "SHELL SCOTFORD, FT. SASKATCHEWAN, ALBERTA\n\nIOL STRATHCONA\n\n(See overtime provisions below for the 9/80 Schedule)",
+    "summary": "The 9/80 work schedule is an approved work week alteration for projects located at Shell Scotford (Ft. Saskatchewan) and IOL Strathcona. Specific overtime provisions for this schedule are detailed elsewhere in the agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 5,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "schedule_type",
+      "project_location (Unsupported)"
+    ],
+    "logical_representation": "IF project_location (Unsupported) IN ['SHELL_SCOTFORD', 'IOL_STRATHCONA'] AND schedule_type == '9/80' -> ENABLE_SCHEDULE_RULES",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt",
+    "article_section": "APPENDIX D",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "The 9/80 schedule is a valid work arrangement for projects at Shell Scotford and IOL Strathcona, enabling specific overtime rules associated with it."
+    },
+    "reasoning": "This rule establishes the specific locations where the 9/80 schedule is an approved alteration to the standard work week. It acts as a foundational condition, enabling the application of all subsequent 9/80 schedule rules for those sites. It is classified as 'schedule_definition' because it validates the existence and applicability of this specific schedule in a defined context.",
+    "chunk_id": 69,
+    "source_chunk": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt"
+  },
+  {
+    "name": "9/80 Week 1 Straight Time (Mon-Thu)",
+    "rule_text": "The regular work week will consist of four (4) nine (9) hour straight time days Monday to Thursday...",
+    "summary": "In the first week of a 9/80 schedule, the first 9 hours worked from Monday to Thursday are paid at straight time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 9
+    },
+    "rate_multipliers": {
+      "ST": 1.0
+    },
+    "execution_order": 11,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week",
+      "is_scheduled_work_day"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 1 AND day_of_week IN ['MON', 'TUE', 'WED', 'THU'] AND is_scheduled_work_day == true -> ASSIGN(ST, UP_TO(9))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "1)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "For the first 9 hours worked on a scheduled Monday-Thursday in Week 1 of a 9/80 schedule."
+    },
+    "reasoning": "This rule defines the standard straight time hours for the first part of the 9/80 Week 1. It is classified as 'schedule_definition' because it establishes the baseline for a regular workday.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 1 Straight Time (Fri)",
+    "rule_text": "...and one (1) eight (8) hour straight time day on Friday in the first week.",
+    "summary": "In the first week of a 9/80 schedule, the first 8 hours worked on Friday are paid at straight time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8
+    },
+    "rate_multipliers": {
+      "ST": 1.0
+    },
+    "execution_order": 12,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week",
+      "is_scheduled_work_day"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 1 AND day_of_week == 'FRI' AND is_scheduled_work_day == true -> ASSIGN(ST, UP_TO(8))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "1)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "For the first 8 hours worked on a scheduled Friday in Week 1 of a 9/80 schedule."
+    },
+    "reasoning": "This rule defines the standard straight time hours for the Friday of the 9/80 Week 1. It is classified as 'schedule_definition' as it establishes the baseline for that specific regular workday.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 2 Straight Time (Mon-Thu)",
+    "rule_text": "The regular work week will consist of four (4) nine (9) hour straight time days Monday to Thursday in the second week. Friday is a day off.",
+    "summary": "In the second week of a 9/80 schedule, the first 9 hours worked from Monday to Thursday are paid at straight time. Friday is a scheduled day off.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 9
+    },
+    "rate_multipliers": {
+      "ST": 1.0
+    },
+    "execution_order": 13,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week",
+      "is_scheduled_work_day"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 2 AND day_of_week IN ['MON', 'TUE', 'WED', 'THU'] AND is_scheduled_work_day == true -> ASSIGN(ST, UP_TO(9))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "1)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "For the first 9 hours worked on a scheduled Monday-Thursday in Week 2 of a 9/80 schedule."
+    },
+    "reasoning": "This rule defines the standard straight time hours for the 9/80 Week 2. It's a 'schedule_definition' because it establishes the baseline for regular workdays within that week.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 1 Daily Overtime (Mon-Thu)",
+    "rule_text": "Week 1 Time and one half (1 \u00bd) for the first two hours (2) worked before or after the regular nine (9) ... hours day Monday to Friday-doubletime (2x) will be paid thereafter.",
+    "summary": "In Week 1 of a 9/80 schedule (Mon-Thu), the first two hours after 9 regular hours are paid at time and a half. All subsequent hours are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 9,
+      "ot_daily_start": 9,
+      "ot_daily_max": 11,
+      "dt_daily_start": 11
+    },
+    "rate_multipliers": {
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 21,
+    "depends_on": [
+      "9/80 Week 1 Straight Time (Mon-Thu)"
+    ],
+    "overrides": [],
+    "produces": [
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 1 AND day_of_week IN ['MON', 'TUE', 'WED', 'THU'] -> ASSIGN(OT, BETWEEN(9, 11)) AND ASSIGN(DT, AFTER(11))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "2)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "OT/DT",
+      "condition": "Hours worked beyond 9 on a Mon-Thu in Week 1 of a 9/80 schedule. First 2 are OT, rest are DT."
+    },
+    "reasoning": "This is a 'threshold_based' rule as it defines pay rates based on daily hours worked exceeding the standard 9 hours. It's specific to the 9-hour days in Week 1.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 1 Daily Overtime (Fri)",
+    "rule_text": "Week 1 Time and one half (1 \u00bd) for the first two hours (2) worked before or after the regular ... eight (8) hours day Monday to Friday-doubletime (2x) will be paid thereafter.",
+    "summary": "In Week 1 of a 9/80 schedule (Friday), the first two hours after 8 regular hours are paid at time and a half. All subsequent hours are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8,
+      "ot_daily_start": 8,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10
+    },
+    "rate_multipliers": {
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 22,
+    "depends_on": [
+      "9/80 Week 1 Straight Time (Fri)"
+    ],
+    "overrides": [],
+    "produces": [
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 1 AND day_of_week == 'FRI' -> ASSIGN(OT, BETWEEN(8, 10)) AND ASSIGN(DT, AFTER(10))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "2)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "OT/DT",
+      "condition": "Hours worked beyond 8 on a Friday in Week 1 of a 9/80 schedule. First 2 are OT, rest are DT."
+    },
+    "reasoning": "This is a 'threshold_based' rule as it defines pay rates based on daily hours worked exceeding the standard 8 hours. It's specific to the 8-hour Friday in Week 1.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 1 Weekend Double Time",
+    "rule_text": "In chart form for clarity: [WEEK 1, Sat, Sun, O/Time Payt's -> DT]",
+    "summary": "In Week 1 of a 9/80 schedule, all hours worked on Saturday and Sunday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekend"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "dt_daily_start": 0
+    },
+    "rate_multipliers": {
+      "DT": 2.0
+    },
+    "execution_order": 41,
+    "depends_on": [],
+    "overrides": [
+      "9/80 Week 1 Straight Time (Mon-Thu)",
+      "9/80 Week 1 Straight Time (Fri)",
+      "9/80 Week 1 Daily Overtime (Mon-Thu)",
+      "9/80 Week 1 Daily Overtime (Fri)"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 1 AND day_of_week IN ['SAT', 'SUN'] -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "2)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "For all hours worked on Saturday or Sunday in Week 1 of a 9/80 schedule."
+    },
+    "reasoning": "This rule is 'day_based' because it applies a single pay rate (DT) to all hours worked on specific days (Saturday, Sunday) of Week 1, irrespective of the number of hours worked. The information is derived solely from the provided chart.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 2 Weekday Overtime (Mon-Thu)",
+    "rule_text": "...all other overtime is doubletime (2x).",
+    "summary": "In Week 2 of a 9/80 schedule, all hours worked beyond the regular 9 hours on Monday to Thursday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 9,
+      "dt_daily_start": 9
+    },
+    "rate_multipliers": {
+      "DT": 2.0
+    },
+    "execution_order": 31,
+    "depends_on": [
+      "9/80 Week 2 Straight Time (Mon-Thu)"
+    ],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week",
+      "daily_hours"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 2 AND day_of_week IN ['MON', 'TUE', 'WED', 'THU'] -> ASSIGN(DT, AFTER(9))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "2)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "For all hours worked beyond 9 on a Monday-Thursday in Week 2 of a 9/80 schedule."
+    },
+    "reasoning": "This is a 'threshold_based' rule because pay transitions directly from ST to DT after a specific number of hours. The rule is derived from the general statement 'all other overtime is doubletime' and confirmed by the chart for these specific days.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 2 Overtime on Earned Friday Off",
+    "rule_text": "Week 2 Time and one half (1 \u00bd) for the first ten (10) hours worked on the earned Friday off all other overtime is doubletime (2x).",
+    "summary": "On the scheduled Friday off in Week 2 of a 9/80 schedule, the first 10 hours worked are paid at time and a half, and all subsequent hours are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "scheduled_off"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": 0,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10
+    },
+    "rate_multipliers": {
+      "OT": 1.5,
+      "DT": 2.0
+    },
+    "execution_order": 42,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week",
+      "is_scheduled_work_day"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 2 AND day_of_week == 'FRI' AND is_scheduled_work_day == false -> ASSIGN(OT, UP_TO(10)) AND ASSIGN(DT, AFTER(10))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "2)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "OT/DT",
+      "condition": "For hours worked on the scheduled Friday off in Week 2. First 10 are OT, rest are DT."
+    },
+    "reasoning": "This is a 'threshold_based' rule for a special case: working on a scheduled day off. It has its own unique thresholds for OT and DT that are not dependent on a prior ST component.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "9/80 Week 2 Weekend Double Time",
+    "rule_text": "...all other overtime is doubletime (2x).",
+    "summary": "In Week 2 of a 9/80 schedule, all hours worked on Saturday and Sunday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "9/80"
+      ],
+      "day_types": [
+        "weekend"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "dt_daily_start": 0
+    },
+    "rate_multipliers": {
+      "DT": 2.0
+    },
+    "execution_order": 43,
+    "depends_on": [],
+    "overrides": [
+      "9/80 Week 2 Straight Time (Mon-Thu)",
+      "9/80 Week 2 Weekday Overtime (Mon-Thu)"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "schedule_type",
+      "week_number (Unsupported)",
+      "day_of_week"
+    ],
+    "logical_representation": "IF schedule_type == '9/80' AND week_number (Unsupported) == 2 AND day_of_week IN ['SAT', 'SUN'] -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "article_section": "2)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "For all hours worked on Saturday or Sunday in Week 2 of a 9/80 schedule."
+    },
+    "reasoning": "This is a 'day_based' rule because it applies a single pay rate (DT) to all hours on specific weekend days in Week 2. It's derived from the 'all other overtime' clause and confirmed by the chart.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "name": "IOL Strathcona Schedule Definition",
+    "rule_text": "Those employees working long-term maintenance at the Imperial Oil Strathcona site will work eight and six tenths (8 .6) hours at straight-time Monday to Friday.",
+    "summary": "The standard work schedule for long-term maintenance at IOL Strathcona is Monday to Friday, with 8.6 straight-time hours per day.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "schedule_definition",
+    "applies_to": {
+      "schedule_types": [
+        "8.6hr_5day_with_edo (llm)"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 1,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [],
+    "context_variables": [
+      "schedule_type",
+      "day_of_week"
+    ],
+    "logical_representation": "IF schedule_type == '8.6hr_5day_with_edo (llm)' -> DEFINE_SCHEDULE(days=['MON', 'TUE', 'WED', 'THU', 'FRI'], hours=8.6)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "article_section": "1",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Defines the standard 8.6-hour workday for Monday to Friday."
+    },
+    "reasoning": "This rule defines the fundamental work schedule (hours and days), so it is classified as 'schedule_definition'. It sets the baseline for all other threshold-based rules.",
+    "chunk_id": 71,
+    "source_chunk": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt"
+  },
+  {
+    "name": "IOL Strathcona Weekday Straight Time",
+    "rule_text": "Those employees working long-term maintenance at the Imperial Oil Strathcona site will work eight and six tenths (8 .6) hours at straight-time Monday to Friday.",
+    "summary": "On a regular workday (Monday-Friday), the first 8.6 hours are paid at straight time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "8.6hr_5day_with_edo (llm)"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8.6,
+      "ot_daily_start": 8.6,
+      "ot_daily_max": null,
+      "dt_daily_start": null,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "ST": 1
+    },
+    "execution_order": 11,
+    "depends_on": [
+      "IOL Strathcona Schedule Definition"
+    ],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "daily_hours",
+      "is_scheduled_work_day"
+    ],
+    "logical_representation": "IF is_scheduled_work_day == true -> ASSIGN(ST, UP_TO(8.6))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "article_section": "1",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "For the first 8.6 hours worked on a Monday to Friday."
+    },
+    "reasoning": "This rule establishes the straight-time threshold for a standard workday. It's 'threshold_based' because it defines the limit (8.6 hours) before overtime rates apply.",
+    "chunk_id": 71,
+    "source_chunk": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt"
+  },
+  {
+    "name": "IOL Strathcona Weekday Overtime",
+    "rule_text": "All additional hours after the eight and six tenths (8 .6) will be performed at the regular overtime provisions... O/Time Pay'ts 1.4 hrs 1 \u00bd",
+    "summary": "On a regular workday (Monday-Friday), hours worked after 8.6 and up to 10.0 are paid at time and a half.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "8.6hr_5day_with_edo (llm)"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8.6,
+      "ot_daily_start": 8.6,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "OT": 1.5
+    },
+    "execution_order": 21,
+    "depends_on": [
+      "IOL Strathcona Weekday Straight Time"
+    ],
+    "overrides": [],
+    "produces": [
+      "OT"
+    ],
+    "context_variables": [
+      "daily_hours",
+      "is_scheduled_work_day"
+    ],
+    "logical_representation": "IF is_scheduled_work_day == true AND daily_hours > 8.6 -> ASSIGN(OT, BETWEEN(8.6, 10.0))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "article_section": "2, Table",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "OT",
+      "condition": "For hours worked between 8.6 and 10 on a Monday to Friday."
+    },
+    "reasoning": "This rule defines the first tier of overtime based on a daily hour threshold. It's 'threshold_based' as it applies to hours between 8.6 and 10.",
+    "chunk_id": 71,
+    "source_chunk": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt"
+  },
+  {
+    "name": "IOL Strathcona Weekday Double Time",
+    "rule_text": "O/Time Pay'ts DT After Ten (10)",
+    "summary": "On a regular workday (Monday-Friday), all hours worked after the 10th hour are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "threshold_based",
+    "applies_to": {
+      "schedule_types": [
+        "8.6hr_5day_with_edo (llm)"
+      ],
+      "day_types": [
+        "weekday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 8.6,
+      "ot_daily_start": 8.6,
+      "ot_daily_max": 10,
+      "dt_daily_start": 10,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "DT": 2
+    },
+    "execution_order": 31,
+    "depends_on": [
+      "IOL Strathcona Weekday Overtime"
+    ],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "daily_hours",
+      "is_scheduled_work_day"
+    ],
+    "logical_representation": "IF is_scheduled_work_day == true AND daily_hours > 10 -> ASSIGN(DT, AFTER(10.0))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "article_section": "Table",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "For all hours worked beyond 10 on a Monday to Friday."
+    },
+    "reasoning": "This rule defines the second tier of overtime, which is double time. It's 'threshold_based' because it is triggered after exceeding 10 daily hours.",
+    "chunk_id": 71,
+    "source_chunk": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt"
+  },
+  {
+    "name": "IOL Strathcona Scheduled EDO Double Time",
+    "rule_text": "Overtime payments for work on the sixteen (16) scheduled EDO's will be paid at double-time (2x).",
+    "summary": "All hours worked on a scheduled Earned Day Off (EDO) are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "8.6hr_5day_with_edo (llm)"
+      ],
+      "day_types": [
+        "scheduled_off"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": 0,
+      "ot_daily_max": 0,
+      "dt_daily_start": 0,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "DT": 2
+    },
+    "execution_order": 41,
+    "depends_on": [],
+    "overrides": [
+      "IOL Strathcona Weekday Straight Time",
+      "IOL Strathcona Weekday Overtime",
+      "IOL Strathcona Weekday Double Time"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "is_scheduled_edo (llm)"
+    ],
+    "logical_representation": "IF is_scheduled_edo (llm) == true -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "article_section": "4",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "For all hours worked on a designated EDO."
+    },
+    "reasoning": "This rule applies to a specific type of day (EDO), making it 'day_based'. It overrides the standard weekday rules, assigning all hours directly to double time.",
+    "chunk_id": 71,
+    "source_chunk": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt"
+  },
+  {
+    "name": "IOL Strathcona Saturday Double Time",
+    "rule_text": "O/Time Pay'ts Sat DT (x2)",
+    "summary": "All hours worked on a Saturday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "weekend"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": 0,
+      "ot_daily_max": 0,
+      "dt_daily_start": 0,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "DT": 2
+    },
+    "execution_order": 42,
+    "depends_on": [],
+    "overrides": [
+      "IOL Strathcona Weekday Straight Time",
+      "IOL Strathcona Weekday Overtime",
+      "IOL Strathcona Weekday Double Time"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "day_of_week"
+    ],
+    "logical_representation": "IF day_of_week == 'SAT' -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "article_section": "Table",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "For all hours worked on a Saturday."
+    },
+    "reasoning": "This rule is 'day_based' because it applies to all hours worked on a specific day of the week, Saturday, and overrides any standard weekday logic.",
+    "chunk_id": 71,
+    "source_chunk": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt"
+  },
+  {
+    "name": "IOL Strathcona Sunday Double Time",
+    "rule_text": "O/Time Pay'ts Sun DT (x2)",
+    "summary": "All hours worked on a Sunday are paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "weekend"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": {
+      "st_daily_max": 0,
+      "ot_daily_start": 0,
+      "ot_daily_max": 0,
+      "dt_daily_start": 0,
+      "weekly_ot_start": null,
+      "weekly_dt_start": null
+    },
+    "rate_multipliers": {
+      "DT": 2
+    },
+    "execution_order": 43,
+    "depends_on": [],
+    "overrides": [
+      "IOL Strathcona Weekday Straight Time",
+      "IOL Strathcona Weekday Overtime",
+      "IOL Strathcona Weekday Double Time"
+    ],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "day_of_week"
+    ],
+    "logical_representation": "IF day_of_week == 'SUN' -> ASSIGN(DT, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt",
+    "article_section": "Table",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "For all hours worked on a Sunday."
+    },
+    "reasoning": "Similar to the Saturday rule, this rule is 'day_based' because it applies to all hours worked on a Sunday, overriding standard weekday logic.",
+    "chunk_id": 71,
+    "source_chunk": "NMA-Alberta-Province_new/33__IOL_STRATHCONA.txt"
+  },
+  {
+    "name": "Agreement Validity Period",
+    "rule_text": "The following formula will be used for the determination of Long and Short Term Maintenance Base Rates and Benefits for the duration of the Agreement: January 1, 2025December 31, 2028.",
+    "summary": "This agreement, including its wage and benefit formulas, is effective from January 1, 2025, to December 31, 2028.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 1,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "validity_start_date",
+      "validity_end_date"
+    ],
+    "logical_representation": "VALIDATE(current_date >= '2025-01-01' AND current_date <= '2028-12-31')",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "1)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Rule applies only to work performed between Jan 1, 2025 and Dec 31, 2028."
+    },
+    "reasoning": "This rule defines the date range of applicability for all other rules in the agreement, making it a foundational condition for any labor time validation.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Compressed Work Week Rate Calculation Reference",
+    "rule_text": "Compressed Work Week Rates will be calculated pursuant to Article 17.000 of the Agreement.",
+    "summary": "The rules for calculating pay and bucketing hours on a Compressed Work Week schedule are located in Article 17.000 of this Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 11,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "is_compressed_work_week (llm)"
+    ],
+    "logical_representation": "IF is_compressed_work_week (llm) == true -> APPLY_RULES(Article_17.000)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "2)",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "When a compressed work week is in effect, the time bucketing logic from Article 17.000 must be used."
+    },
+    "reasoning": "This rule is a pointer to another set of rules that directly govern how hours are bucketed for specific schedules. It's condition_based because it only applies if the schedule is a compressed work week.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Fort McMurray Maintenance Base Rate",
+    "rule_text": "I) Fort McMurray only: Maintenance Base Rates will be set at 100% of Construction Base Rates plus 100% of appropriate benefits.",
+    "summary": "For projects located in Fort McMurray, the Maintenance Base Rate is 100% of the Construction Base Rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 71,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "project_location (Unsupported)"
+    ],
+    "logical_representation": "IF project_location == 'Fort McMurray' -> SET_RATE(maintenance_base_rate (llm), 1.0 * construction_base_rate (llm))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "1) I)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "If project is in Fort McMurray, validate that the correct base rate formula is used."
+    },
+    "reasoning": "This is a rate calculation rule, which is a key part of labour billing and entitlement. It is classified as condition_based as it depends on the project's geographic location.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Outside Fort McMurray Maintenance Base Rate",
+    "rule_text": "II) Outside of Fort McMurray: Long & Short Term Maintenance Base Rates will be set at $0.75 under Construction Base Rates plus 100% of appropriate benefits.",
+    "summary": "For projects located outside of Fort McMurray, the Maintenance Base Rate is set at $0.75 less than the Construction Base Rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 72,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "project_location (Unsupported)"
+    ],
+    "logical_representation": "IF project_location != 'Fort McMurray' -> SET_RATE(maintenance_base_rate (llm), construction_base_rate (llm) - 0.75)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "3. II)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "If project is outside Fort McMurray, validate that the correct base rate formula is used."
+    },
+    "reasoning": "This is the complementary rate calculation rule to the Fort McMurray one. It is classified as condition_based as it depends on the project's geographic location.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Apprentice Rate Calculation",
+    "rule_text": "Apprentice rates are calculated at the percentages provided in the Local Construction Agreement applied to Maintenance Journeyperson Rate.",
+    "summary": "Apprentice wage rates are calculated as a specific percentage of the Maintenance Journeyperson Rate, with the percentage defined in the Local Construction Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "APPRENTICE"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 73,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "employee_class"
+    ],
+    "logical_representation": "IF employee_class == 'APPRENTICE' -> SET_RATE(apprentice_rate (llm), percentage_from_local_agreement (llm) * maintenance_journeyperson_rate (llm))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "2)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "If employee is an Apprentice, validate that their rate is calculated based on the Journeyperson rate as per the Local Construction Agreement."
+    },
+    "reasoning": "This is a wage rate calculation rule specific to an employee class, making it a condition_based entitlement rule.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Skill Premium Pay",
+    "rule_text": "Appropriate skill premiums to be paid in accordance with past maintenance jobsite practice.",
+    "summary": "Skill premiums must be paid according to the established practices of the specific maintenance jobsite.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 74,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "has_skill_premium (llm)"
+    ],
+    "logical_representation": "IF has_skill_premium (llm) == true -> PAY_PREMIUM(based_on_past_jobsite_practice (llm))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "2)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Validate that any required skill premiums are paid according to historical jobsite practice."
+    },
+    "reasoning": "This rule defines an entitlement to additional pay. It is condition_based, with the condition being an external factor (past jobsite practice) that must be configured in the validation system.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Benefit Code B Calculation Basis",
+    "rule_text": "B Calculated on straight time and overtime hours worked.",
+    "summary": "Benefits categorized under Code 'B' are calculated based on the sum of all straight time and overtime hours worked.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 81,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT"
+    ],
+    "context_variables": [
+      "benefit_code (llm)",
+      "daily_hours",
+      "daily_overtime_hours"
+    ],
+    "logical_representation": "IF benefit_code (llm) == 'B' -> CALCULATE_BENEFIT_ON(SUM(ST_hours_worked) + SUM(OT_hours_worked))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "3) 6. B",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "For benefits with Code B, validate the calculation is based on ST and OT hours worked."
+    },
+    "reasoning": "This is a benefit calculation rule that depends on the output of the time bucketing process (ST/OT hours). It's condition_based on the specific benefit code.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Benefit Code C Calculation Basis",
+    "rule_text": "C Calculated on total hours paid.",
+    "summary": "Benefits categorized under Code 'C' are calculated based on the total hours paid to the employee, which may include non-worked hours.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 82,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "benefit_code (llm)",
+      "total_paid_hours (llm)"
+    ],
+    "logical_representation": "IF benefit_code (llm) == 'C' -> CALCULATE_BENEFIT_ON(total_paid_hours (llm))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "3) 7. C",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "For benefits with Code C, validate the calculation is based on total hours paid."
+    },
+    "reasoning": "This is a benefit calculation rule that depends on total paid hours. It's condition_based on the specific benefit code.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Benefit Code D Calculation Basis",
+    "rule_text": "D Calculated on total wages.",
+    "summary": "Benefits categorized under Code 'D' are calculated based on the employee's total wages.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 83,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "benefit_code (llm)",
+      "total_wages (llm)"
+    ],
+    "logical_representation": "IF benefit_code (llm) == 'D' -> CALCULATE_BENEFIT_ON(total_wages (llm))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "3) 8. D",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "For benefits with Code D, validate the calculation is based on total wages."
+    },
+    "reasoning": "This is a benefit calculation rule that depends on total wages. It's condition_based on the specific benefit code.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Employer Fund Contribution Obligation",
+    "rule_text": "Employers will make appropriate contributions to the following funds for those participating trades which have the provision contained within their respective Industrial Construction Reference Agreement: Building Trades of Alberta, Audiometric Testing, Construction Employee Family Assistance Program (CEFAP), Case Managed Aftercare (CMAC), Rapid Site Access Program (RSAP), Workforce Development Trust Fund (WFDT)",
+    "summary": "Employers must contribute to specific funds (BTA, Audiometric Testing, CEFAP, CMAC, RSAP, WFDT) for trades whose Industrial Construction Reference Agreement includes this provision.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 84,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "position_classification",
+      "trade_has_fund_provision (llm)"
+    ],
+    "logical_representation": "IF trade_has_fund_provision (llm) == true -> REQUIRE(EMPLOYER_CONTRIBUTION(BTA, Audiometric, CEFAP, CMAC, RSAP, WFDT))",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "5)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Validate that required contributions are made for participating trades."
+    },
+    "reasoning": "This rule defines a financial obligation tied to employment. It is condition_based on whether the specific trade's reference agreement requires these contributions.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Benefit Contribution Basis Mapping",
+    "rule_text": "Benefit contributions based on hours earned in construction will be paid on hours earned in maintenance and contributions based on hours worked in construction will be paid on hours worked in maintenance.",
+    "summary": "The basis for calculating benefit contributions (i.e., 'hours earned' vs. 'hours worked') for maintenance work must mirror the method specified in the trade's Construction Reference Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 85,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST",
+      "OT",
+      "DT"
+    ],
+    "context_variables": [
+      "benefit_basis_in_construction_agreement (llm)"
+    ],
+    "logical_representation": "SET benefit_basis_in_maintenance (llm) = benefit_basis_in_construction_agreement (llm)",
+    "hierarchy": {
+      "level": 3,
+      "customer": null,
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "article_section": "7)",
+    "validation_action": "CHECK_THRESHOLD",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "Validate that the benefit calculation basis (hours worked vs earned) for maintenance matches the construction agreement."
+    },
+    "reasoning": "This rule establishes the logic for how benefit calculations should be performed, making it a condition_based rule that aligns maintenance practices with construction ones.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "name": "Overtime Definition Reference (NMA)",
+    "rule_text": "Overtime - applies to all positions including non-manuals, as per overtime definitions in NMA or BM Agreement",
+    "summary": "For all positions except Boilermakers, the rules defining when overtime applies are based on the National Maintenance Agreement (NMA). This contract does not specify the daily or weekly thresholds itself.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "PIPEFITTER",
+        "LABOURER",
+        "MILLWRIGHT",
+        "OPERATING_ENGINEER",
+        "ADMINISTRATION",
+        "QUALITY_CONTROL",
+        "SAFETY"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 21,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "OT"
+    ],
+    "context_variables": [
+      "position_classification",
+      "source_agreement (llm)"
+    ],
+    "logical_representation": "IF position_classification != 'BOILERMAKER' -> REQUIRE(source_agreement (llm) == 'NMA')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit D - Additional Charges",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "OT",
+      "condition": "Hours identified as overtime must conform to NMA rules."
+    },
+    "reasoning": "This rule delegates the specific overtime logic to an external agreement (NMA) for all non-Boilermaker trades. It's classified as condition_based because its application depends on the worker's position classification.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Overtime Definition Reference (Boilermaker Agreement)",
+    "rule_text": "Overtime - applies to all positions including non-manuals, as per overtime definitions in NMA or BM Agreement",
+    "summary": "For all Boilermaker positions, the rules defining when overtime applies are based on the Boilermaker Agreement. This contract does not specify the daily or weekly thresholds itself.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "BOILERMAKER"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 22,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "OT"
+    ],
+    "context_variables": [
+      "position_classification",
+      "source_agreement (llm)"
+    ],
+    "logical_representation": "IF position_classification == 'BOILERMAKER' -> REQUIRE(source_agreement (llm) == 'Boilermaker Agreement')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "Boilermakers",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit D - Additional Charges",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "OT",
+      "condition": "Hours identified as overtime must conform to the Boilermaker Agreement rules."
+    },
+    "reasoning": "This rule delegates the specific overtime logic to the Boilermaker Agreement for all Boilermaker personnel. The precedent for this separation is set by the explicit exceptions in the LOA and Meal allowance clauses and confirmed by the 'All required payments' clause.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Double Time Definition Reference (NMA)",
+    "rule_text": "Double Time - applies to all union positions including non-manuals as per NMA or BM Agreement",
+    "summary": "For all union positions except Boilermakers, the rules defining when double time applies are based on the National Maintenance Agreement (NMA). This contract does not specify the exact thresholds.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "PIPEFITTER",
+        "LABOURER",
+        "MILLWRIGHT",
+        "OPERATING_ENGINEER",
+        "ADMINISTRATION",
+        "QUALITY_CONTROL",
+        "SAFETY"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 31,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "position_classification",
+      "source_agreement (llm)"
+    ],
+    "logical_representation": "IF position_classification != 'BOILERMAKER' -> REQUIRE(source_agreement (llm) == 'NMA')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit D - Additional Charges",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "Hours identified as double time must conform to NMA rules."
+    },
+    "reasoning": "This rule delegates the specific double time logic to an external agreement (NMA) for all non-Boilermaker union trades. It's condition_based as its application depends on the worker's position classification.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Double Time Definition Reference (Boilermaker Agreement)",
+    "rule_text": "Double Time - applies to all union positions including non-manuals as per NMA or BM Agreement",
+    "summary": "For all Boilermaker positions, the rules defining when double time applies are based on the Boilermaker Agreement. This contract does not specify the exact thresholds.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "BOILERMAKER"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 32,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "position_classification",
+      "source_agreement (llm)"
+    ],
+    "logical_representation": "IF position_classification == 'BOILERMAKER' -> REQUIRE(source_agreement (llm) == 'Boilermaker Agreement')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "Boilermakers",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit D - Additional Charges",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "Hours identified as double time must conform to the Boilermaker Agreement rules."
+    },
+    "reasoning": "This rule delegates the specific double time logic to the Boilermaker Agreement for Boilermaker personnel. The separation of agreements is established by other clauses.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Statutory Holiday Definition Reference (NMA)",
+    "rule_text": "Stat Holidays - follow terms of NMA or BM Agreement",
+    "summary": "For all union positions except Boilermakers, pay and entitlements for statutory holidays are governed by the terms of the National Maintenance Agreement (NMA).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "PIPEFITTER",
+        "LABOURER",
+        "MILLWRIGHT",
+        "OPERATING_ENGINEER",
+        "ADMINISTRATION",
+        "QUALITY_CONTROL",
+        "SAFETY"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 41,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "is_stat_holiday",
+      "position_classification",
+      "source_agreement (llm)"
+    ],
+    "logical_representation": "IF is_stat_holiday == true AND position_classification != 'BOILERMAKER' -> REQUIRE(source_agreement (llm) == 'NMA')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "NMA",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit D - Additional Charges",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "Hours worked on a statutory holiday must be paid according to NMA rules."
+    },
+    "reasoning": "This is a day_based rule because it applies to a specific type of day (statutory holiday). It delegates the detailed logic for pay calculation to the NMA for non-Boilermaker trades.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Statutory Holiday Definition Reference (Boilermaker Agreement)",
+    "rule_text": "Stat Holidays - follow terms of NMA or BM Agreement",
+    "summary": "For all Boilermaker positions, pay and entitlements for statutory holidays are governed by the terms of the Boilermaker Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "day_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "holiday"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "BOILERMAKER"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 42,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "DT"
+    ],
+    "context_variables": [
+      "is_stat_holiday",
+      "position_classification",
+      "source_agreement (llm)"
+    ],
+    "logical_representation": "IF is_stat_holiday == true AND position_classification == 'BOILERMAKER' -> REQUIRE(source_agreement (llm) == 'Boilermaker Agreement')",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "Boilermakers",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit D - Additional Charges",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": "DT",
+      "condition": "Hours worked on a statutory holiday must be paid according to the Boilermaker Agreement rules."
+    },
+    "reasoning": "This is a day_based rule as it applies to statutory holidays. It delegates the specific pay calculation logic to the Boilermaker Agreement for all Boilermaker personnel.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Billable Orientation and On-boarding Hours",
+    "rule_text": "Orientation / on-boarding hours are all billable (facilities to be provided by NWR)",
+    "summary": "All time spent by personnel in project orientation or on-boarding activities is billable and should be paid.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1
+    },
+    "execution_order": 5,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "activity_type (llm)"
+    ],
+    "logical_representation": "IF activity_type (llm) == 'ORIENTATION' OR activity_type (llm) == 'ONBOARDING' -> ASSIGN(ST, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "NMA | Boilermakers | Pipefitters",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit D - Additional Charges",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Hours coded as 'Orientation' or 'On-boarding' should be bucketed as Straight Time."
+    },
+    "reasoning": "This is a condition_based rule that makes a specific type of non-working time billable. It doesn't set thresholds, but defines an entire activity as payable.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Billable Site-Specific Training",
+    "rule_text": "Notwithstanding the foregoing in this Subsection, any Site specific training will be to Owner's account.",
+    "summary": "Time spent by personnel in site-specific training is billable to the owner and should be paid.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "condition_based",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": {
+      "ST": 1
+    },
+    "execution_order": 6,
+    "depends_on": [],
+    "overrides": [],
+    "produces": [
+      "ST"
+    ],
+    "context_variables": [
+      "activity_type (llm)"
+    ],
+    "logical_representation": "IF activity_type (llm) == 'SITE_SPECIFIC_TRAINING' -> ASSIGN(ST, ALL)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "NMA | Boilermakers | Pipefitters",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit E - 1.4 (ii)",
+    "validation_action": "EXPECT_BUCKET",
+    "expected_outcome": {
+      "bucket": "ST",
+      "condition": "Hours coded as 'Site-Specific Training' should be bucketed as Straight Time."
+    },
+    "reasoning": "This is a condition_based rule that makes a specific type of training activity billable. It functions as an exception to the rule about non-billable pre-mobilization training.",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  },
+  {
+    "name": "Non-Billable Pre-Mobilization Training",
+    "rule_text": "Each member of Supplier Group must have all training prior to arriving at to the Site. No hours may be charged to Owner for Supplier Group members that arrive at Site without the required training.",
+    "summary": "Time is not billable for workers who arrive on site without having completed their required pre-mobilization training.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "rule_type": "exception_override",
+    "applies_to": {
+      "schedule_types": [
+        "*"
+      ],
+      "day_types": [
+        "*"
+      ],
+      "employee_classes": [
+        "*"
+      ],
+      "position_classifications": [
+        "*"
+      ],
+      "project_types": [
+        "*"
+      ],
+      "provinces": [
+        "AB"
+      ]
+    },
+    "thresholds": null,
+    "rate_multipliers": null,
+    "execution_order": 51,
+    "depends_on": [],
+    "overrides": [
+      "Billable Orientation and On-boarding Hours",
+      "Billable Site-Specific Training"
+    ],
+    "produces": [],
+    "context_variables": [
+      "has_required_training (llm)"
+    ],
+    "logical_representation": "IF has_required_training (llm) == false -> VALIDATE(hours_billed == 0)",
+    "hierarchy": {
+      "level": 3,
+      "customer": "North West Redwater Partnership",
+      "union_type": "NMA | Boilermakers | Pipefitters",
+      "agreement": "Alberta-Province"
+    },
+    "doc_reference": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt",
+    "article_section": "Exhibit E - 1.4 (ii)",
+    "validation_action": "APPLY_OVERRIDE",
+    "expected_outcome": {
+      "bucket": null,
+      "condition": "If a worker arrives without pre-mobilization training, no hours should be billed until they are compliant."
+    },
+    "reasoning": "This is an exception_override rule because it establishes a condition (lack of training) that negates the billability of time that might otherwise be considered payable (e.g., orientation).",
+    "chunk_id": 116,
+    "source_chunk": "NWR Edmonton Exchanger/35_350_MISCELLANEOUS.txt"
+  }
+]

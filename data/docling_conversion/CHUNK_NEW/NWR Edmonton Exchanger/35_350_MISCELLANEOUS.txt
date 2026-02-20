@@ -1,0 +1,1266 @@
+## 35.0 MISCELLANEOUS
+
+## 35.1 Currency
+
+All amounts referred to in the Contract Documents shall be in Canadian Dollars unless otherwise agreed to by the Parties in writing.
+
+## 35.2 Further Assurances
+
+Each of the Parties hereto covenants and agrees that at any time and from time to time after the date hereof it will, at its expense and upon the request of the other Party, do, file, execute, acknowledge and deliver or cause to be done, filed, executed, acknowledged and delivered all such further acts, deeds, assignments, transfers, conveyances, notices, assurances or other documents as may be required for the better carrying out and performance of all the terms and conditions of this Contract.
+
+## 35.3 Pre-Contractual Work and Entire Agreement
+
+- (a) If any work in respect of the Work was performed under oral agreement prior to the execution of this Contract,  this  Contract  shall  apply  in  the  same  manner  as  if  executed  before  such  work  was commenced.  This Contract shall prevail and supersede over any such oral agreement.
+
+<!-- image -->
+
+- (b) This Contract Documents constitute the entire agreement between the Parties hereto with respect to the subject matter of this Contract and supersede all prior communications, negotiations, representations, understandings and agreements (whether written or oral) with respect thereto.
+
+## 35.4 Amendments
+
+All amendments or revisions to this Contract or to any Purchase Order must be in writing and signed by the Parties hereto to be enforceable.  Notwithstanding the foregoing, any purported amendment to the Terms and  Conditions  shall  be  void  and  of  no  force  and  effect  unless  memorialized  in  a  formal  amending agreement in  writing,  signed  by  a  duly  authorized  representative  of  both  Parties,  expressly  refers  to  the Article, Section or Subsection to be amended and expressly indicates an agreement of the Parties to amend such specific Article, Section or Subsection.
+
+## 35.5 Survival
+
+All covenants, conditions and provisions of this Contract which by their nature are intended to survive the provision of any Goods, the completion of any Services or the termination of one or more Purchase Orders or this Contract, including confidentiality obligations, intellectual property obligations, audit rights, warranties and indemnities shall survive.  In addition, the expiry or termination of this Contract or any Purchase Order does not discharge or release either Party from any liability or obligation accrued at the time of such expiry or termination or continuing beyond or arising out of such expiry or termination.
+
+## 35.6 Assignment
+
+- (a) Owner may transfer or assign this Contract or any Purchase Order issued hereunder in whole or in part, at any time without the prior consent of Supplier.
+- (b) Neither this Contract, nor any Purchase Order issued hereunder, shall be transferred or assigned by Supplier, in whole or in part, directly or indirectly, without Owner's prior written consent, which shall be at Owner's sole discretion.
+
+## 35.7 Enurement
+
+This Contract shall be binding upon and enure to the benefit of the successors and assigns of Owner and the successors and permitted assigns of Supplier.
+
+## 35.8 Independent Contractor
+
+- (a) Owner  and  Supplier  are  unrelated  entities  and  nothing  in  this  Contract  shall  constitute  or  be construed to create any joint venture or partnership between Owner and Supplier.
+- (b) Supplier  is  an  independent  contractor  with  respect  to  all  obligations  and  undertakings  to  be performed hereunder and while Owner has the right to instruct and direct Supplier as to the results to be obtained, Supplier has the control, supervision and direction of the method and manner of obtaining such results, and is responsible to Owner therefor.  Any provisions of this Contract that appear  to  give  Owner  the  right  to  direct  Supplier  as  to  the  details  of  carrying  out  any  of  its obligations  or  undertakings  or  to  exercise  a  measure  of  control  over  same  shall  be  deemed  to mean and shall mean that Supplier shall follow Owner's instructions as to the results to be achieved and not as to the manner or means whereby they are to be performed.  Except as expressly set forth herein, Supplier shall not be deemed to be an agent, representative, servant or employee of Owner.
+
+## 35.9 No Waiver
+
+Any failure or delay by either Party to insist upon strict compliance with any of the terms and conditions of this Contract, or any single or partial waiver thereof, shall not be construed as a waiver of such terms and conditions  and  agreements  or  the right  of  the  other  Party  to  insist  at  any  time  hereafter  upon  such  strict compliance.
+
+<!-- image -->
+
+## 35.10 Remedies Cumulative
+
+Except as may otherwise be specifically provided in this Contract, the rights and remedies of the Parties in this Contract are cumulative and are not exclusive of any other rights or remedies the Parties may have in this  Contract.    In  the  event  a  cause  of  action  or  claim  arises  for  which  a  remedy  is  not  provided  in  this Contract, then the Parties shall have the rights and remedies available at law or in equity, subject to the waivers, releases, and limitations on liabilities set forth in this Contract.
+
+## 35.11 Time is of the Essence
+
+Time shall be of the essence of this Contract and any Purchase Order issued hereunder.
+
+## 35.12 Reference to Statutes
+
+Unless otherwise provided herein, any reference to statutes or regulations in this Contract shall refer to such Applicable Laws as amended or replaced from time to time.
+
+## 35.13 Severability
+
+In  the  event  that  any  provision  of  this  Contract  or  the  application  thereof,  shall  be  held  invalid,  illegal  or unenforceable, the validity, legality and enforceability of the remaining provisions hereof shall not in any way be affected or impaired thereby.
+
+## 35.14 Incoterms
+
+It  is  hereby  acknowledged  by  Owner  and  Supplier  that  all  references  to  INCOTERMS  set  forth  in  this Contract and any Purchase Order issued hereunder shall refer to INCOTERMS 2010.
+
+## 35.15 Counterpart Execution
+
+This Contract may be executed and delivered by facsimile or portable document format (PDF) and in any number of identical counterparts each of which shall be deemed an original, and all of which taken together shall constitute one and the same agreement.
+
+IN WITNESS WHEREOF the Parties hereto have executed this Contract as of the Effective Date.
+
+<!-- image -->
+
+## NORTH WEST REDWATER PARTNERSHIP
+
+Per:
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Name: Mike Halliday
+
+Title: SCM Manager
+
+Edmonton Exchanger &amp; Refinery Services Ltd.
+
+Per:
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Name:
+
+Title:
+
+Kevin  Semenjuk
+
+Controller
+
+<!-- image -->
+
+## Exhibit A - Scope of Work
+
+## Attached to and forming part of Contract No. C1000776
+
+## Specialty Mechanical Services scope of work
+
+1. Contractor Deliverables
+2. 1.1  .  Provide Specialty Mechanical personnel and services for planned and unplanned scopes working with and taking direction from the Owner. The Specialty Mechanical Contractor will be required to support Owner's teams primarily in turnarounds and or small project type work environment.  Subsequently the Contractor must be able to adjust staffing to suit the required situation and the Owner's demand. This scope will not require the Contractor to have a permanent presence on site. Owner's team will work with the Contractor to schedule activities as required. The scope of work will be comprised of the following activities:
+3. 1.1.2 Boiler Maker/Pipefitter specialty work
+4. 1.1.3 Furnace and boiler repair
+5. 1.1.4 Torquing and Tensioning
+6. 1.1.5 Reactor and vessel repair
+7. 1.1.6 Exchanger push/pull and  repair, re-tube and fabrication
+8. 1.1.7 Tower internals support
+9. 1.1.8 Structural Steel Fabrication, installation and welding
+10. 1.1.9 Pressure equipment repair and alteration
+11. 1.1.10 Non routine emergency outage that would require alternate shifts
+12. 1.1.11 Support Fabrication/repair shop facilities
+13. 1.2 Contractor is required to adhere to all Owner's as well as various levels of government and industry regulatory bodies or agencies having jurisdiction over their respective work types including applicable International, National (Country or Federal), Regional or provincial standard, and policies.
+14. 1.3 Contractor will ensure  all Owner's business and work processes are follow;
+15. 1.4 Scopes of work will be awarded by Owner at their sole discretion; no exclusivity for this scope is implied with the award of this contract;
+16. 1.5 Contractor may be required to procure material, equipment or services on the Owners behalf. Material, equipment and services not specifically listed in the schedule of rates contained herein shall be charged at an agreed upon fix mark up;
+17. 1.6 Contractor will be required to provide skilled trades, supervision, quality and safety personnel for planned and unplanned turnarounds or outages;
+2. Personnel
+19. 2.1  Contractor will ensure supply of  Alberta certified Journeyman and Indentured Apprentices with the skill and experience requirements set forth by Owner to perform the work covered under the terms of the contract as requested by the Owner;
+20. 2.2  Contractor will ensure all personnel have received mandatory training as per industry and Owner's requirements, standards and procedures as well as adequate additional training to safely and effectively execute all fieldwork prior to arrive onsite;
+21. 2.3  Owner and Contractor will review and agree to an appropriate indirect organization based on the complexity and duration of the scope;
+22. 2.4  Contractor will meet or exceed requirements of the Canadian Model for providing a safe workplace; Alcohol and Drug guidelines and work rule (latest addition); All expenses for Drug and Alcohol Testing shall be the responsibility of the Contractor.
+23. 2.5  Ensure appropriate head office support required to adequately assist the services outlined within the scope;
+
+<!-- image -->
+
+- 2.6   Contractor will appoint a representative to act as the Business focal in the administration of this contract;
+3. Work schedules
+- 3.1  Owner at its sole discretion will set all work schedules;
+- 3.2  All work scheduled on a Provincial, Federal or Municipal, Election Day will end at 16:00 hrs;
+4. General Requirements
+- 4.1  NWR and the Contractor shall agree to have regular, formal Contract review meetings. The Contractor shall have representation from their Management team (Head office) as well as key site personnel. Frequency, dates and time will be agreed upon by Owner and Contractor;
+- 4.2  Contractor will use and have signed  NWR provided LEMS for any and all execution of work, except in the matter of Lump sum/fixed bid circumstances;
+- 4.3  Contractor will administer all timekeeping and invoicing activities offsite and part of fixed overheads. Larger projects or Outages, Turnaround will warrant an onsite position however will only be allowed with NWR written consent;
+- 4.4  All Contractor issued invoices will be supported by the appropriate back up (LEMS, Third party invoices, etc) or will be rejected;
+
+<!-- image -->
+
+## Exhibit A1
+
+## Training Requirements
+
+Attached to and forming part of Contract No.  C1000776
+
+Pre-Mobilization training requirements per the applicable union agreement:
+
+## Maintenance Contracts:
+
+1. BCA Collective Agreement (Boilermakers)
+- a. OSSA Regional Orientation Training
+- b. OSSA Certified Fall Arrest Training
+- c. OSSA Certified Confined Space Training
+- d. Respirator Fit Test qualification
+- e. Audiometric Testing
+- f. CSTS - V.09 Certification
+2. ICI Collective Agreement (Pipefitters)
+- a. OSSA Regional Orientation Training
+- b. OSSA certified Fall Arrest Training
+- c. OSSA Certified Confined Space Training
+- d. Respirator Fit Test qualification
+- e. CSTS - V.09 Certification
+- f. Audiometric Testing
+- g. Elevated Work Platform Training
+3. General Construction Collective Agreement (Labourers Local 92)
+- a. Standard First Aid/CPR
+- b. OSSA Basic Safety Orientation
+- c. OSSA Confined Space
+- d. OSSA Elevated Work Platform
+- e. OSSA Fall Protection
+- f. OSSA Fire Watch
+
+<!-- image -->
+
+## Exhibit B - Engineering/Technical Specifications/Governing Documents
+
+Attached to and forming part of Contract No. C1000776
+
+ODRL - 10-00-LST-76-0020-001 -Operations deliverable Requirements GDI - 10-00-LST-76-0014-001 - Turnaround Governing Documents Index
+
+(Both documents are attached and will be transmitted or available in CS16)
+
+<!-- image -->
+
+## Exhibit C - Pricing and Payment
+
+## Attached to and forming part of Contract No. C1000776
+
+Unless otherwise defined herein, capitalized terms in this Exhibit have the meaning set forth in the Terms and Conditions.
+
+- (a) With respect to the provision of Work, the prices set forth this Exhibit or the applicable Purchase Order are inclusive of all Taxes and assessments of any kind, other than GST, and shall include all charges and expenses necessary to properly complete the Work, including, without limitation, in connection with the packing of the Goods and their carriage to the delivery location specified in the applicable Purchase Order.
+- (b) Amounts  in  respect  of  GST,  where  applicable,  are  to  be  separately  disclosed  on  any  invoices issued by Supplier under the Contract, together with Supplier's GST registration number and such other information as required under Applicable Laws so that Owner can validly claim an input tax credit with respect to GST.
+- (c) No variation in the prices set forth this Exhibit or the applicable Purchase Order, or extra charges not otherwise set forth in this Exhibit or applicable Purchase Order will be accepted by Owner.
+- (d) Expenses and Third Party Charges
+- (i) All expenses must be shown in a separate invoice to the Owner.  Each invoice must list the work order, a description of the expense and the cost less any surcharges, taxes and fees.  Each of these should be shown separately.
+- (ii) Removed.
+- (iii) Any charges of Tax on Tax or duplicate charges will not be paid.
+- (e) Supplier shall submit original invoices for the Work in accordance with the following:
+- (i) One (1) copy of all invoices and complete with all backup documents required under the applicable Purchase Order shall be submitted by email to accountspayable@nwrpartnership.com  as follows:
+- (ii) All invoices must clearly reference the complete Purchase Order number.
+- (iii) All provincial, federal and other sales or value added taxes, where applicable, are to be extra and shown separately (complete with Supplier's GST registration number).
+- (iv) Supplier  shall  include  serial  numbers  of  materials,  parts,  supplies,  and  equipment  (if applicable) on each invoice.
+- (v) Owner reserves the right to verify, by inspection, all progress, work to-date or materials received, to substantiate invoices submitted for payment.
+- (f) Supplier shall not assign the rights to any amounts payable for the Work provided or to be provided pursuant to this Contract to any third party except in the case of a general assignment of Supplier's assets to a financial institution as security for a loan by such financial institution.
+- (g) Invoices  or  portions  of  invoices  that  are  performed  on  a  cost  plus,  unit  rate,  hourly  rate,  force account, Subcontractor pass-through or other similar bases that constitute a reimbursable charge
+
+North West Redwater Partnership
+
+Attention:
+
+Accounts Payable
+
+Reference:
+
+Sturgeon Refinery
+
+Agreement No.:
+
+XXX
+
+Purchase Order No.   XXX
+
+<!-- image -->
+
+shall  contain  as  much  information  and  have  attached  to  them  all  supporting  documentation, invoices, timesheets etc. as Owner reasonably requires to confirm the accuracy of the invoice.
+
+- (h) Owner will pay proper invoices within thirty (30) Days from the last day of the month in which the invoice was received.
+- (i) If payment is made by cheque, such cheque shall be sent to the address of Supplier specified on the Purchase Order.  If payment is to be made by wire transfer, Supplier shall provide Owner with all required details to implement the wire transfer.
+
+.
+
+- (j) OTHER RATES
+- (i) Mark-up on Third Party Expenses
+- (A) For  all  Owner  authorized  third-party  expenses,  including,  but  not  limited  to, materials, Subcontractors and equipment rental and excluding all  Owner authorized expenses with any Affiliates of Contractor:
+- (B) Where Owner has identified the preferred supplier or contractor and has existing terms and conditions and rates in place, Supplier shall use these existing Owner pricing and rates.  Supplier is entitled to a 5% mark-up on the total cost of such services, as full compensation for accounting associated with contract invoicing, before any applicable provincial or federal taxes.
+- (C) If  the  approved  supplier  or  contractor  is  Supplier  arranged,  Supplier  will  be entitled to a 5% mark-up on the total cost of such services and materials, before any applicable provincial or federal taxes.
+
+## (k) Annual review of schedule of prices
+
+- (i) Supplier may:
+- (A) Staff positions: Once a year on the Effective date of the Agreement requests for revisions of any Staff positions assigned to this Agreement maybe sought. Any requests for this change must contain a detailed breakdown of all the elements of the requested modification. This request must be acknowledged by NWR prior to any billing;
+- (B) For Union positions: rates are subject to change as required by the applicable Collective Agreement or government legislation..
+
+<!-- image -->
+
+## Exhibit D - Labour &amp; Equipment Rates
+
+## Attached to and forming part of Contract No. C1000776
+
+## 1.0 Labour Rates
+
+|                       |                       | ST                    | ST Nights       | OT DAYS         | OT Nights             | DT Days         | DT Nights       |
+|-----------------------|-----------------------|-----------------------|-----------------|-----------------|-----------------------|-----------------|-----------------|
+| Craft                 | Classification        |                       | Charge-Out Rate | Charge-Out Rate | Total Charge-Out Rate | Charge-Out Rate | Charge-Out Rate |
+| Click HERE for detail | Click HERE for detail | Total Charge-Out Rate | Total           | Total           |                       | Total           | Total           |
+| Boiler maker s        | 1st Year Apprentice   | $55.15                | $59.35          | $76.43          | $80.63                | $97.70          | $101.89         |
+| Boiler maker s        | 2nd Year Apprentice   | $63.08                | $67.27          | $88.31          | $92.50                | $113.52         | $117.72         |
+| Boiler maker s        | 3rd Year Apprentice   | $70.98                | $75.18          | $100.17         | $104.36               | $129.36         | $133.55         |
+| Boiler maker s        | Helper                | $63.08                | $67.27          | $88.31          | $92.50                | $113.52         | $117.72         |
+| Boiler maker s        | Journeyman            | $76.27                | $80.47          | $108.10         | $112.30               | $139.91         | $144.10         |
+| Boiler maker s        | Foreman               | $82.85                | $87.04          | $117.98         | $122.16               | $153.08         | $157.27         |
+| Boiler maker s        | Foreman ICCS          | $84.65                | $88.85          | $119.77         | $123.97               | $156.67         | $160.87         |
+| Boiler maker s        | General Foreman       | $85.25                | $89.44          | $121.57         | $125.76               | $157.86         | $162.06         |
+| Boiler maker s        | General Foreman ICCS  | $87.04                | $91.23          | $123.38         | $127.55               | $161.46         | $165.65         |
+| Boiler maker s        | Superintenden t       | $102.00               | $106.20         | $146.71         | $150.90               | $191.40         | $195.59         |
+| Boiler maker          | Senior Superintenden  | $105.60               | $109.79         | $152.10         | $156.29               | $198.58         | $202.78         |
+
+<!-- image -->
+
+| s              | t                                     |         |         |         |         |         |         |
+|----------------|---------------------------------------|---------|---------|---------|---------|---------|---------|
+| Boiler maker s | Project Manager                       | $111.00 | $115.17 | $160.18 | $164.38 | $209.35 | $213.55 |
+| Boiler maker s | Senior Project Manager                | $114.58 | $118.76 | $165.58 | $169.76 | $216.54 | $220.73 |
+| Boiler maker s | Site Manager                          | $121.76 | $125.95 | $176.35 | $180.54 | $230.91 | $235.09 |
+| Pipefitt ers   | 1st Year Apprentice                   | $46.30  | $50.50  | $60.96  | $65.16  | $75.63  | $79.81  |
+| Pipefitt ers   | 2nd Year Apprentice                   | $55.52  | $59.72  | $74.30  | $78.49  | $93.06  | $97.25  |
+| Pipefitt ers   | 3rd Year Apprentice                   | $64.74  | $68.93  | $87.64  | $91.84  | $110.53 | $114.71 |
+| Pipefitt ers   | Journeyman - Without B Ticket         | $68.80  | $72.99  | $93.07  | $97.25  | $117.32 | $121.51 |
+| Pipefitt ers   | Journeyman - AB / 4th Year Apprentice | $71.56  | $75.76  | $97.20  | $101.40 | $122.83 | $127.03 |
+| Pipefitt ers   | Journeyman - UA                       | $77.05  | $81.23  | $105.43 | $109.62 | $133.80 | $137.99 |
+| Pipefitt ers   | Journeyman - Alloy Welder             | $80.03  | $84.23  | $108.42 | $112.60 | $139.79 | $143.97 |
+| Pipefitt ers   | Foreman                               | $83.63  | $87.82  | $115.31 | $119.48 | $146.97 | $151.16 |
+| Pipefitt ers   | Foreman - ICCS                        | $85.42  | $89.61  | $117.10 | $121.29 | $150.56 | $154.75 |
+| Pipefitt ers   | General Foreman                       | $86.02  | $90.22  | $118.89 | $123.08 | $151.76 | $155.94 |
+| Pipefitt ers   | General Foreman - ICCS                | $87.82  | $92.02  | $120.69 | $124.88 | $155.35 | $159.54 |
+| Pipefitt ers   | Superintenden t                       | $102.79 | $106.97 | $144.03 | $148.23 | $185.28 | $189.48 |
+| Pipefitt ers   | Senior Superintenden t                | $106.38 | $110.56 | $149.42 | $153.61 | $192.47 | $196.65 |
+| Pipefitt ers   | Project Manager                       | $111.76 | $115.95 | $157.52 | $161.69 | $203.25 | $207.43 |
+| Pipefitt       | Senior Project                        | $115.35 | $119.55 | $162.90 | $167.09 | $210.42 | $214.62 |
+
+<!-- image -->
+
+| ers          | Manager                     |         |         |         |         |         |         |
+|--------------|-----------------------------|---------|---------|---------|---------|---------|---------|
+| Pipefitt ers | Site Manager                | $122.55 | $126.73 | $173.66 | $177.86 | $224.79 | $228.99 |
+| Labour ers   | Trainee 1                   | $46.33  | $50.53  | $59.98  | $64.18  | $73.64  | $77.82  |
+| Labour ers   | Trainee 2                   | $51.05  | $55.24  | $66.80  | $71.00  | $82.55  | $86.74  |
+| Labour ers   | Trainee 3                   | $55.76  | $59.94  | $73.60  | $77.78  | $91.45  | $95.65  |
+| Labour ers   | Journeyman - Uncertified    | $59.86  | $64.05  | $79.39  | $83.59  | $98.92  | $103.10 |
+| Labour ers   | Journeyman Retiree - Uncert | $59.25  | $63.45  | $81.02  | $85.20  | $102.77 | $106.96 |
+| Labour ers   | Journeyman - Cert           | $62.81  | $67.00  | $83.81  | $88.00  | $104.82 | $109.00 |
+| Labour ers   | Journeyman Retiree - Cert   | $62.20  | $66.39  | $85.44  | $89.62  | $108.66 | $112.84 |
+| Labour ers   | Foreman                     | $64.35  | $68.55  | $86.14  | $90.32  | $107.89 | $112.09 |
+| Labour ers   | Foreman Certified           | $67.29  | $71.48  | $90.56  | $94.74  | $113.79 | $117.98 |
+| Labour ers   | Foreman - Retiree           | $66.71  | $70.89  | $92.16  | $96.36  | $117.64 | $121.84 |
+| Labour ers   | General Foreman             | $69.69  | $73.88  | $94.15  | $98.34  | $118.59 | $122.77 |
+| Labour ers   | General Foreman ICCS        | $71.48  | $75.68  | $95.94  | $100.13 | $122.18 | $126.37 |
+| Millwri ghts | 1st Year Apprentice         | $56.31  | $60.49  | $73.73  | $77.92  | $91.15  | $95.33  |
+| Millwri ghts | 2nd Year Apprentice         | $61.66  | $65.85  | $81.74  | $85.94  | $101.84 | $106.03 |
+| Millwri ghts | 3rd Year Apprentice         | $67.03  | $71.20  | $89.80  | $93.99  | $112.57 | $116.76 |
+| Millwri ghts | 4th Year Apprentice         | $72.37  | $76.56  | $97.83  | $102.03 | $123.27 | $127.46 |
+| Millwri ghts | 1st Year Apprentice Welder  | $53.62  | $57.82  | $69.71  | $73.91  | $85.78  | $89.97  |
+| Millwri ghts | 2nd Year Apprentice Welder  | $61.66  | $65.85  | $81.74  | $85.94  | $101.84 | $106.03 |
+
+<!-- image -->
+
+| Millwri ghts         | 3rd Year Apprentice Welder   | $69.71   | $73.91   | $93.82   | $98.01   | $117.93   | $122.13   |
+|----------------------|------------------------------|----------|----------|----------|----------|-----------|-----------|
+| Millwri ghts         | Journeyman                   | $76.88   | $81.06   | $103.66  | $107.85  | $130.45   | $134.63   |
+| Millwri ghts         | Foreman                      | $83.45   | $87.65   | $113.54  | $117.74  | $143.62   | $147.80   |
+| Millwri ghts         | Foreman - ICCS               | $85.25   | $89.44   | $116.23  | $120.42  | $147.21   | $151.39   |
+| Millwri ghts         | General Foreman              | $85.85   | $90.05   | $117.13  | $121.32  | $148.40   | $152.59   |
+| Millwri ghts         | General Foreman - ICCS       | $87.65   | $91.84   | $118.93  | $123.12  | $152.00   | $156.19   |
+| Operat ing Engine er | 1st Year Apprentice          | $57.59   | $61.79   | $76.32   | $80.52   | $95.05    | $99.25    |
+| Operat ing Engine er | 2nd Year Apprentice          | $62.95   | $67.14   | $84.35   | $88.53   | $105.75   | $109.95   |
+| Operat ing Engine er | 3rd Year Apprentice          | $68.29   | $72.48   | $92.39   | $96.57   | $116.46   | $120.65   |
+| Operat ing Engine er | Jm 1 - 34 Tons               | $73.65   | $77.83   | $100.41  | $104.60  | $127.17   | $131.35   |
+| Operat ing Engine er | Jm 35 - 65 Tons              | $73.96   | $78.16   | $100.87  | $105.07  | $127.79   | $131.98   |
+| Operat ing Engine er | Jm 66 - 75 Tons              | $74.20   | $78.39   | $101.23  | $105.42  | $128.26   | $132.45   |
+| Operat ing Engine er | Jm 76 - 85 Tons              | $74.43   | $78.63   | $101.60  | $105.78  | $128.75   | $132.93   |
+| Operat ing Engine er | Jm 86 - 95 Tons              | $74.69   | $78.87   | $101.94  | $106.13  | $129.22   | $133.41   |
+
+<!-- image -->
+
+| Operat ing Engine er   | Jm 96 - 105 Tons        | $74.92   | $79.11   | $102.30   | $106.50   | $129.71     | $133.89    |
+|------------------------|-------------------------|----------|----------|-----------|-----------|-------------|------------|
+| Operat ing Engine er   | Group 5                 | $62.03   | $66.22   | $82.99    | $87.17    | $103.94     | $108.13    |
+| Operat ing Engine er   | Group 4                 | $64.97   | $69.17   | $87.39    | $91.58    | $109.81     | $114.00    |
+| Operat ing Engine er   | Group 3                 | $67.90   | $72.09   | $91.79    | $95.98    | $115.67     | $119.86    |
+| Operat ing Engine er   | Group 2                 | $70.75   | $74.94   | $96.06    | $100.25   | $121.38     | $125.56    |
+| Operat ing Engine er   | Group 6                 | $73.31   | $77.50   | $99.90    | $104.10   | $126.49     | $130.68    |
+| Operat ing Engine er   | Foreman                 | $79.94   | $84.13   | $109.84   | $114.03   | $139.73     | $143.93    |
+| Admini stratio n       | Cost Controller         | $63.26   | $67.58   | $87.86    | $92.18    | Double Time | applicable |
+| Admini stratio n       | Administration Manager  | $61.41   | $65.72   | $85.10    | $89.41    | $89.41      | $89.41     |
+| Admini stratio n       | Timekeeper Senior       | $56.49   | $60.79   | $77.71    | $82.02    | $82.02      | $82.02     |
+| Admini stratio n       | Timekeeper Level 1      | $52.18   | $56.49   | $71.26    | $75.57    | $75.57      | $75.57     |
+| Admini stratio n       | Timekeeper Level 2      | $47.88   | $52.18   | $64.80    | $69.11    | $69.11      | $69.11     |
+| Admini stratio n       | Admin Assistant Level 2 | $47.88   | $52.18   | $64.80    | $69.11    | $69.11      | $69.11     |
+| Admini stratio         | Admin Assistant Level   | $43.57   | $47.88   | $58.35    | $62.64    | $62.64      | $62.64     |
+
+<!-- image -->
+
+| n               | 3              |         |         |         |         |
+|-----------------|----------------|---------|---------|---------|---------|
+| Quality Control | QC Lead        | $108.74 | $112.92 | $156.12 | $160.31 |
+| Quality Control | QC Senior      | $102.74 | $106.93 | $147.14 | $151.33 |
+| Quality Control | QC Level 1     | $96.76  | $100.95 | $138.15 | $142.35 |
+| Quality Control | QC Level 2     | $90.77  | $94.96  | $129.18 | $133.37 |
+| Safety          | Safety Lead    | $102.74 | $106.93 | $147.14 | $151.33 |
+| Safety          | Safety Senior  | $96.76  | $100.95 | $138.15 | $142.35 |
+| Safety          | Safety Level 1 | $91.98  | $96.16  | $130.98 | $135.17 |
+| Safety          | Safety Level 2 | $87.18  | $91.37  | $123.79 | $127.99 |
+
+## 1.2 Equipment Rates
+
+| Description                       | Details                                 | Hour   | Day   | Week   | Month   | Each   |
+|-----------------------------------|-----------------------------------------|--------|-------|--------|---------|--------|
+| 1250# Air-Hoist Tuggers           | 1000Lb Dinky                            |        | 99    | 396    | 1,056   |        |
+| 2000# Air-Hoist Tuggers           |                                         |        | 110   | 484    | 1,122   |        |
+| 3000# Air-Hoist Tuggers           |                                         |        | 121   | 528    | 1,254   |        |
+| 4000# Air-Hoist Tuggers           |                                         |        | 138   | 561    | 1,683   |        |
+| 1" Air Impacts                    | c/w Sockets                             |        | 63    | 244    | 716     |        |
+| 1 1/2" Air Impacts                | c/w Sockets                             |        | 93    | 365    | 1,073   |        |
+| Additional Air Hose (1" x 50')    | (First 1,000' is Provided at No Charge) |        | 7     | 24     | 48      |        |
+| Air Jackhammer/RivetBuster - 15lb |                                         |        | 50    | 150    | 450     |        |
+| Air Jackhammer/RivetBuster - 20lb |                                         |        | 55    | 165    | 495     |        |
+| Pipe-Air Reciprocating Saw        | Cleco/Fein                              |        | 59    | 175    | 463     |        |
+| Description                       | Details                                 | Hour   | Day   | Week   | Month   | Each   |
+| Bundle Pullers c/w Bundle         |                                         |        |       |        |         |        |
+
+<!-- image -->
+
+| Slings/Rigging                                                                       |                                                                                      |      |       |        |        |      |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|------|-------|--------|--------|------|
+| Bundle Puller (48" and smaller diameter tubesheet)                                   |                                                                                      |      | 400   |        |        |      |
+| Bundle Puller (49" - 76" diameter tubesheet)                                         |                                                                                      |      | 500   |        |        |      |
+| Bundle Puller (77" and larger diameter tubesheet)                                    |                                                                                      |      | 600   |        |        |      |
+| 12" & Smaller                                                                        | Install/Extract Each                                                                 |      |       |        |        | 83   |
+| 13" - 24"                                                                            | Install/Extract Each                                                                 |      |       |        |        | 124  |
+| 25" - 36"                                                                            | Install/Extract Each                                                                 |      |       |        |        | 207  |
+| 37" - 48"                                                                            | Install/Extract Each                                                                 |      |       |        |        | 248  |
+| 49" - 60"                                                                            | Install/Extract Each                                                                 |      |       |        |        | 289  |
+| 61" - 76"                                                                            | Install/Extract Each                                                                 |      |       |        |        | 330  |
+| 77" - 100"                                                                           | Install/Extract Each                                                                 |      |       |        |        | 413  |
+| Bundle Wagons                                                                        |                                                                                      |      | 200   |        |        |      |
+| Motorized Bundle Wagons                                                              |                                                                                      |      | 300   |        |        |      |
+| Description                                                                          | Details                                                                              | Hour | Day   | Week   | Month  | Each |
+| Breakage of tool bits is chargeable. Re-Sharpening Of Tool Bits is Included in Rates | Breakage of tool bits is chargeable. Re-Sharpening Of Tool Bits is Included in Rates |      |       |        |        |      |
+| Broken tool bits                                                                     |                                                                                      |      |       |        |        | 300  |
+| Flange Facer Model FF3000                                                            | Machining Range 1 1/2" - 12"                                                         |      | 250   | 1,250  | 4,375  |      |
+| Flange Facer Model FF5000                                                            | Machining Range 5" - 24"                                                             |      | 650   | 3,250  | 11,375 |      |
+| Flange Facer Model FF6000                                                            | Machining Range 14" - 60"                                                            |      | 900   | 4,500  | 15,750 |      |
+| Flange Facer Model FF6000 Extension Kit                                              |                                                                                      |      | 100   | 500    | 1,750  |      |
+| Flange Facer Model FF7000                                                            | Machining Range 36" - 80"                                                            |      | 1,100 | 5,500  | 19,250 |      |
+| MM300E Flange Facer                                                                  | 0 to 12" OD mount                                                                    |      | 700   | 3,500  | 12,250 |      |
+| MM600E Flange Facer                                                                  | 0 to 24" OD mount                                                                    |      | 1,500 | 7,500  | 26,250 |      |
+| MM600iE Flange Facer                                                                 | 0 to 80" ID or OD mount                                                              |      | 2,500 | 12,500 | 43,750 |      |
+| 4" Clamshell Ring/Cold Cut/Bevel Equip.                                              | Cutting Range 2" - 4"                                                                |      | 144   | 575    | 2,012  |      |
+| 6" Clamshell Ring/Cold Cut/Bevel Equip.                                              | Cutting Range 4" - 6"                                                                |      | 163   | 650    | 2,275  |      |
+| 8" Clamshell Ring/Cold Cut/Bevel Equip.                                              | Cutting Range 6" - 8"                                                                |      | 188   | 750    | 2,625  |      |
+
+<!-- image -->
+
+| 10" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 8" - 10"       |      | 206   | 825   | 2,887   |      |
+|----------------------------------------------------------|------------------------------|------|-------|-------|---------|------|
+| 12" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 10" - 12"      |      | 363   | 1,450 | 5,075   |      |
+| 16" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 12" - 16"      |      | 456   | 1,825 | 6,387   |      |
+| 20" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 16" - 20"      |      | 519   | 2,075 | 7,262   |      |
+| 24" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 20" - 24"      |      | 600   | 2,400 | 8,400   |      |
+| 32" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 26" - 32"      |      | 863   | 3,450 | 12,075  |      |
+| 36" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 34" - 36"      |      | 888   | 3,550 | 12,425  |      |
+| 43" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 37" - 43"      |      | 934   | 3,737 | 13,078  |      |
+| 60" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 50" - 60"      |      | 1,524 | 6,096 | 21,284  |      |
+| 86" Clamshell Ring/Cold Cut/Bevel Equip.                 | Cutting Range 80" - 86"      |      | 1,790 | 7,160 | 25,061  |      |
+| Diaphram Removal Attachment                              | 4" - 24"                     |      | 200   |       |         |      |
+| Diaphram Removal Attachment                              | Above 24"                    |      | 400   |       |         |      |
+| Straight Head Counterbore                                |                              |      | 45    | 225   | 787     |      |
+| Swivel Head Counterbore                                  |                              |      | 60    | 300   | 1,050   |      |
+| Single Point Flange Facing c/w 24", 32" or 36" Bar       |                              |      | 90    | 455   | 1,583   |      |
+| Esco End Prep - Wart Millhog                             | 1 1/4" ID to 4 1/2" OD       |      | 110   | 550   | 1,925   |      |
+| Esco End Prep - Prepzilla Millhog                        | 1.575" ID to 8.625" OD       |      | 110   | 550   | 1,925   |      |
+| Esco End Prep - Groundhog                                | 5/8" ID to 2 1/4" OD         |      | 110   | 550   | 1,925   |      |
+| Esco End Prep - Millhog Commander                        | 3 3/4" ID to 14" OD          |      | 470   | 940   | 3,760   |      |
+| Line Boring Machine                                      | Machining Range 2" - 15"     |      | 750   | 3,750 | 13,125  |      |
+| Hydraulic 4 Post Drill                                   | Up to 4.5" drilled holes     |      | 1,500 | 7,500 | 26,250  |      |
+| Hydraulic 4 Post Tapping Unit                            | Up to 4.5" tapped holes      |      | 750   | 3,750 | 13,125  |      |
+| Hydraulic Pump                                           | Drive unit (gas or electric) |      | 650   | 3,250 | 11,375  |      |
+| Milling Machine                                          | Up to 12' linear length      |      | 1,000 | 5,000 | 17,500  |      |
+| Pneumatic HT20 (2" portable drilling and boring machine) | Up to 2" drilling capacity   |      | 1,000 | 5,000 | 17,500  |      |
+| Description                                              | Details                      | Hour | Day   | Week  | Month   | Each |
+| Westward 1 Ton Electric Chain Hoist                      |                              |      | 89    | 267   | 651     |      |
+| 3 Ton Chainfalls                                         | Kito                         |      | 22    | 98    | 341     |      |
+
+<!-- image -->
+
+| 5 Ton Chainfalls                                        |                                 |      | 82   | 217   | 563   |      |
+|---------------------------------------------------------|---------------------------------|------|------|-------|-------|------|
+| 10 Ton Chainfalls                                       |                                 |      | 126  | 356   | 1,036 |      |
+| 25 Ton Chainfalls                                       |                                 |      | 260  | 1,035 | 3,150 |      |
+| Hilman Machine Skates - 15 Ton                          | Sets of 4                       |      | 15   | 44    | 132   |      |
+| Snatch Block 18" Triple Sheave                          |                                 |      | 70   | 228   | 671   |      |
+| 10 Ton Beam Trolley                                     |                                 |      | 35   | 86    | 256   |      |
+| Description                                             | Details                         | Hour | Day  | Week  | Month | Each |
+| Breakage And Consumables (Cutting Wedge) Are Chargeable |                                 |      |      |       |       |      |
+| No. 3 (A)                                               | 1 7/16" - 1 5/8"                |      | 196  | 490   | 1,715 |      |
+| No. 5 (B)                                               | 1 13/16" - 2"                   |      | 218  | 545   | 1,908 |      |
+| No. 7 (B)                                               | 2 3/16" - 2 3/8"                |      | 240  | 600   | 2,100 |      |
+| No. 9 (B)                                               | 2 9/16" - 2 3/4"                |      | 262  | 655   | 2,293 |      |
+| No. 11 (C)                                              | 2 15/16" - 3 1/8"               |      | 308  | 770   | 2,695 |      |
+| No. 13 (C)                                              | 3 1/2" - 3 7/8"                 |      | 381  | 953   | 3,334 |      |
+| No. 15 (D)                                              | 4 1/4" - 4 5/8"                 |      | 468  | 1,170 | 4,095 |      |
+| No. 17 (D)                                              | 5" - 5 3/8"                     |      | 557  | 1,393 | 4,874 |      |
+| Cylinder Pumps Size A                                   | For heads 3 - 30T Capacity      |      | 100  | 500   | 1,750 |      |
+| Cylinder Pumps Size B                                   | For heads 5-9 - 50T Capacity    |      | 100  | 500   | 1,750 |      |
+| Cylinder Pumps Size C                                   | For heads 10-14 - 120T Capacity |      | 120  | 600   | 2,100 |      |
+| Cylinder Pumps Size D                                   | For heads 15-17 - 180T Capacity |      | 120  | 600   | 2,100 |      |
+| Wedges for size A Cylinder                              |                                 |      |      |       |       | 171  |
+| Wedges for size B Cylinder                              |                                 |      |      |       |       | 182  |
+| Wedges for size C Cylinder                              |                                 |      |      |       |       | 221  |
+| Wedges for size D Cylinder                              |                                 |      |      |       |       | 320  |
+| Description                                             | Details                         | Hour | Day  | Week  | Month | Each |
+
+<!-- image -->
+
+| PMI Machine                                         |                                                                   | 55   |     |       |       |      |
+|-----------------------------------------------------|-------------------------------------------------------------------|------|-----|-------|-------|------|
+| Ferrite Testing Equipment                           |                                                                   |      | 100 | 400   | 1,200 |      |
+| Inspection Kit                                      | c/w LPI/MPI Equipment, Hardness Tester, Digital Thickness D-Meter |      | 105 | 420   | 1,260 |      |
+| Microdur Hardness Tester                            |                                                                   |      | 100 | 400   | 1,200 |      |
+| Ultrasonic Flaw Detector                            |                                                                   |      | 150 | 450   |       |      |
+| Description                                         | Details                                                           | Hour | Day | Week  | Month | Each |
+| 20KW Wacker Generators (Silenced) - without Trailer |                                                                   |      | 117 | 467   | 1,300 |      |
+| 20KW Wacker Generators (Silenced) - with Trailer    |                                                                   |      | 130 | 520   | 1,620 |      |
+| 20KW Light Tower/Generators                         |                                                                   |      | 198 | 792   | 2,772 |      |
+| 240KW Multi-Quip Generators                         |                                                                   |      | 325 | 1,300 | 4,550 |      |
+| 100 Cfm Electric Compressor                         |                                                                   |      | 90  | 350   | 1,300 |      |
+| 185 Cfm Diesel Compressor                           |                                                                   |      | 124 | 485   | 1,406 |      |
+| Magnetic Base Drills                                |                                                                   |      | 70  | 210   | 625   |      |
+| 3/4" Electric Drills                                |                                                                   |      | 17  | 50    | 198   |      |
+| Hilti/Makita Electric Drills T-22/T-25              |                                                                   |      | 25  | 100   | 264   |      |
+| Hilti TE-76                                         |                                                                   |      | 30  | 120   | 360   |      |
+| Hilti DX-750                                        | c/w Grating Kit                                                   |      | 42  | 173   | 510   |      |
+| Portable Load Center 600 Volt Input                 | c/w 20 GFCI Duplex Receptacle, 3 Spare 60 Amp Disconnects         |      | 128 | 286   | 788   |      |
+| Radiograph                                          | c/w Track                                                         |      | 60  | 240   | 720   |      |
+| Flex Track Cutting System                           | Cutting Range 60" +                                               |      | 500 | 2,000 | 6,000 |      |
+| Oxy/Acet Bottle Lift Cages                          |                                                                   |      | 20  | 80    | 200   |      |
+| Rescue System                                       |                                                                   |      | 30  | 120   | 360   |      |
+| Material Lift Baskets                               |                                                                   |      | 40  | 160   | 400   |      |
+| 33' Retractable Lifelines                           |                                                                   |      | 45  | 135   | 405   |      |
+| 130' Retractable Lifelines                          |                                                                   |      | 150 | 600   | 1,650 |      |
+| Kerosene Heater - 320m BTU Vented                   | c/w Fully Lined Heater Duct                                       |      | 57  | 209   | 536   |      |
+
+<!-- image -->
+
+| Faro Edge / Scan arm - 9 foot        |             |      | 1,595   |      |       |      |
+|--------------------------------------|-------------|------|---------|------|-------|------|
+| Winter Parkas                        |             | 0.50 |         |      |       |      |
+| Description                          | Details     | Hour | Day     | Week | Month | Each |
+| Haskel Air Test Fluid Pump           |             |      | 53      | 158  | 473   |      |
+| Baker 6000 lb Hand Pump              |             |      | 28      | 85   | 255   |      |
+| Description                          | Details     | Hour | Day     | Week | Month | Each |
+| 4' Pan Brake                         |             |      | 42      | 106  | 308   |      |
+| 42" Rolls                            |             |      | 46      | 138  | 412   |      |
+| 42" Shear Brown & Bogs 237AL         |             |      | 54      | 204  | 444   |      |
+| Combination Lock Former & Easy Edger | c/w Flanger |      | 47      | 126  | 358   |      |
+| Description                          | Details     | Hour | Day     | Week | Month | Each |
+| Tensioners c/w Load Cells            |             |      |         |      |       |      |
+| Bolt Tensioner 1 1/8"                |             |      | 50      | 248  | 866   |      |
+| Bolt Tensioner 1 1/4"                |             |      | 50      | 248  | 866   |      |
+| Bolt Tensioner 1 3/8"                |             |      | 50      | 248  | 866   |      |
+| Bolt Tensioner 1 1/2"                |             |      | 55      | 275  | 963   |      |
+| Bolt Tensioner 1 5/8"                |             |      | 55      | 275  | 963   |      |
+| Bolt Tensioner 1 3/4"                |             |      | 55      | 275  | 963   |      |
+| Bolt Tensioner 1 7/8"                |             |      | 61      | 303  | 1,058 |      |
+| Bolt Tensioner 2"                    |             |      | 61      | 303  | 1,058 |      |
+| Bolt Tensioner 2 1/4"                |             |      | 72      | 358  | 1,251 |      |
+| Bolt Tensioner 2 1/2"                |             |      | 72      | 358  | 1,251 |      |
+| Bolt Tensioner 2 3/4"                |             |      | 77      | 385  | 1,348 |      |
+| Bolt Tensioner 3"                    |             |      | 77      | 385  | 1,348 |      |
+| Bolt Tensioner 3 1/4"                |             |      | 105     | 523  | 1,828 |      |
+| Bolt Tensioner 3 1/2"                |             |      | 105     | 523  | 1,828 |      |
+
+<!-- image -->
+
+| Bolt Tensioner 3 3/4"                                  |                                    |      | 105   | 523   | 1,828   |      |
+|--------------------------------------------------------|------------------------------------|------|-------|-------|---------|------|
+| Bolt Tensioner 4"                                      |                                    |      | 110   | 550   | 1,925   |      |
+| Bolt Tensioner 4 1/2"                                  |                                    |      | 154   | 770   | 2,695   |      |
+| Tensioning Pump                                        | Pumps c/w Tension (Feed/Link) Hose |      | 141   | 704   | 2,112   |      |
+| Bolt Scope II Ultrasonic Testing                       |                                    |      | 96    | 479   | 1,674   |      |
+| Description                                            | Details                            | Hour | Day   | Week  | Month   | Each |
+| Torquing Pump                                          | Pump c/w Hoses                     |      | 180   | 900   | 3,150   |      |
+| RSL2 Power Head, Hex Cassette and Piper Backup Wrench  | 7/8" - 2 3/8"                      |      | 110   | 550   | 1,925   |      |
+| RSL4 Power Head, Hex Cassette and Piper Backup Wrench  | 1 1/8" - 2 15/16"                  |      | 165   | 825   | 2,887   |      |
+| RSL6 Power Head, Hex Cassette and Piper Backup Wrench  | 1 7/8" - 3 1/8"                    |      | 195   | 975   | 3,412   |      |
+| RSL8 Power Head, Hex Cassette and Piper Backup Wrench  | 2 1/16" - 3 1/8"                   |      | 235   | 1,175 | 4,112   |      |
+| RSL14 Power Head, Hex Cassette and Piper Backup Wrench | 2 9/16" - 4 5/8"                   |      | 295   | 1,475 | 5,162   |      |
+| RSL30 Power Head, Hex Cassette and Piper Backup Wrench | 3 1/2" - 6 1/8"                    |      | 415   | 2,075 | 7,262   |      |
+| Norbar Pro-Test 1500 Tester                            |                                    |      | 15    | 65    | 225     |      |
+| Norbar 1500 Torque Gun                                 | 1" Drive c/w Sockets               |      | 150   | 750   | 2,625   |      |
+| RAD Torque Gun 800/10GX                                | c/w Sockets                        |      | 125   | 625   | 2,187   |      |
+| RAD Torque Gun 1400/1800/25GX                          | c/w Sockets                        |      | 150   | 750   | 2,625   |      |
+| RAD Torque Gun 30/34GX                                 | c/w Sockets                        |      | 200   | 1,000 | 3,500   |      |
+| RAD Torque Gun 50/60DX                                 | c/w Sockets                        |      | 225   | 1,125 | 3,937   |      |
+| 3/4" Torque Wrench                                     | c/w Sockets                        |      | 25    | 100   | 200     |      |
+| 1" Torque Wrench                                       | c/w Sockets                        |      | 40    | 126   | 376     |      |
+| Torque Multiplier 4-1                                  |                                    |      | 40    | 126   | 376     |      |
+| Torque Multiplier 13.6-1                               |                                    |      | 50    | 229   | 682     |      |
+| Torque Multiplier 20-1                                 |                                    |      | 70    | 280   | 828     |      |
+
+<!-- image -->
+
+| Description                               | Details            | Hour   | Day   | Week   | Month   | Each   |
+|-------------------------------------------|--------------------|--------|-------|--------|---------|--------|
+| Operator, Mob/Demob, Mileage Not Included |                    |        |       |        |         |        |
+| 3/4 Ton Pick Up Trucks                    |                    |        | 132   |        |         |        |
+| 3/4 Ton Liftgate Flatdeck Truck           |                    |        | 154   |        |         |        |
+| 1 Ton Truck (5th Wheel) - Dodge           |                    |        | 143   |        |         |        |
+| 3 Ton Truck                               |                    |        | 231   |        |         |        |
+| 15 Passenger Van                          |                    |        |       | 825    | 2,475   |        |
+| Kenworth Truck With 40' Hiboy Trailer     | Mileage - $1.00/km | 61     |       |        |         | 1      |
+| Kenworth Truck With Lowboy Trailer        | Mileage - $1.00/km | 85     |       |        |         | 1      |
+| Kubota RTV Utility Vehicle                |                    |        |       | 300    | 800     |        |
+| Fifth Wheel Trailer                       |                    |        | 100   |        |         |        |
+| Field Machining Trailer 16' x 8'          |                    |        | 120   | 480    | 1,440   |        |
+| Hydro Test Wagon                          |                    |        | 99    | 340    | 765     |        |
+| Tandem Axle Trailer 18'                   |                    |        | 50    | 200    | 700     |        |
+| Tool Trailer 16'                          |                    |        | 176   | 529    | 1,050   |        |
+| Tool Trailer 40'                          |                    |        | 485   | 1,201  | 2,379   |        |
+| Blastproof Toolroom 20'                   |                    |        |       | 1,400  | 3,800   |        |
+| Blastproof Toolroom 40' x 12'             |                    |        |       | 1,600  | 5,000   |        |
+| Sea Container 20'                         |                    |        | 180   | 180    | 426     |        |
+| Sea Container 40'                         |                    |        | 197   | 197    | 580     |        |
+| Genie Manlift 60'                         |                    |        | 460   | 1,180  | 3,000   |        |
+| Genie Manlift 125'                        |                    |        | 2,584 | 6,504  | 16,223  |        |
+| Caterpillar Zoom Boom TH580B              |                    |        | 589   | 1,866  | 5,670   |        |
+| John Deere Loader                         | c/w Forks          |        | 420   | 2,100  | 8,400   |        |
+| 8 Ton Carry Deck Crane (Broderson/Drutt)  |                    | 100    |       |        |         |        |
+| 10 Ton Boom Truck                         |                    | 45     |       |        |         |        |
+| 15 Ton Pickers (Grove)                    |                    | 47     |       |        |         |        |
+| 25 Ton Crane - Mobile (Grove)             |                    | 80     |       |        |         |        |
+| 45 Ton Crane On Rubber (Grove)            |                    | 90     |       |        |         |        |
+| 50 Ton Crane (Tadano) - Rough Terrain     |                    | 160    |       |        |         |        |
+
+<!-- image -->
+
+| 60 Ton Crane (Tadano) - Rough Terrain                  |                                                        | 195   |     |       |       |      |
+|--------------------------------------------------------|--------------------------------------------------------|-------|-----|-------|-------|------|
+| 80 Ton Crane (Tadano) - Rough Terrain                  |                                                        | 255   |     |       |       |      |
+| 125 Ton Crane On Rubber (American)                     |                                                        | 200   |     |       |       |      |
+| Description                                            | Details                                                | Hour  | Day | Week  | Month | Each |
+| Breakage And Re-Sharpening Of Tool Bits Are Chargeable | Breakage And Re-Sharpening Of Tool Bits Are Chargeable |       |     |       |       |      |
+| Pipe Beveller 1 1/2" - 4"                              | c/w Oxy/Acct. Torch                                    |       | 26  | 60    | 170   |      |
+| Pipe Bevellers 4" - 8"                                 | c/w Oxy/Acct. Torch                                    |       | 29  | 70    | 200   |      |
+| Pipe Bevellers 8" - 12"                                | c/w Oxy/Acct. Torch                                    |       | 50  | 100   | 292   |      |
+| Pipe Bevellers 14" - 20"                               | c/w Oxy/Acct. Torch                                    |       | 85  | 183   | 568   |      |
+| Pipe Bevellers 22" - 26"                               | c/w Oxy/Acct. Torch                                    |       | 140 | 293   | 859   |      |
+| Pipe Bevellers 24" - 30"                               | c/w Oxy/Acct. Torch                                    |       | 152 | 317   | 929   |      |
+| Pipe Bevellers 30" - 36"                               | c/w Oxy/Acct. Torch                                    |       | 211 | 440   | 1,330 |      |
+| Hydraulic Pipe Bender                                  | Greenlee 555                                           |       | 112 | 340   | 1,025 |      |
+| Coated Pipe Bender                                     |                                                        |       | 50  | 250   | 875   |      |
+| #535 Pipe Threaders                                    |                                                        |       | 47  | 184   | 530   |      |
+| Rigid 700                                              | Electric                                               |       | 20  | 60    | 160   |      |
+| Flange Spreaders (Pop It)                              |                                                        |       | 45  | 135   | 405   |      |
+| Heavy-Duty Flange Spreader                             |                                                        |       | 69  | 208   | 625   |      |
+| Equalizer Spreader Bar                                 |                                                        |       | 45  | 135   | 405   |      |
+| Parker Tubing Bender 412 Handcrank                     |                                                        |       | 30  | 103   | 298   |      |
+| Parker Tubing Bender 420 Handcrank                     |                                                        |       | 30  | 103   | 298   |      |
+| One Revolution Tubecutters (Tube Internal Flycutter)   | 5/8" Od/14 Gauge to 1 1/2" OD/14 Gauge                 |       | 40  | 150   | 450   |      |
+| Hydraulic Tubepullers                                  | Pumps & 22 Ton Ram                                     |       | 125 | 500   | 1,500 |      |
+| Hydraulic Tubepullers                                  | Pumps & 30 Ton Ram                                     |       | 259 | 1,073 | 3,490 |      |
+| Continuous Tube Puller - 45 Ton                        | c/w pump                                               |       | 300 | 1,200 | 3,600 |      |
+| Airetool Tubecutter Motors                             |                                                        |       | 35  | 140   | 420   |      |
+| Airetool Rolling Guns 850                              |                                                        |       | 70  | 350   | 1,225 |      |
+| Airetool Rolling Guns 1050                             |                                                        |       | 80  | 400   | 1,400 |      |
+| Airetool Rolling Guns 1550                             |                                                        |       | 120 | 600   | 2,100 |      |
+
+<!-- image -->
+
+| Motor Rolling Guns 1720 (Right Angle)       |                                                        |      | 130   | 650   | 2,275   |      |
+|---------------------------------------------|--------------------------------------------------------|------|-------|-------|---------|------|
+| Broken Mandrels & Rollers Are Chargeable    |                                                        |      |       |       |         |      |
+| Tube expanders - To 1"                      |                                                        |      | 60    | 180   | 540     |      |
+| Tube expanders - 1"-2"                      |                                                        |      | 60    | 180   | 540     |      |
+| Tube expanders - 2"-3"                      |                                                        |      | 72    | 216   | 648     |      |
+| Tube expanders - 3" & Up                    |                                                        |      | 100   | 400   | 1,200   |      |
+| Tube Spears 5/8" - 1" Replacement           |                                                        |      |       |       |         | 175  |
+| Tube Spears 1" - 2" Replacement             |                                                        |      |       |       |         | 250  |
+| Tube Removal Chippers                       |                                                        |      | 20    | 80    | 240     |      |
+| G-Series Air Test Gun                       | G150                                                   |      |       | 350   |         |      |
+| Simplex Weld Milling #1 Tools               | For 3/4" Tubes                                         |      | 39    | 117   | 351     |      |
+| Simplex Weld Milling #2 Tools               | For 1" Tubes                                           |      | 39    | 117   | 351     |      |
+| Simplex Weld Milling #3 Tools               | For 1 1/2" Tubes                                       |      | 44    | 132   | 396     |      |
+| Simplex Weld Milling #4 Tools               | For 2" Tubes                                           |      | 50    | 180   | 540     |      |
+| Simplex Weld Milling #7 Tools               | For 3" Tubes                                           |      | 55    | 200   | 600     |      |
+| Simplex Weld Milling #10 Tools              | For 4" Tubes                                           |      | 61    | 220   | 660     |      |
+| Port A Mill - Pipe/Tube Milling Tool        | 2" - 4" To Fit Ridged 700                              |      | 22    | 65    | 185     |      |
+| Boiler Tube Milling Equipment (H&S Tooling) | 1" - 2 1/2"                                            |      | 110   | 550   | 1,925   |      |
+| Air Tube Rattler (Internal Tube Cleaner)    | 1" Motor Head Braid Hose                               |      | 82    | 328   | 984     |      |
+| Air Tube Rattler (Internal Tube Cleaner)    | 1 1/2" Motor Head Braid Hose                           |      | 92    | 368   | 1,104   |      |
+| Air Tube Rattler (Internal Tube Cleaner)    | 2" Motor Head Braid Hose                               |      | 102   | 408   | 1,224   |      |
+| Heater Convection Tube Extractor            |                                                        |      | 600   |       |         |      |
+| Description                                 | Details                                                | Hour | Day   | Week  | Month   | Each |
+| 4 Pack Machine (Electric)                   | c/w 800' Welding Cable, 4 Stingers, Grounds & Remotes  |      | 544   | 681   | 1,987   |      |
+| 6 Pack Machine (Electric)                   | c/w 1200' Welding Cable, 6 Stingers, Grounds & Remotes |      | 792   | 999   | 2,980   |      |
+| 8 Pack Machine (Electric)                   | c/w 1600' Welding Cable, 8 Stingers, Grounds & Remotes |      | 1,042 | 1,317 | 3,919   |      |
+| 250 Amp Diesel Driven Welding Machines      | c/w Trailer, 200' Welding Cable, Stinger, Ground &     |      | 86    | 430   | 1,290   |      |
+
+<!-- image -->
+
+|                                                    | Remote. Fuel Not Included                                                                    |       |       |        |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------|-------|-------|--------|
+| 300 Amp Diesel Driven Welding Machines             | c/w Trailer, 200' Welding Cable, Stinger, Ground & Remote. Fuel Not Included                 | 97    | 485   | 1,455  |
+| Miller Dynasty Suitcase Welder (200 Amp)           |                                                                                              | 65    | 325   | 975    |
+| Orbital welding system                             | includes control panel, weld head, cooler, guide ring clamp, all consumables except for wire | 2,200 | 4,400 | 13,200 |
+| Power transformer for orbital welding system       |                                                                                              | 250   | 500   | 1,500  |
+| Neoweld Diesel Generator                           | c/w 8-200 Amp Welders (Reverse Polarity) 100kw. Fuel Not Included                            | 333   | 1,319 | 3,747  |
+| Additional Welding Cables                          | 100'                                                                                         | 6     | 15    | 44     |
+| Lincoln 455 STT/Power Wave Source And Wire Feeders | 460 - 600 Volt                                                                               | 159   | 635   | 1,905  |
+| Lincoln Powerwave S500                             | With Powerawave S500, Advanced Module, and power feed dual feed                              | 192   | 767   | 2,300  |
+| Lincoln 15 Suitcase Wire Feeder                    |                                                                                              | 70    | 281   | 588    |
+| Lincoln 10 Dual Mig Wire Feeder                    |                                                                                              | 70    | 281   | 588    |
+| Plasma Arc Air Cutter                              | Cuts up to 1/2"                                                                              | 98    | 392   | 1,176  |
+| Plasma Cutter PCM 250                              | Cuts up to 2" (cutting gas extra)                                                            | 250   | 1,250 | 3,500  |
+| Tig Torches                                        | c/w Long Or Short Cap & Purge Hose, Argon Flow Meter                                         | 20    | 40    | 100    |
+| Spider Circle Cutter/Oxygen-Acetylene              |                                                                                              | 90    | 360   | 1,080  |
+| 16" Welding Positioner                             |                                                                                              | 160   | 400   | 1,200  |
+| Aircomatic 300                                     | c/w Ah20-E Midget Gun. Contact Tips & Gases Extra                                            | 65    | 240   | 720    |
+| Beco Electric Drive                                | c/w Foot Control & Stand                                                                     | 42    | 168   | 504    |
+| Welding Tent                                       | 11' x 8' x 6' wall, 8' peak                                                                  | 15    | 75    | 262    |
+
+<!-- image -->
+
+| Welding machines, compressors and forklifts are reimbursable at the day rate meaning one 12 hours, weekly rate meaning 60 hours, and 1 month meaning 240 hours.                                                                                                                                                                                                                                                                                                                                            | Welding machines, compressors and forklifts are reimbursable at the day rate meaning one 12 hours, weekly rate meaning 60 hours, and 1 month meaning 240 hours.                                                                                                                                                                                                                                                                                                                                            |                                                                                     |                                                                                     |                                                                                     |                                                                                     |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| For equipment with an hourly rate only, all hours rented shall be charged at that rate. All other equipment, with the exception of those listed in note 1, shall be charged at the daily rate until the rental amount exceeds the weekly rate. At that time, the weekly rate shall apply for a maximum 7 day period. Once the weekly rental amounts exceeds the monthly rate, the monthly rate shall apply for a maximum 30 day period. Note 2 applies for equipment with daily, weekly, and monthly rates | For equipment with an hourly rate only, all hours rented shall be charged at that rate. All other equipment, with the exception of those listed in note 1, shall be charged at the daily rate until the rental amount exceeds the weekly rate. At that time, the weekly rate shall apply for a maximum 7 day period. Once the weekly rental amounts exceeds the monthly rate, the monthly rate shall apply for a maximum 30 day period. Note 2 applies for equipment with daily, weekly, and monthly rates |                                                                                     |                                                                                     |                                                                                     |                                                                                     |
+| None of the listed rates include operators or fuel                                                                                                                                                                                                                                                                                                                                                                                                                                                         | None of the listed rates include operators or fuel                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                     |                                                                                     |                                                                                     |                                                                                     |
+| Loading and shipping costs for equipment and tools are extra.                                                                                                                                                                                                                                                                                                                                                                                                                                              | Loading and shipping costs for equipment and tools are extra.                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                     |                                                                                     |                                                                                     |                                                                                     |
+| Customer is responsible for lost, stolen and damaged equipment.                                                                                                                                                                                                                                                                                                                                                                                                                                            | Customer is responsible for lost, stolen and damaged equipment.                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                     |                                                                                     |                                                                                     |                                                                                     |
+| Equipment and Tooling on this list are subject to availability. Third party rental costs are reimbursable at cost plus markup                                                                                                                                                                                                                                                                                                                                                                              | Equipment and Tooling on this list are subject to availability. Third party rental costs are reimbursable at cost plus markup                                                                                                                                                                                                                                                                                                                                                                              |                                                                                     |                                                                                     |                                                                                     |                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 40' Toolcrib - Standard Supplied                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 40' Toolcrib - Standard Supplied                                                    |                                                                                     |                                                                                     |                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Equipment numbers over and above standard supply will be chargeable at stated rates                                                                                                                                                                                                                                                                                                                                                                                                                        | Equipment numbers over and above standard supply will be chargeable at stated rates | Equipment numbers over and above standard supply will be chargeable at stated rates | Equipment numbers over and above standard supply will be chargeable at stated rates | Equipment numbers over and above standard supply will be chargeable at stated rates |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EQUIPMENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Std Supply                                                                          | DAY                                                                                 | WEEK                                                                                | MONTH                                                                               |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 1 TON CHAINHOIST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 20                                                                                  | 40                                                                                  | 65                                                                                  | 155                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 1.5 TON CHAINHOIST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 20                                                                                  | 43                                                                                  | 85                                                                                  | 236                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 2 TON CHAINHOIST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 20                                                                                  | 51                                                                                  | 107                                                                                 | 317                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 3/4 TON COME ALONG                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 40                                                                                  | 34                                                                                  | 51                                                                                  | 129                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 1.5 TON COME ALONG                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 40                                                                                  | 39                                                                                  | 72                                                                                  | 157                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 1 TON BEAM TROLLEY                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 5                                                                                   | 11                                                                                  | 20                                                                                  | 60                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                     | 13                                                                                  | 22                                                                                  | 62                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 2 TON BEAM TROLLEY                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 5                                                                                   |                                                                                     |                                                                                     | 91                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 3 TON BEAM TROLLEY                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 5                                                                                   | 16                                                                                  | 31                                                                                  |                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 3 TON BEAM CLAMP                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 5                                                                                   | 21                                                                                  | 62                                                                                  | 121                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 5 TON BEAM CLAMP                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 5                                                                                   | 37                                                                                  |                                                                                     |                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                     |                                                                                     | 108                                                                                 | 213                                                                                 |
+
+<!-- image -->
+
+## 1.3 PPE Included
+
+| Included (Y/N)   | Type   | Description                                               | UOM   | Price            |
+|------------------|--------|-----------------------------------------------------------|-------|------------------|
+| Y                |        | fire resistant coveralls                                  |       |                  |
+| Y                |        | regular hard hats                                         |       |                  |
+| Y                |        | fitting gloves                                            |       |                  |
+| Y                |        | CSA approved safety glasses                               |       |                  |
+| Y                |        | ear protection                                            |       |                  |
+| N                |        | 3Mtype fume filters and masks, including cleaning thereof |       | At cost + markup |
+| N                |        | FRC Paper Coveralls                                       |       | At cost + markup |
+| Y                |        | COVID Face mask as per Site standard                      |       |                  |
+
+## 1.4 Tools Included
+
+| Include d (Y/N)   | Type   | Description                                                                | Hourly Rate   | Day Rate   | Weekly Rate   | Monthly Rate   |
+|-------------------|--------|----------------------------------------------------------------------------|---------------|------------|---------------|----------------|
+| Y                 | Tools  | Abrasives (Grinding Wheels (ss not included), Sandpaper, Emery Cloth, etc) | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Adaptors (Drill, Wire Wheel, Regulators, Oxygen/Acetylene)                 | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Air horn                                                                   | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Anvils                                                                     | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Arbors (Hole Saw)                                                          | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Augers - Post Hole                                                         | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Axes                                                                       | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Bands (Rubber & Steel for Banding Machine - Warehouse Use)                 | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Bands, Sweat                                                               | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Banding Tools                                                              | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Bars, Pinch, Crow, Wrecking, etc                                           | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Batteries (Flashlight - Construction Equipment)                            | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Belts (Climbing, Safety, Tools,etc)                                        | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Benders, Tubing & Pipe (Hand Operated)                                     | N/A           | N/A        | N/A           | N/A            |
+| Y                 | Tools  | Bevel Machines (Up to 12")                                                 | N/A           | N/A        | N/A           | N/A            |
+
+<!-- image -->
+
+| Y   | Tools   | Binders, Load                                   | N/A   | N/A   | N/A   | N/A   |
+|-----|---------|-------------------------------------------------|-------|-------|-------|-------|
+| Y   | Tools   | Bits (Steel, Wood, Auger, etc)                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Blades, (Hacksaw, Pipe Cutter, etc)             | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Blocks, Flaring                                 | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Blocks (Steel, Snatch, Tackle, Wire Rope to 8") | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Blocks, Wood (Single or Multiple Sheave)        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Bob, Plumb                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Boots, Rubber Safety                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Boxes, Tool, Small Hand Carry                   | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Braces, Hand                                    | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Brooms, Hand, All Types                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Brushes, All Types                              | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Buffing Wheels                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Calipers                                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Cans (Oil, Gasoline, etc.)                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Carriers, Hand - All Types                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Carts (Oxygen & Acetylene Bottle)               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chains, Surveyors                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chalk & Chalkline                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Charger, Battery                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chipping Guns (To 15 lbs.)                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chisels (For Air Operated Tools)                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chisels, All Hand Types                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chokers (To 1" Diameter)                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chucks, Tap, Nipple Bolt, etc.                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Chainfalls, 1 Ton, 2 Ton                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Clamps, "C" Machinist                           | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Clamps, Ground Welding                          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Clamps, Hose                                    | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Clamps, Plate (To 3/4 Ton)                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Cleaners, Tip                                   | N/A   | N/A   | N/A   | N/A   |
+
+<!-- image -->
+
+| Y   | Tools   | Clips, Wire Rope                                               | N/A   | N/A   | N/A   | N/A   |
+|-----|---------|----------------------------------------------------------------|-------|-------|-------|-------|
+| Y   | Tools   | Connectors                                                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Coolers, Water Can "Igloo"                                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Crayons                                                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Cutters, Gasket (To 30" Diameter)                              | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Cutters, Glass                                                 | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Cutters, Hand Operated (Bolt) & Hand Operated                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Cutters, Hand Operated, 1/4" to 2" Pipe                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Come-alongs - 1 1/2 Ton to 3 Ton                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Dies, All Types                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Die Segments (Replacements for Power & Hand Threading Devices) | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Dispensers (Salt Tablets, Paper Towels, Cups, etc.)            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Dividers                                                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Dressers, Grinding Wheel                                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Drills                                                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Drum Faucets                                                   | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Edges, Straight                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Extension Cords & Lights With Fittings (Single Lamps Only)     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Extinguishers, Fire - Hand Operated                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Extinguishers, Fire Powder Recharge                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Extractors, Pipe & Screw (Not Including Tube Extractor Equip)  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Files, All Types                                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Flares, Road, etc.                                             | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Flaring Tools                                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Flange Spreaders                                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Flashlights, All Types                                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Flint (For Lighters)                                           | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Flood Lights (Hand)                                            | N/A   | N/A   | N/A   | N/A   |
+
+<!-- image -->
+
+| Y   | Tools   | Funnels                                                           | N/A   | N/A   | N/A   | N/A   |
+|-----|---------|-------------------------------------------------------------------|-------|-------|-------|-------|
+| Y   | Tools   | Gauges - Drill, Feeler, Wire, Pressure                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Gloves                                                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Glasses (Safety)                                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Goggles, All Types                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Grinders (Electric, Mini, Pnematic)                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Guards, Toe Safety                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Guns, Caulking                                                    | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Gun, Grease                                                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Hammers, Hand - All Types                                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Handles, File, Hammer, etc.                                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Handles, Retchet, Tap Drive                                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Hatchets                                                          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Hats, Hard, Safety                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Head Socks, Cotton                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Helmets, All Types                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Holders, Electrode                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Hose - Air Hose Not Included                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Impact Guns - Air to 3/4" Drive                                   | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Irons, Sodering, Electric & Hand                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Jack, Flange                                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Jumpers, Welding                                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Keys, Drill, Chuck, Bottle, etc.                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Knives, Putty, etc.                                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Ladders, Extension & Step                                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Lens (Clear or Coloured) For Welding Helmets, Goggles and Shields | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Levels, Spirit, Aluminum, Wood, etc.                              | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Lighters, Friction                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Lines, Mason, Cable, Chalk                                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Locks (Temp. - Construction Use)                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Lubricators - Air Line                                            | N/A   | N/A   | N/A   | N/A   |
+
+<!-- image -->
+
+| Y   | Tools   | Mandrels, Hole Saw, etc.                     | N/A   | N/A   | N/A   | N/A   |
+|-----|---------|----------------------------------------------|-------|-------|-------|-------|
+| Y   | Tools   | Markers, Pipe Contour                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Micrometer - Inside & Outside (to 12 Inches) | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Mirrors - Inspection                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Mover, Car Jack                              | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Oilers, Hand Pump                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Packing Tools                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Pads, Backing                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Pails, Hand, Paint, etc.                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Picks                                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Pins, Drift, Taper & Flange                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Pliers, All Types                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Plumbers, Plunger                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Points, Moil, Bull For Power Tools           | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Protractors                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Pullers, Wheel, Gear & Cable                 | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Pullers, Nail                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Pumps, Barrel                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Punches, Hand                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Punches, Centre                              | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Rags, Wiping                                 | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Rakes                                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Rasps, Hand - All Types                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Reamers (For Power Tools)                    | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Rests, Pipe                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Rope, Manila (To 1")                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Saws, Hand, All Types                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Saws, Hole                                   | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Scrapers, Hand                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Screw Drivers, Hand                          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Shackles to 2" Screw Pin                     | N/A   | N/A   | N/A   | N/A   |
+
+<!-- image -->
+
+| Y   | Tools   | Shields, Protective, Face                                 | N/A   | N/A   | N/A   | N/A   |
+|-----|---------|-----------------------------------------------------------|-------|-------|-------|-------|
+| Y   | Tools   | Shovels, Hand, All Types                                  | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Sledges - All Types                                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Sleeves, Taper Drill                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Snakes, Plumbers                                          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Snips, Hand - All Types                                   | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Soapstone                                                 | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Sockets (To 1 1/2" Dr. Including Extension Bars)          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Spades, Air Tool                                          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Spray Cans & Guns (Rorm Oil Concrete Curing Insecticides) | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Spreaders, Wire Rope                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Squares, Combination Steel, Carpenters                    | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Staplers, Gun                                             | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Stencils, Steel (Letters & Figures)                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Stone, Rubbing                                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Straps (For Wrenches)                                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Strippers, Wire                                           | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Tags, Material, Tool & Shipping                           | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Tampers, (Not Power)                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Tape, Fish                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Tape, Measuring - All Types                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Taps, Hand, Bolt & Pipe - All Sizes                       | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Tarpaulins                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Testers, Battery & Radiator                               | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Test Plugs (Up to 6")                                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Tips, Cutting, Welding & Heating - All Types              | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Torches, Gasoline, Blow, Propane                          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Torque Wrench (3/4")                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Trowels, Edgers & Groovers                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools   | Tool Trailer                                              | N/A   | N/A   | N/A   | N/A   |
+
+<!-- image -->
+
+| Y   | Tools        | Universal Joints & Drives, Socket Wrench (1/4" to 1")   | N/A   | N/A   | N/A   | N/A   |
+|-----|--------------|---------------------------------------------------------|-------|-------|-------|-------|
+| Y   | Tools        | Vises, Machinist, Pipe, etc.                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools        | Wedges, Metal & Wood                                    | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools        | Welders, Protective Equipment                           | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools        | Wheelbarrows                                            | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools        | Wrenches, Allen                                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools        | Wrenches, Hand - (Combination, Open Ends, Pipe)         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools        | Wrenches, Striking                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Tools        | Wrenches, Strap                                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Adhesives (Glue, etc)                                   | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Anti-freeze (Construction Equipment) Engine Driven      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Bulbs, Light (Construction Use)                         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Clothing, Coveralls                                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Clothing, Rain Gear                                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Cups, Drinking                                          | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Graphite                                                | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Hacksaws, Frames                                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Liners, Hard Hat                                        | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Nails, Nuts, Bolts, etc. (Temporary Facilities)         | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Oils, Cutting Hydraulic, Form, etc.                     | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Spot Check (Paint)                                      | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Steel Wool                                              | N/A   | N/A   | N/A   | N/A   |
+| Y   | Consu mables | Tempil Sticks, etc.                                     | N/A   | N/A   | N/A   | N/A   |
+
+<!-- image -->
+
+Y
+
+Consu mables
+
+Welders Gloves
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+## Additional Charges
+
+Additional Charges
+
+LOA/day
+
+As per NMA, for all positions (manual and non-manual), except for Boilermaker manual and non-manuals, which follow Boilermaker Agreement, at a minimum
+
+Meal Break/allowance
+
+As per NMA, for all positions (manual and non-manual), except for Boilermaker manual and non-manuals, which follow Boilermaker Agreement
+
+Air hose &gt; 1000 feet in length
+
+Consumables for inspection (QC) work
+
+Explosion proof electrical cables/cords/lighting
+
+Fire Blankets
+
+Gas monitors
+
+Specialty PPE
+
+Welding Rods
+
+Welding Cables, remotes, stingers, grounds
+
+Welding Gases
+
+Welder testing (including labour hours) if required
+
+Loading and shipping of equipment
+
+Broken specialty tools are reimbursable at cost; Breakage and knives are reimbursable for the Port-a-mill and Tube cutters.  Broken mandrels and rollers are reimbursable for the Tube expanders
+
+Equipment is subject to availability.  If our equipment is unavailable, charges for equipment will be actual 3rd party costs + markup.
+
+All required payments per NMA applies to all positions including non-manuals, except for Boilermaker non-manuals which follow Boilermaker agreement
+
+Overtime - applies to all positions including non-manuals, as per overtime definitions in NMA or BM Agreement
+
+Double Time - applies to all union positions including non-manuals as per NMA or BM Agreement
+
+Stat Holidays - follow terms of NMA or BM Agreement
+
+Orientation / on-boarding hours are all billable (facilities to be provided by NWR)
+
+Fit testing, if required
+
+<!-- image -->
+
+## Exhibit E - Special Conditions for Work at Site
+
+## Attached to and forming part of Contract No. C1000776
+
+Notwithstanding anything else contained in this Contract, the provisions contained in this Exhibit shall apply to any Work performed by Supplier Group at Site.
+
+## 1.0 Work at Site
+
+- 1.1 In  the  event  any  member of Supplier Group performs Work at the Site, Supplier shall, at its own expense, ensure such Persons comply with:
+- (a) the terms of the Contract, including those specified within this Exhibit;
+- (b) all Applicable Laws and good industry practice; and
+- (c) all health and safety and environmental policies and procedures established by Owner or any contractor responsible for health and safety matters with respect to the Work at Site.
+- 1.2 Supplier shall cooperate in good faith with any contractor at the Site performing work in relation to the Work or otherwise performing work at the Site, and Supplier shall promptly advise Owner if any work performed by any contractor in relation to the Work is generally not in accordance with good industry practices.
+- 1.3 Supplier  shall  ensure  that  any  Work  performed  at  the  Site  are  performed  in  a  manner  that  will  avoid inconvenience, injury or property damage to other contractors, land owners and occupiers of land adjacent to the Site and Supplier Group shall observe and follow Owner's instructions in relation to all areas identified by Owner as containing or potentially containing environmentally sensitive, threatened or endangered species of plant or animal life.
+- 1.4 Training
+- (ii) Each member of Supplier Group must have all training prior to arriving at to the Site.  No hours may be charged to Owner for Supplier Group members that arrive at Site without the required training.  Notwithstanding the foregoing in this Subsection, any Site specific training will be to Owner's account.
+- (iii) Supplier is not entitled to payment for any member of Supplier Group that arrives at Site without the training required to perform the Work (other than Site specific training provided by Owner).
+
+## 1.5 Personal Protective Equipment (PPE)
+
+Supplier is responsible for supplying and ensuring that each member of Supplier Group provides basic PPE where Work  is  performed  at  Site.    Basic  PPE  includes,  as  a  minimum,  hardhat,  safety  glasses,  coveralls, winter parkas, gloves, boots and hearing protection.  Clothing must be fire retardant Nomex and / or Indura Ultra  Soft  9oz  Style  451  coverall  with  reflective  stripping,  for  each  member  of  Supplier  Group.    The  fire retardant coveralls shall be consistent with OH&amp;S, NFPA 70E, 1975, 2112 and CGSB155.20 standards.  Fire retardant Nomex and / or Indura parkas with reflective stripping are required to be supplied by Supplier Group for  long-term Work performed by Supplier Group at Site.  The fire retardant parkas shall be consistent with OH&amp;S, NFPA 70E, 1975, 2112 and CGSB155.20 standards. Boots and other PPE shall all meet or exceed Owner safety standards.  Supplier shall supply fire retardant coveralls and coverall cleaning and repair for all Supplier Personnel performing the Work.  Supplier shall supply fire retardant winter parkas for all long-term personnel performing the Work.  In the event of emergency Work, Supplier and Owner will review and mutually agree on the supply and cost of parkas for short-term personnel. If Owner changes site PPE requirements and this results in significant additional costs, these will be reimbursable through a corresponding rate increase or through billing of the difference in cost
+
+Notwithstanding the foregoing, personal gas monitors will be provided by the Owner.
+
+<!-- image -->
+
+## 1.6 Small Tools and Consumables
+
+- (i) Contractor will provide tool kits and other hand tools with an individual value less than $2,500.00 and consumables, as may be required for day-to-day performance of work. The  list  of  tools  and  consumables  are  to  be  listed  in  Exhibit  D.  The  tools  and consumables  listed  are  not  intended  to  be  all  inclusive  and  shall  include  other  tools under an individual value of two thousand five hundred dollars ($2,500.00) as may be required for day to day performance of the Services.
+- (ii) Contractor will implement a continuous improvement program to track and reduce the PPE, tool kits, consumable and other hand tools cost over the term of this contract.
+- (iii) The  Small  Tools  and  consumable  rate  is  in  respect  of  fully  maintained  items  and includes  lubricants,  support  equipment,  repair parts,  service  and  maintenance labour, applicable Taxes, insurance and depreciation.
+
+If any Small Tool or Consumable is required to be replaced or repaired no adjustment to the Small Tools and Consumable rate shall occur and no additional compensation shall be payable to the Contractor in respect of such Small Tool or Consumable
+
+## 1.7 Equipment and vehicles
+
+- (i) Supplier may be required to provide equipment from time to time for the performance of Services as indicated in Exhibit A.  Equipment and Vehicles and the applicable charge out rate for the equipment is as listed in Exhibit D.
+- (ii) Where Owner allocates Contractor intrinsically safe radios, Contractor will be responsible for any damages, loss and or replacement of the equipment.
+- (iii) Contractor shall provide transportation vehicles for Contractor's use at any Worksite to be used in the performance of Services. The number of vehicles and type vehicle must be approved by Owner.
+- (iv) Rates  will  be  charged  at  the  most  economical  way  to  the  Owner.    Should  the  next higher rate be more advantageous to the Owner this rate will be applied over the lower rate.
+
+Example: Rental of a unit for 10 hours @ $50/hr for the Hourly rate.  Day Rate is $300/day.  The day rate will apply.  Owner  will  have  the  right  to  audit and  be reimbursed for any overpayments.
+
+- (v) Rates will be  inclusive  of  all  associated  costs,  except  the  operator  (where  indicated), including but not limited to maintenance, repairs, damage, cleaning, window replacement, rental, leasing, insurance, repairs, fuel, mileage, and tire replacement.
+- (vi) Note all diesel equipment/vehicles must be equipped with a Positive Air Shutoff for use onsite.
+- (vii) Owner to provide fuel for on-site stationary equipment
+
+## 1.8 Facilities
+
+Owner is responsible for providing and supplying office and working facilities for Supplier including, but not limited to: office furniture; office equipment, such as, computers, printers, fax machines, photocopiers, paper and  toner;  telephones  &amp;  computer  networks  and  associated  line  charges,  etc.;  and  lunchrooms;  change
+
+<!-- image -->
+
+rooms; and washrooms; including associated maintenance and repair, for normal wear and tear; of the above items, but specifically excluding office supplies; courier costs and postal charges.
+
+- 1.9 Health, Safety and Environmental (' HSE ') Obligations
+- (a) Supplier shall perform the Work in a manner to avoid the risk of endangerment to health, bodily harm to persons and damage to property and the environment.
+- (b) Supplier  shall,  and  shall  direct  and  ensure  that  all  members  of  Supplier  Group  comply  with  all  Site access policies and procedures made known to Supplier by Owner from time to time.
+- (c) Supplier's  Health,  Safety  and  Environment  execution  plan  shall  meet  or  exceed  the  Site  HSE execution plan as notified by Owner to Supplier.  Supplier HSE execution plan shall incorporate, as a minimum,  a  process  to  record  health  and  safety  and  environmental  hazards  identified  by  Supplier Group and to communicate such hazards to Prime Contractor on an ongoing basis.
+- (d) Supplier shall furnish all safety equipment and instructions required for safe and lawful performance of the Work and shall maintain and promptly furnish to Owner a copy of all accident, injury and all other records and reports required by Applicable Laws and regulations in connection with the performance of the Work.
+- (e) Owner will notify Supplier in writing of the identity of the Prime Contractor for the Work.  Each member of Supplier Group shall promptly comply with the instructions and directions of the Prime Contractor with respect to performance of the Work and protection of persons and the environment at, on, under or adjacent to the Site.
+- (f) Supplier shall in connection with performance of the Work:
+- (i) immediately report to Owner any death, injury or damage to property or the environment incurred or caused by any member of Supplier Group;
+- (ii) notify  the  Owner  immediately  after  becoming  aware  of  any  emergency,  contact  by  Supplier Group with regulatory officials or non-compliance by Supplier Group with Applicable Law or Site HSE execution plan;
+- (iii) provide the  Owner with all  information  and  records  requested  by  the  Owner  in  relation to  any emergency, contact  by  Supplier  Group  with  regulatory  officials  or  non-compliance  by  Supplier Group with Applicable Law or Site HSE execution plan;
+- (iv) limit its communication and the communication of Supplier Group with regulatory officials to that required by all Applicable Law;
+- (v) immediately stop Work and notify the Owner in the event the Supplier encounters material on Site  the  Supplier  reasonably  believed  to  be  Hazardous  Substances  which  has  not  been addressed in the Contract; and
+- (v) except  for  immediate  reporting  requirements  to  a  regulatory  official,  allow  Owner  to  either communicate or approve all information, communication or reporting regarding any emergency, contact  by  Supplier  Group  with  regulatory  officials  or  non-compliance  by  Supplier  Group  with Applicable Law or Site HSE execution plan, including but not limited to press releases, publicly available investigation reports and contact with the media.
+- (g) Failure  by  Supplier  to  correct  an  unsafe  condition  or  a  condition  that  is  or  could  cause  an  adverse impact  to  the  environment  after  notice  from  Owner  shall  be  grounds  for  Owner  to  immediately terminate this Contract.
+
+<!-- image -->
+
+- (h) Any member of Supplier Group is in breach of any of the provisions of the Site HSE execution plan, in breach of any Applicable Laws, or does not comply with the instructions of Owner, Owner or Prime Contractor, in their sole discretion, has the right to stop all or parts of the Work being performed at the Site or require Supplier to remove such member of Supplier Group from performance of the Work or have  them  temporarily  or  permanently  excluded  from  the  Site.    Thereafter  without  undue  delay, Contactor shall replace such member of Supplier Group that meets the requirements of this Contract at no extra cost to Owner and the costs and expenses of such stoppage or exclusion (or both) shall be to the sole account of the Supplier.  Owner shall have no liability for suspending the Work or failing to suspend the Work pursuant to this paragraph. Any suspension of the Work pursuant to this paragraph shall not relieve the Supplier of its responsibilities pursuant to this Contract or otherwise.
+
+## 1.10 Matters Affecting the Work
+
+Any  failure  by  the  Supplier  to  discover  matters  which  affect  or  could  affect  the  Work  shall  not  relieve  the Supplier  from  its  obligations  under  the  Contract.    Specifically,  the  Supplier  acknowledges  that  it  has investigated and satisfied itself as to:
+
+- (a) the nature and magnitude of the Work;
+- (b) general character, quality, quantity and availability of equipment and materials required to execute the Work
+- (c) the location of, and all conditions related to, the Site, including accessibility, general character, surface conditions, utilities, roads, uncertainties of seasonal weather and all other physical, topographical and geographical  conditions  that  may  affect  the  Supplier's  performance  of  the  Work,  and  which  are reasonably discoverable by the Supplier applying due diligence;
+- (d) all  environmental  risks,  conditions,  Applicable  Laws  and  restrictions  applicable  to  the  Suppler  or  the Work that might affect the Work; and
+- (e) all conditions affecting labour, including availability, productivity and administrative practices, including those relating to safety, prevailing at or applicable to the Work.
+
+## 11.11  Storage at Site
+
+The Supplier shall not store on the Site any materials, equipment or supplies other than that intended for use in performing the Work and, in which case, such storage shall be in accordance with directions provide by the Owner.
+
+## 11.13  Asbestos
+
+Where asbestos is present at the Site, the Supplier shall not proceed with any Work until:
+
+- (a) asbestos  surveys  and  notifications  have  been  completed  and  provided  to  the  appropriate  regulatory authority agencies by the party responsible to carry out such Work; and
+- (b) the Owner specifically authorizes the Work to proceed.
+
+## 11.14  Clean Up
+
+No waste materials shall be allowed to accumulate in or around the Site and the Supplier shall remove or cause its Subcontractors to remove, debris or waste materials at periodic intervals or as often as the Owner may direct.  The Supplier shall ensure the Site is kept clean and free of debris and waste materials at all times and  shall  remove  or  cause  to  be  removed  all  temporary  structures,  superfluous  and  waste  materials  of whatever kind resulting from the Work prior to completion of the Work.
+
+<!-- image -->
+
+## Exhibit F - Special Conditions for Transportation
+
+Attached to and forming part of Contract No. C1000776
+
+Notwithstanding anything else contained in this Contract, the provisions contained in this Exhibit shall apply if transportation services form part of the Work performed by Supplier.
+
+## 1.0 Insurance
+
+- 1.1 In  addition  carrying  and  maintaining  insurance  covering its  operations  hereunder  in  accordance  with  Article 11.1, the Supplier shall maintain such insurance for a period of two (2) years after termination of this Contract.
+- 1.2 Section 11.1 (a)(iv) shall be deleted in its entirety and replaced with:
+
+'Automobile Public Liability and Property Damage Insurance covering all vehicles, owned, leased, operated or licensed by Supplier Group, with a combined single limit of not less than five million dollars ($5,000,000) for each occurrence involving bodily injury, death or property damage;'
+
+<!-- image -->
+
+## Exhibit G - Quality Assurance and Quality Control Procedures
+
+Attached to and forming part of Contract No. C1000776
+
+As per GDI Exhibit B
+
+<!-- image -->
+
+## Exhibit H - Key Personnel
+
+Attached to and forming part of Contract No. C1000776
+
+Organization Chart for each project based on the scope. Organization chart and size of the indirect organization will be reviewed and approved with Owner prior to execution
+
+<!-- image -->
+
+## Exhibit I- Key Performance Indicators (KPI) and Reporting Requirements
+
+## Attached to and forming part of C1000776
+
+Key Performance Indicators (KPIs)
+
+KPIs will be used to monitor and manage performance with a goal to continually improve performance.  The KPIs have been designed to illustrate the status of performance measures on a given business unit and act as  a  basis  to  drive  business  improvement.    The  individual  scorecards  will  be  used  both  in  dialogue  with business unit stakeholders as well as being the primary tool in the Business Performance Review (BPR) process.  These scorecards and their respective Performance Indicators will be a key enabler in ensuring that delivery and non-conformances are identified, lessons are learned and performance is improved.
+
+Owner reserves the right to modify the KPIs with Supplier agreement as appropriate to ensure that they are fully  aligned with the Owner business drivers.  The relative weightings for the KPIs will be discussed and agreed annually for the Agreement and on a project specific basis for any turnaround or major maintenance event.
+
+The Scorecard will:
+
+- (viii) Have commonly measured KPIs for all worksites and benchmarked against other Supplier client  worksites.    Common  KPIs  to  typically  include  HSSE,  Quality,  Cost,  Continuous Improvement,  Technical  Integrity,  Reliability  of  Facilities,  Environmental  and  Schedule. The  KPIs  provided  below  are  sample  KPIs  and  additional  KPIs  may  be  developed mutually by Owner and Supplier.
+- (ix) Have  specific  Worksite  KPIs,  as  agreed  between  Supplier  and  the  Owner  Primary Representative as applicable for each worksite.  For example, Productivity: Planned hours vs.  Actual  hours  or  Hands  on  Tool  Time  for  routine  maintenance.  Owner  and  Supplier agree that each shall use reasonable efforts to agree on KPIs, which are quantifiable and measurable.
+- (x) Supplier  commits  to  developing  by  the  end  of  first  year  of  the  Contract  and  on  each anniversary  thereafter  a  year  on  year  Continuous  improvement  plan,  which  outlines potential options to achieve a mutually agreed upon amount of annual improvements in terms of productivity, Total Cost of Ownership (TCO), value delivery, quality, etc., which will  be  measured  as  part  of  the  KPI  scorecard.    For  the  first  year  of  the  Contract,  the Continuous Improvement Plan will be based on the mutually agreed Implementation Plan.
+
+Annually Supplier and Owner will jointly define and agree in writing revised KPI targets for the following year of the Term of the Agreement.
+
+Scorecard management and KPI Measurement Process
+
+## (xi) Scorecard Management
+
+- (A) The  scorecard  will  be  managed  and  administered  by  Supplier.    Performance trends  will  be  reviewed  and  performance  scores  will  be  agreed  by  Owner  and Supplier on a TBD basis at the Business Performance Reviews and performance payment will be determined annually.
+- (B) Frequency of scoring for performance on turnarounds and select major maintenance events will be detailed in the specific Purchase Order for the Work.
+
+Dispute Resolution
+
+Productivity
+
+Quality
+
+KPI
+
+First Aids
+
+NWR
+
+<!-- image -->
+
+Near Miss Reports
+
+(xii)
+
+## Sample KPI Score Card
+
+Formula
+
+First Aid Rate
+
+TRCF
+
+HAZOP, HAZID Items
+
+Visits to site by leaders in the SSCP firm
+
+Frequency
+
+Monthly
+
+Rolling 12 Months
+
+Monthly
+
+Monthly
+
+In the event of any disputes regarding Key Performance Indicators, the Parties agree that any disputes that arise during the Term shall be brought to the attention of the Primary Representatives who shall endeavour to resolve such disputes.
+
+Work Order Actual Costs
+
+Number of Scaffolds Erected
+
+Number of Scaffolds Removed
+
+Rolling 12 Months
+
+Monthly
+
+|       |                    | Budget for Scaffolding Quarterly                                   |              |
+|-------|--------------------|--------------------------------------------------------------------|--------------|
+| Hours |                    | Actual costs for Scaffolding Long Term Scaffolds Costs             |              |
+| Hours |                    | Estimated cost of permanent structure                              |              |
+| Hours |                    | Estimated Hours for Month Actual Hours for the Month Monthly       |              |
+| Hours |                    | Approved Costs Savings Overtime Quarterly Monthly                  |              |
+| Hours |                    | Total Hours Worked Number of Hours Missed due to Absenteeism       |              |
+|       | Hands of Tool Time | Total number of hours worked Monthly                               |              |
+|       | Hands of Tool Time | Number of productive hours Total number of hours worked Quarterly  |              |
+|       | Hands of Tool Time | Number of weld failures Total number of Welds Quarterly            | Weld Failure |
+|       |                    | Number of hours for re-work Total number of hours worked Quarterly |              |
+
+<!-- image -->
+
+## Exhibit J - Representatives and Notices
+
+Attached to and forming part of Contract No. C1000776
+
+- (a) The Address for Notices and the Representative of each Party shall be:
+
+Supplier Representative:
+
+Edmonton Exchanger Refinery &amp; Refinery Services Ltd.
+
+5545 89st NW
+
+Edmonton, AB, Can, T6E 5W9
+
+Email:
+
+KSemenjuk@edmontonexchanger.com
+
+Attention:  Kevin Semenjuk
+
+Owner Representative:
+
+NWR Sturgeon Refinery 56212 - RR 220 Sturgeon County, AB, T0A 1N0 Canada
+
+Email:
+
+Mgonkowicz@nwrpartnership.com
+
+Attention:  Mike Gonkowicz
+
+- (b) The Parties may change their  Representative  upon  prior written  notice  to  the  other  Party  in  the  form  of  a Contract amendment.

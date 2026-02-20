@@ -1,0 +1,18 @@
+## 5.0 CHANGES TO THE WORK
+
+## 5.1 Changes
+
+- (a) Supplier  shall  provide  or  perform  only  the  Work  set  forth  in  the  applicable  Purchase  Order  and Change Orders thereto.
+- (b) Supplier shall not proceed with any modification, addition, deletion, alteration, substitution or revision to the Work without prior written authorization of Owner.  Supplier is not entitled to payment for the performance of unauthorized modification, addition, deletion, alteration, substitution or revision to the Work without Owner's prior written approval.  For greater certainty and without limiting the generality of  the  foregoing  in  this  Subsection,  no  charge  for  extras  will  be  allowed  without  prior  written authorization of Owner.
+
+<!-- image -->
+
+- (c) A Change Order will amend the applicable Contract Document and shall take precedence over the original  Contract  Document  to  the  extent  of  any  conflict  or  inconsistency.    Notwithstanding  the foregoing in this Subsection, a Change Order cannot be used to amend the Terms and Conditions.
+
+## 5.2 Issuance of Change Orders
+
+Owner shall  have  the  right  to  make  changes  to  any  Purchase  Order  by  providing  written  notice  of  such requested change to Supplier (a ' Change Request ').    If  Supplier,  acting  reasonably, determines that the change set out in Change Request will impact the price, completion date, delivery date or other aspect of the Work,  Supplier  shall,  within  5  (five)  Business  Days  of  receiving  such  Change  Request,  notify  Owner  in writing with adequate documentation detailing the impact on price, completion date, delivery date or other aspect of the Work.  If Supplier and Owner mutually agree that such a change would have an effect on the Work,  the  amended  particulars  shall  be  set  out  in  a  written  change  order  and  signed  by  both  Parties  (a ' Change  Order ').    In  the  event  that  Owner  and  Supplier  cannot  agree  on  the  effect  that  the  proposed change  may  have  on  the  Work  that  is  subject  to  the  proposed  change,  Owner  may  direct  Supplier  to proceed in accordance with the proposed change, which Supplier shall do.  In the event of a dispute with respect to a change to the Work, Owner shall pay the amount that is not in dispute, in accordance with the terms of this Contract, the Purchase Order shall be completed, as amended by the Change Order, and the disputed  amount  and/or  completion  date  shall  be  resolved  in  accordance  with  the  Dispute  Resolution Procedure.  Notwithstanding any other provision herein, in the event Supplier does not notify Owner within the  aforesaid  5  (five)  Business  Days,  Supplier  shall  be  deemed  to  accept  the  effect  of  the  change  and waives all claims for compensation, schedule relief or impact to the Work in relation thereto.
+
+## 5.3 Comments on Technical Documents
+
+If any Purchase Order requires Owner to review and comment on Supplier's technical documents, Supplier shall submit, within thirty (30) Days from the date of Supplier's receipt of such comments, any request for adjustment  which  would  result  from  implementation  of  Owner's  comments.    No  adjustment  will  be  made hereunder unless confirms the change in a written Change Order.

@@ -1,0 +1,3415 @@
+[
+  {
+    "rule_text": "Any welder who is required to do additional testing by the Employer, shall be paid for weld time of four (4) hours per successful test (excluding the boiler ¼ Down Hand Plate or other single ¼ plate test, will be paid two (2) hours).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "test_type",
+      "test_outcome",
+      "hours_to_pay"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Defines the specific number of paid hours for successful welding tests.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "Those requested to take an abbreviated version of the plate test will be compensated at one and a half (1.5) hours for each successful plate test.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "test_type",
+      "test_outcome",
+      "hours_to_pay"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Defines compensation hours for a specific type of abbreviated test.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "In any event a welder will not be paid for a failed test.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "test_outcome",
+      "payment_eligibility"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Establishes a rule regarding non-payment for unsuccessful attempts.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "If a welder is required to test at the job site, the welder shall be paid for any applicable travel allowance, but not for the failed test.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "test_location",
+      "travel_allowance",
+      "test_outcome"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Primary entitlement here is the travel allowance for on-site testing requirements.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "Should a secondary test be required by the Employer, the employee shall be paid for the time required to take such a test.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "test_type",
+      "hours_worked"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Defines payment for time spent taking required secondary tests.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "Any welder possessing a current Provincial Government welding certificate of qualification, who is instructed to proceed to take tests, necessitating their having to travel outside of the city limits of the city in which they reside or are employed, shall be reimbursed in an amount necessary to compensate them for travel allowance, transportation, travel expenses, subsistence allowance, if applicable.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "travel_distance",
+      "residence_location",
+      "subsistence_type"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Explicitly lists subsistence and travel allowances for testing that requires travel.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "Any welder who successfully completes the welding test, but fails to report for work as notified, without a bona fide reason acceptable to the Employer, will not be eligible for any payment, including testing time and other allowances",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "employment_status",
+      "payment_eligibility"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Conditions the payment of testing time on reporting for work.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "Alloy welders with a valid alloy welding certificate will be paid an additional premium of three dollars and twenty-five cents ($3.25) per hour worked if certification was a requirement for dispatch.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "hourly_premium",
+      "certification_status",
+      "dispatch_requirement"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Establishes a monetary premium per hour worked for specific qualifications.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "If a welder on site who was not dispatched as an alloy welder, but has the certification, or is requested to be certified by the Employer and is requested to perform alloy welding, the employee will be reclassified as an alloy welder and paid the alloy welder premium from the date of re-classification.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "job_classification",
+      "effective_date",
+      "hourly_premium"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Defines when the hourly premium becomes active for on-site reclassification.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "This premium shall not pyramid on an overtime hour; however, it will attract applicable Vacation and Statutory Holiday Pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "premium_calculation",
+      "overtime_rules",
+      "vacation_pay"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt",
+    "reasoning": "Specifies how the premium interacts with overtime multipliers and holiday pay.",
+    "chunk_id": 7,
+    "source_chunk": "Boilermakers Collective-Agreement/07__ARTICLE_700_-WELDING_TESTS.txt"
+  },
+  {
+    "rule_text": "The normal hours of work shall be between the hours of 7:00 a.m. and 6:00 p.m. for an eight (8) hour day with one-half (½) or one (1) hour for lunch at the midpoint of the shift. Forty (40) hours shall constitute a normal week's work, Monday through Friday inclusive.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "normal_hours_start",
+      "normal_hours_end",
+      "daily_hours",
+      "weekly_hours",
+      "work_days"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Defines the standard billable hours, shift window, and work week structure.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "If the foregoing starting or quitting times are changed without mutual agreement, applicable overtime rates shall be paid for any time worked before or after the above hours as a result of the change of times.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "start_time_change",
+      "quit_time_change",
+      "mutual_agreement",
+      "overtime_rates"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Establishes an overtime trigger for schedule changes made without union agreement.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "Work performed on a make-up day shall be paid at the regular straight time rate for the first ten (10) hours to a maximum of forty (40) hours per week, after which double time (2X) rates shall apply.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "make_up_day",
+      "daily_hours",
+      "weekly_hours",
+      "straight_time_rate",
+      "double_time_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Specifies billing rates (straight time vs double time) for weather make-up days based on daily and weekly thresholds.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "Where a holiday occurs during the normal work week the maximum of thirty (30) hours per week shall form the basis of maximum straight time rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_in_week",
+      "weekly_hours_cap",
+      "straight_time_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Adjusts the weekly straight-time cap for billing when a holiday occurs during the week.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "Work performed on Saturday, Sunday, or Recognized Holidays shall be paid at the applicable overtime premium.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "day_of_week",
+      "recognized_holiday",
+      "overtime_premium"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Defines mandatory overtime billing for work on weekends and holidays.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "If this break falls outside the regular lunch break established on the job, they shall receive an additional allowance of one-half (½) hour of pay at straight time rates which shall be in addition to their regular straight time hours.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "lunch_break_timing",
+      "penalty_pay",
+      "straight_time_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Creates a financial penalty (allowance) paid to the employee for disrupted or rescheduled meal breaks.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "If overtime is to follow the regular eight (8) hour work shift, a further ten (10) minute rest or coffee break shall be established before commencing overtime.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_shift",
+      "paid_break_duration"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Mandates a paid break entitlement specifically triggered by overtime work.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "When working ten (10) hour shifts, in lieu of the work breaks and lunch breaks provided herein, the Employer shall have the option of scheduling two (2) breaks of one-half (½) hour each, both paid at the applicable rate",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_MEAL_ALLOWANCE",
+    "context_variables": [
+      "shift_length",
+      "paid_break_duration",
+      "applicable_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt",
+    "reasoning": "Provides a billing rule for 10-hour shifts where lunch/breaks are combined into paid time.",
+    "chunk_id": 11,
+    "source_chunk": "Boilermakers Collective-Agreement/11__ARTICLE_1100_-HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "For the purpose of clarification and to define Saturday and Sunday work, the work shall be deemed to commence at the starting time of the regular day shift on Monday morning.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "work_week_start",
+      "day_shift_start"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Defines the start of the work week for calculating weekend work.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "Shifts may be commenced on any calendar day provided the appropriate requirements for shift premium and overtime as specified in this Agreement are met.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_start_day",
+      "shift_premium_eligibility",
+      "overtime_requirements"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Allows flexibility in shift start days contingent on meeting premium and overtime rules.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "the 1st shift shall be the day shift which commences at 7:00 a.m. This starting time may be varied by mutual agreement to suit job requirements.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_number",
+      "start_time",
+      "mutual_agreement"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Defines the standard start time for the first shift and allowance for variation.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "The second (2 nd ) shift shall be the afternoon shift and shall follow the first (1 st ) shift. The third (3 rd ) shift shall be the night shift and shall follow the second (2 nd ) shift.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_number",
+      "shift_sequence"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Defines the sequence and classification of second and third shifts.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "Second (2 nd ) and third (3 rd ) shifts shall commence not later than one (1) hour after the completion of the preceding shift, except where this is prevented by conditions or requirements beyond the control of the Employer.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_gap",
+      "shift_number",
+      "preceding_shift_end"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Sets the maximum allowable time gap between consecutive shifts.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "A shift premium shall apply on all hours worked on second (2 nd ) and third (3 rd ) shifts at the rates as set out in the Wage and Benefit Schedule.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_premium",
+      "shift_number",
+      "hours_worked"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Establishes entitlement to shift premiums for 2nd and 3rd shifts.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "All shift premium hours will be paid at a rate of four dollars and fifty cents ($4.50) per hour.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_premium_rate",
+      "hours_worked"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Specifies the exact monetary rate for the shift premium.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "When an employee is required to return to work without an eight (8) hour break, all work performed shall be paid for at the applicable overtime rates, until such time as the employee receives an eight (8) hour break.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "break_duration",
+      "overtime_trigger",
+      "return_to_work"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt",
+    "reasoning": "Mandates overtime pay when the required 8-hour rest break is not provided.",
+    "chunk_id": 12,
+    "source_chunk": "Boilermakers Collective-Agreement/12__ARTICLE_1200_-SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "When an employee is required to work in excess of the regular hours, Monday through Friday inclusive, they shall be paid overtime at the rate of time and one- half (1 ½) the regular rate of pay. Double (2) time will be paid after ten (10) hours worked.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "regular_hours",
+      "hours_worked",
+      "day_of_week"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Establishes the standard overtime rate multiplier for weekdays (1.5x initially, 2x after 10 hours).",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "Employees working on a Saturday, Sunday, and Recognized Holidays shall be paid an overtime rate at double (2) time the regular rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "day_of_week",
+      "is_holiday"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Establishes the double-time entitlement for all weekend and holiday work.",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "Employees working overtime shall continue to receive their shift premium for all hours worked. The shift premium shall not be compounded for overtime hours worked.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "hours_worked",
+      "shift_premium_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Clarifies how shift premiums interact with overtime hours (paid but not multiplied).",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "When an employee works beyond ten (10) hours per day, they shall be entitled to a meal break and meal supplied by the Company. The meal break will be provided after ten (10) hours of work and subsequent meal breaks each four (4) hours thereafter.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "daily_hours",
+      "meal_provided"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Defines the specific trigger (>10 hours) for a provided meal and break.",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "All overtime meal breaks will be thirty (30) minutes in duration and will be paid for at straight time rates.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "break_duration",
+      "pay_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Specifies the billing treatment (paid straight time) and duration of the meal break.",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "When an employee works Short Notice Emergency Call-Out Overtime (overtime work performed other than continuous with the regular work day or Scheduled Overtime) they shall be entitled to a meal break when overtime work exceeds four (4) hours.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "overtime_type",
+      "hours_worked"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Establishes a different threshold (4 hours) for meal breaks during emergency call-outs compared to standard shifts.",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "Scheduled Overtime... I) a payment of thirty (30) minutes at the straight-time total package hourly rate in lieu of the meal break, and II) a fifteen (15) minute rest break at the applicable rate of pay.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_type",
+      "is_meal_provided"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Defines compensation when a physical meal is not provided during scheduled overtime (cash in lieu + break).",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "Unscheduled Overtime... I) a payment of forty dollars ($40.00) as a meal allowance. II) a payment of thirty (30) minutes at the straight-time total package hourly rate in the lieu of meal break, and III) a fifteen (15) minute rest break at the applicable rate of pay.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_type",
+      "is_meal_provided"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Defines the higher compensation ($40 + time) for unscheduled overtime when a meal is not provided.",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "There shall be no meal allowance applicable to those receiving subsistence... Where a camp is provided, employees will not receive the forty dollars ($40.00) meal allowance where they are able to receive a camp meal at the end of their shift.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": "LABOR_MEAL_ALLOWANCE",
+    "context_variables": [
+      "subsistence_status",
+      "camp_provided"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Excludes employees on subsistence or in camp from receiving the $40 meal allowance.",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "Employees will be on site a total of twelve (12) hours and paid for twelve (12) hours for all work days including overtime days... There are to be three (3) half hour paid breaks.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_schedule",
+      "paid_hours"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Specific rule for 12-hour shift option where breaks are fully paid, differing from standard unpaid lunch rules.",
+    "chunk_id": 13,
+    "source_chunk": "Boilermakers Collective-Agreement/13__ARTICLE_1300_-OVERTIMEOVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "The pay allowance as provided for in the appropriate Appendix shall be included in the employees' weekly pay. This pay allowance shall be in lieu of actual pay for any of the Recognized Holidays as specified herein.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "pay_allowance",
+      "weekly_pay",
+      "holiday_pay"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "reasoning": "Establishes that holiday pay is an allowance percentage added to weekly pay rather than payment for the day off.",
+    "chunk_id": 14,
+    "source_chunk": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "This pay allowance shall be applied to gross wages for all hours earned including: overtime and shift premium; and also to waiting and reporting time per Article 15.00; daily travel allowance per Article 16.01.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "gross_wages",
+      "overtime",
+      "shift_premium",
+      "waiting_time",
+      "reporting_time",
+      "daily_travel_allowance"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "reasoning": "Defines the base calculation for holiday pay allowance, explicitly including overtime, premiums, and travel allowance.",
+    "chunk_id": 14,
+    "source_chunk": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "Employees working on a Recognized Holiday shall be paid an overtime rate at double (2) time the regular rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "recognized_holiday",
+      "overtime_rate",
+      "double_time"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "reasoning": "Sets the specific billing rate (2.0x) for work performed on a recognized holiday.",
+    "chunk_id": 14,
+    "source_chunk": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "Should any of the above listed holidays (Article 14.02) occur on a Saturday or Sunday, such holiday shall be observed on the preceding Friday or on the following Monday unless changed by mutual agreement",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_observance",
+      "weekend_holiday"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "reasoning": "Determines the observed billing day when a holiday falls on a weekend.",
+    "chunk_id": 14,
+    "source_chunk": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "When the four (4) ten (10) hour day option is being worked and a Holiday falls during the normal work week the maximum of thirty (30) hours per week shall form the basis of maximum straight time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_4x10",
+      "weekly_straight_time_max",
+      "holiday_in_week"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "reasoning": "Adjusts the weekly straight time threshold (lowering to 30 hours) when a holiday occurs in a 4x10 schedule week.",
+    "chunk_id": 14,
+    "source_chunk": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "When working the four (4) x ten (10) hour work week Monday to Thursday and the recognized holiday falls on the Friday it will be moved to the preceding Thursday. Thursday is the double time day and Friday is the time and one-half day.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_4x10_Mon_Thu",
+      "holiday_observance",
+      "double_time",
+      "time_and_one_half"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "reasoning": "Specific logic for Monday-Thursday 4x10 shifts where a Friday holiday alters the Thursday billing rate to Double Time.",
+    "chunk_id": 14,
+    "source_chunk": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "When working the four (4) x ten (10) hour work week Tuesday to Friday and the holiday falls on the Monday it is observed on the Tuesday.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_4x10_Tue_Fri",
+      "holiday_observance"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt",
+    "reasoning": "Specific logic for Tuesday-Friday 4x10 shifts when a holiday falls on a Monday.",
+    "chunk_id": 14,
+    "source_chunk": "Boilermakers Collective-Agreement/14__ARTICLE_1400_-RECOGNIZED_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "When an employee, on initial hire or transfer to a project, is instructed by the Employer to report to a job location on a certain day but is not placed to work until a later date, they shall be entitled to two (2) hours pay, plus subsistence if applicable, for each of the first two (2) regular working days they are kept waiting.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "initial_hire_transfer",
+      "days_waiting",
+      "subsistence_eligibility"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Establishes a specific pay entitlement (waiting time) for the first two days of delay upon initial hire or transfer.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "Thereafter the waiting pay shall be increased to a full day of pay (i.e. eight (8) hours) for each regular working day.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "days_waiting",
+      "regular_working_day"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Establishes the pay entitlement for waiting time exceeding the first two days.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "When an employee reports to work and cannot work because of inclement weather they shall be paid two (2) hours reporting time and the employee must remain on the job for the two (2) hour period, unless otherwise instructed by the Employer's supervisor.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "reporting_reason",
+      "inclement_weather",
+      "standby_requirement"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Defines reporting pay specifically for inclement weather scenarios.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "When an employee reports to work and is not given the opportunity to work because none is available or was not advised before the completion of the previous day of work, they shall be paid two (2) hours of reporting time and allowed to leave the job immediately.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "work_availability",
+      "prior_notice",
+      "reporting_pay"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Defines reporting pay when work is unavailable without prior notice.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "When an employee has started to work on their regular shift and is instructed to stop, they shall be paid for the actual time worked. In no case shall the employee receive less than two (2) hours of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "actual_hours_worked",
+      "minimum_pay_guarantee"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Sets a minimum billing guarantee of 2 hours once work has commenced.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "An employee who is affected by the Conditions set out above shall be entitled to subsistence in accordance with the provisions of this Agreement.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "reporting_waiting_status",
+      "subsistence_eligibility"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Clarifies that receiving reporting/waiting pay does not negate eligibility for subsistence allowance.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "When an employee qualifies for reporting or waiting time, such time shall include the regular shift premium when applicable.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_premium",
+      "reporting_pay",
+      "waiting_pay"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Ensures shift premiums are applied to reporting or waiting time calculations.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "When an employee is notified eight (8) hours prior to the commencement of the scheduled starting time not to report for work, then such employee will not be entitled to any reporting time. On camp jobs, the notice time may be reduced to one (1) hour prior to starting time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "notification_lead_time",
+      "job_location_type"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Defines the conditions (notice period) under which the employer is exempt from paying reporting time.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "If it is not a lost time accident covered by Workers' Compensation, they shall also be paid for the remaining unworked normal daily hours for that day (e.g. eight (8) hours, or in case of a compressed work day ten (10) hours) at the applicable rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "injury_status",
+      "workers_compensation_status",
+      "unworked_hours"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Guarantees full day pay for employees injured on the job but not on a WCB lost-time claim.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "Should an employee residing in camp accommodation be requested by the Employer or the Clients' designated camp management personnel to move to another room or camp... the employee shall be paid two (2) hours at the applicable straight time rate to carry out the move, if done outside work hours.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "camp_move",
+      "move_timing",
+      "pay_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt",
+    "reasoning": "Provides a specific flat-rate payment for camp room moves conducted outside of working hours.",
+    "chunk_id": 15,
+    "source_chunk": "Boilermakers Collective-Agreement/15__ARTICLE_1500_-WAITING_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "Should the Employer fail to comply with this provision (excluding the reference to the Record of Employment), the employee shall receive an additional sum equivalent to eight (8) hours of pay at straight time rates for each day they are kept waiting exclusive of Saturday, Sunday and Statutory Holidays up to a maximum of forty (40) hours of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "waiting_days",
+      "termination_type",
+      "straight_time_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "reasoning": "Defines a waiting time penalty calculated as hours multiplied by the straight time rate for late payments upon layoff or discharge.",
+    "chunk_id": 18,
+    "source_chunk": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt"
+  },
+  {
+    "rule_text": "If the Employer fails to comply with this requirement within five (5) working days after the specified pay day, the employee shall receive an additional sum equivalent to eight (8) hours of pay at straight time rates.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "voluntary_quit",
+      "waiting_days",
+      "straight_time_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "reasoning": "Defines a waiting time penalty calculated as hours multiplied by the straight time rate for late payments when an employee quits.",
+    "chunk_id": 18,
+    "source_chunk": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt"
+  },
+  {
+    "rule_text": "Should this payment not be made within the allotted ten (10) days, the Employer will pay one hundred dollars ($100.00) per day the employee is kept waiting from the date the notification of shortage was received in writing by the Employer to a maximum of seven hundred dollars ($700.00).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "pay_shortage",
+      "waiting_days",
+      "notification_date"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "reasoning": "Defines a monetary penalty for time spent waiting for a pay shortage adjustment (categorized under Worked Time as it compensates for waiting duration).",
+    "chunk_id": 18,
+    "source_chunk": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt"
+  },
+  {
+    "rule_text": "For those employees with more than three (3) years of continuous service with one (1) Employer, the employee will be entitled to bereavement pay benefits of eight (8) hours multiplied by the employees' base wage rate for up to three (3) days of lost work incurred as a results of the employee's attendance at a funeral or memorial service upon the dea th of an employee's Spouse, Child, Parent, Parent -in-Law, Grandparent or Sibling.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "years_of_service",
+      "bereavement_leave",
+      "base_wage_rate",
+      "relationship_type"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "reasoning": "Defines entitlement to payment for lost work hours due to bereavement leave.",
+    "chunk_id": 18,
+    "source_chunk": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt"
+  },
+  {
+    "rule_text": "Bereavement Pay Benefits shall be paid at the straight time rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "bereavement_leave",
+      "straight_time_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "reasoning": "Specifies the rate multiplier (straight time) for bereavement pay hours.",
+    "chunk_id": 18,
+    "source_chunk": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt"
+  },
+  {
+    "rule_text": "January 1, 2026, continuous employment transitions to thirty (30) months.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "effective_date",
+      "years_of_service",
+      "bereavement_leave"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "reasoning": "Modifies the service requirement eligibility for bereavement pay (paid time off) effective in 2026.",
+    "chunk_id": 18,
+    "source_chunk": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt"
+  },
+  {
+    "rule_text": "January 1, 2027, continuous employment transitions to twenty-four (24) months.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "effective_date",
+      "years_of_service",
+      "bereavement_leave"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt",
+    "reasoning": "Modifies the service requirement eligibility for bereavement pay (paid time off) effective in 2027.",
+    "chunk_id": 18,
+    "source_chunk": "Boilermakers Collective-Agreement/18__ARTICLE_1800_-PAY_DAY.txt"
+  },
+  {
+    "rule_text": "When an employee reports to work and cannot work because of inclement weather they shall be paid two (2) hours reporting time",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "weather_conditions",
+      "reporting_time",
+      "show_up_pay"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt",
+    "reasoning": "Defines show-up/reporting pay entitlement specifically for inclement weather events",
+    "chunk_id": 26,
+    "source_chunk": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt"
+  },
+  {
+    "rule_text": "When an employee has commenced work and is instructed to stop due to inclement weather, they shall be paid for the actual time worked. In no case shall an employee receive less than two (2) hours pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "weather_conditions",
+      "actual_hours_worked",
+      "minimum_hours"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt",
+    "reasoning": "Establishes payment for actual time worked during weather stoppages, subject to a minimum guarantee",
+    "chunk_id": 26,
+    "source_chunk": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt"
+  },
+  {
+    "rule_text": "When an employee reports to work and is not given the opportunity to work because none is available or was not advised before the completion of the previous day's work, they shall be paid two (2) hours reporting time",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "work_availability",
+      "notice_given",
+      "reporting_time"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt",
+    "reasoning": "Defines show-up/reporting pay entitlement when work is unavailable without prior notice",
+    "chunk_id": 26,
+    "source_chunk": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt"
+  },
+  {
+    "rule_text": "When an employee has started to work on their regular shift and is instructed to stop, they shall be paid for the actual time worked. In no case shall the employee receive less than two (2) hours pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "actual_hours_worked",
+      "minimum_hours",
+      "stopped_work_instruction"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt",
+    "reasoning": "Establishes payment for actual time worked when stopped by employer (non-weather), subject to a minimum guarantee",
+    "chunk_id": 26,
+    "source_chunk": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt"
+  },
+  {
+    "rule_text": "If an employee stops work for reasons of their own, and without the approval of the Employer, they shall be entitled to pay only for the hours actually worked in the day and minimum conditions shall not apply.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "voluntary_stop",
+      "actual_hours_worked",
+      "minimum_hours_exception"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt",
+    "reasoning": "Defines an exception to minimum hour guarantees when an employee leaves voluntarily",
+    "chunk_id": 26,
+    "source_chunk": "Boilermakers Collective-Agreement/26_Tank_Work_Employers_Letter_Referred_to_In_Article_2100.txt"
+  },
+  {
+    "rule_text": "The following information must appear on all receipts: 1. Date",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "receipt_date",
+      "reimbursement_requirements"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "reasoning": "Mandates that the date must be present on all receipts for subsistence reimbursement.",
+    "chunk_id": 27,
+    "source_chunk": "Boilermakers Collective-Agreement/27__LETTER_2.txt"
+  },
+  {
+    "rule_text": "2. Name of Establishment and Name of Contact Person if appropriate (see examples below) ABC Motel -Company letterhead receipt -Name of Contact Person not required B & B or Relative (non-registered) -Name of Contact Person required",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "establishment_name",
+      "contact_person",
+      "accommodation_type",
+      "registered_status"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "reasoning": "Mandates establishment name on receipts; specifies logic for when a Contact Person name is required (non-registered vs company letterhead).",
+    "chunk_id": 27,
+    "source_chunk": "Boilermakers Collective-Agreement/27__LETTER_2.txt"
+  },
+  {
+    "rule_text": "3. Complete Address and Phone Number of the Establishment",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "establishment_address",
+      "establishment_phone"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "reasoning": "Mandates complete address and phone number must appear on subsistence receipts.",
+    "chunk_id": 27,
+    "source_chunk": "Boilermakers Collective-Agreement/27__LETTER_2.txt"
+  },
+  {
+    "rule_text": "4. Employee's Full Name",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "employee_name"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "reasoning": "Mandates the employee's full name must appear on subsistence receipts.",
+    "chunk_id": 27,
+    "source_chunk": "Boilermakers Collective-Agreement/27__LETTER_2.txt"
+  },
+  {
+    "rule_text": "5. Reason/Description of Cost (including dates)",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "cost_description",
+      "dates_covered"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "reasoning": "Mandates a description of the cost and relevant dates must appear on subsistence receipts.",
+    "chunk_id": 27,
+    "source_chunk": "Boilermakers Collective-Agreement/27__LETTER_2.txt"
+  },
+  {
+    "rule_text": "6. Total Cost",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "total_cost"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "reasoning": "Mandates the total cost must be clearly stated on subsistence receipts.",
+    "chunk_id": 27,
+    "source_chunk": "Boilermakers Collective-Agreement/27__LETTER_2.txt"
+  },
+  {
+    "rule_text": "A receipt without complete or required information will not be considered.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "receipt_validity",
+      "reimbursement_approval"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/27__LETTER_2.txt",
+    "reasoning": "Establishes the consequence (non-consideration) for receipts failing to meet the specified criteria.",
+    "chunk_id": 27,
+    "source_chunk": "Boilermakers Collective-Agreement/27__LETTER_2.txt"
+  },
+  {
+    "rule_text": "The parties to this Agreement agree that the maximum of nine (9) hours shall constitute a normal days work beginning at 7:30 a.m. and ending at 5:00 p.m. (excluding a one-half hour (1/2) lunch break) may be utilized if restricted to Long Term Base Crew employees.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_MEAL_ALLOWANCE",
+    "context_variables": [
+      "normal_hours",
+      "schedule_start",
+      "schedule_end",
+      "lunch_break_duration",
+      "employee_type"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Defines the standard work day hours and unbilled lunch break for Long Term Base Crew.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "It is understood that when an employee is hired with the intentions of an employment term of more than a six (6) week period, that employee will be automatically on the aforementioned Compressed Work Week arrangements and be considered as a Long Term Base Crew employee.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "employment_term",
+      "schedule_type",
+      "employee_classification"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Defines the specific criteria (employment duration) for assigning the Compressed Work Week schedule.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "It is understood that when employees are hired with the intentions of short-term employment (defined as less than six (6) weeks from the date of hire) that they will be paid time and one-half (1 1/2) for the ninth (9th) hour.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "employment_term",
+      "overtime_rate",
+      "hours_worked",
+      "daily_threshold"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Establishes a specific overtime trigger (9th hour) and rate for short-term employees.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "Overtime payments for work on the scheduled eighteen (18) days off will be at time and one half (1 ½) for the first twelve (12) hours and double-time (2) paid thereafter.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "day_type",
+      "overtime_rate",
+      "hours_worked",
+      "daily_threshold"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Specifies overtime rates for working on scheduled Earned Days Off (EDOs).",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "Double-time (2) will be paid for all hours worked on Sundays and Statutory Holidays.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "day_type",
+      "overtime_rate"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Establishes the premium rate for Sundays and Holidays.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "If an employee is asked to work their scheduled flex day off without being given forty- eight (48) hours notice, then the employee will be paid overtime at time and one half (1 ½) for up to twelve (12) hours except on Sundays and Statutory Holidays where double-time (2) will be paid for all hours worked.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "notice_period",
+      "day_type",
+      "overtime_rate",
+      "hours_worked"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Defines penalty overtime rates when insufficient notice is given for working on a flex day.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "If a long term employee is terminated without having a flex EDO within the previous six (6) weeks, then an adjustment will be made to pay any regular hours worked in excess of two hundred and forty (240) hours over the previous six (6) weeks at the applicable overtime rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "termination_status",
+      "lookback_period",
+      "hours_threshold",
+      "adjustment_payment"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Specifies a retroactive pay adjustment for missed flex days upon termination.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "During a period of Plant Shutdown, all employees hired with the intentions of short- term employment shall be paid based on five (5) eight (8) hour days Monday to Friday or four (4) ten (10) hour days Monday to Thursday and or Tuesday to Friday.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_phase",
+      "employee_type",
+      "schedule_type",
+      "work_days"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Defines the specific work schedule options for short-term employees during Plant Shutdowns.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "Those hired for the Plant Shutdown will continue to receive compensation under the terms of short term employment until the conclusion of the work even if they are on site longer than six (6) weeks.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_phase",
+      "employment_duration",
+      "compensation_terms"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt",
+    "reasoning": "Creates an exception to the 6-week rule for classification transition specifically for Shutdown hires.",
+    "chunk_id": 34,
+    "source_chunk": "Boilermakers Collective-Agreement/34__APPENDIX_A.txt"
+  },
+  {
+    "rule_text": "The regular work week will consist of four (4) nine (9) hour straight time days Monday to Thursday and one (1) eight (8) hour straight time day on Friday in the first week.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "9/80_schedule",
+      "week_1",
+      "regular_hours"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Defines the standard working hours and structure for the first week of the 9/80 schedule.",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "The regular work week will consist of four (4) nine (9) hour straight time days Monday to Thursday in the second week. Friday is a day off.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "9/80_schedule",
+      "week_2",
+      "regular_hours",
+      "day_off"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Defines the standard working hours and structure for the second week of the 9/80 schedule.",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "Week 1 Time and one half (1 ½) will be paid for the first three (3) hours worked before or after the regular nine (9) hour days.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "9/80_schedule",
+      "week_1",
+      "overtime_rate",
+      "Monday_to_Thursday"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Specifies the overtime rate and cap for Monday through Thursday in the first week.",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "Time and one half (1 ½) will be paid for the first (4) hours worked before or after the regular eight (8) hour days.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "9/80_schedule",
+      "week_1",
+      "overtime_rate",
+      "Friday"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Specifies the overtime rate and cap for the Friday in the first week.",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "Week 2 Time and one half (1 ½) will be paid for the first three (3) hours worked before or after the regular nine (9) hour days. Double-time will be paid thereafter.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "9/80_schedule",
+      "week_2",
+      "overtime_rate",
+      "double_time_trigger"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Specifies the overtime rate, cap, and subsequent double-time trigger for Monday through Thursday in the second week.",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "Time and one half (1 ½) will be paid for the first twelve (12) hours worked on the earned Friday off. Double-time will be paid thereafter.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "9/80_schedule",
+      "earned_day_off",
+      "overtime_rate",
+      "double_time_trigger"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Defines compensation rates for working on the scheduled day off (Friday of Week 2).",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "Double-time will be paid on Sundays and Statutory Holidays for all hours worked",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "Sunday",
+      "Statutory_Holiday",
+      "double_time"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Establishes the premium pay rate for Sundays and Holidays.",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "It is understood that those required to work more than ten (10) hours on this shift are entitled to an overtime meal and break pursuant to the overtime meal articles in the agreement.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "hours_worked",
+      "meal_break_threshold"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt",
+    "reasoning": "Defines the threshold (10 hours) that triggers a meal allowance and break entitlement on this specific schedule.",
+    "chunk_id": 35,
+    "source_chunk": "Boilermakers Collective-Agreement/35__APPENDIX_B.txt"
+  },
+  {
+    "rule_text": "Those employees working long-term maintenance at the Imperial Oil Strathcona site will work eight and sixth tenths (8.6) hours at straight time Monday to Friday.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_type",
+      "hours_per_day",
+      "days_per_week",
+      "location"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt",
+    "reasoning": "Defines the standard straight-time work week hours for a specific site.",
+    "chunk_id": 36,
+    "source_chunk": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt"
+  },
+  {
+    "rule_text": "The extra six tenths of an hour (.6) hour worked each Monday to Friday is designed to compensate the employee for the sixteen (16) scheduled EDO's.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_type",
+      "earned_days_off",
+      "hours_accrual"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt",
+    "reasoning": "Establishes the accrual mechanism for Earned Days Off (EDOs) based on daily hours worked.",
+    "chunk_id": 36,
+    "source_chunk": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt"
+  },
+  {
+    "rule_text": "All additional hours after the eight and sixth tenths (8.6) will be performed at the regular overtime provisions as indicated in the Maintenance Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_threshold",
+      "daily_hours"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt",
+    "reasoning": "Sets the daily overtime threshold for this specific schedule.",
+    "chunk_id": 36,
+    "source_chunk": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt"
+  },
+  {
+    "rule_text": "It is understood that those required to work more than ten (10) hours on this shift are entitled to an overtime meal break at the ten hour mark (10) pursuant to the overtime meal articles in this agreement.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "meal_break_trigger",
+      "hours_worked"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt",
+    "reasoning": "Defines the eligibility trigger for a meal break based on hours worked in a shift.",
+    "chunk_id": 36,
+    "source_chunk": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt"
+  },
+  {
+    "rule_text": "Overtime payments for work on the sixteen (16) scheduled EDO's will be paid at double (2x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "schedule_type",
+      "earned_days_off"
+    ],
+    "doc_reference": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt",
+    "reasoning": "Specifies the overtime rate multiplier for work performed on scheduled Earned Days Off.",
+    "chunk_id": 36,
+    "source_chunk": "Boilermakers Collective-Agreement/36__APPENDIX_C.txt"
+  },
+  {
+    "rule_text": "The following days will constitute the recognized holidays within the terms of this Agreement. Any other holiday proclaimed by either the Provincial or Federal Government will be automatically recognized within this Agreement.\n1. New Years Day\n2. Family Day\n3. Good Friday\n4. Victoria Day\n5. Canada Day\n6. Civic Holiday\n7. Labour Day\n8. National Day for Truth & Reconciliation\n9. Thanksgiving Day\n10. Remembrance Day\n11. Christmas Day\n12. Boxing Day",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_date"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Defines the specific days recognized as Statutory Holidays under the agreement.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "Each of the recognized holidays listed in Article 12.100 shall be observed on the calendar day on which it occurs.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_observance"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Establishes the default rule for when holidays are observed (calendar day).",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "When any of these three identified holidays: Family Day, Victoria Day, Labour Day fall outside of the regularly scheduled work week, they will be moved into the work week for observance.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_observance",
+      "work_week_schedule"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Specifies exception handling for observing Family Day, Victoria Day, and Labour Day when they fall on non-working days.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "On the day of observance, the Company may either pay the workforce at double-time (2) the total package straight time hourly rate or provide the day off.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "holiday_pay"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Defines the compensation rate (double-time) or entitlement (day off) for the observed holiday.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "On maintenance, the overriding factor is harmonizing statutory holidays with in-plant workers. Should the Owner determine another day be recognized for its people, this day will be recognized by Company forces.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_observance",
+      "work_type"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Mandates harmonization of holiday observance with client/in-plant workers for maintenance work.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "In order for the harmonization principle to be applicable, the Contractor must notify the GPMC in advance of the pending movement of the Holiday along with the designated day for observance. The designated day to for observance must be applicable to all contractors and all trades across the entire facility.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "notification_requirement",
+      "holiday_observance"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Sets conditions (notification and facility-wide applicability) required to trigger the harmonization of holiday observance.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "Employers will post the date to be observed no later than seven (7) days prior to the holiday.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "notification_deadline"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Establishes a deadline for posting the holiday observance date.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "In the absence of meeting the above and providing proper notification, the holiday will be observed in accordance with the provisions outlined in Article 12.000.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_observance"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt",
+    "reasoning": "Defines the fallback procedure for holiday observance if harmonization requirements are not met.",
+    "chunk_id": 49,
+    "source_chunk": "NMA-Alberta-Province_new/11__ARTICLE_11000_STATUTORY_HOLIDAYS.txt"
+  },
+  {
+    "rule_text": "When an employee reports for work, unless previously advised there is no work available, they shall be entitled to two (2) hours pay at the appropriate day or shift rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "reporting_status",
+      "notification_status",
+      "shift_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt",
+    "reasoning": "Establishes the minimum 'show-up' pay entitlement for reporting to work without prior cancellation notice.",
+    "chunk_id": 50,
+    "source_chunk": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "Should the employee start work or be required to wait at the jobsite, they shall be paid for hours worked or actual waiting time past the two (2) hours minimum.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "hours_worked",
+      "waiting_time",
+      "minimum_pay_threshold"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt",
+    "reasoning": "Defines the calculation for payment when actual work or waiting time exceeds the initial reporting minimum.",
+    "chunk_id": 50,
+    "source_chunk": "NMA-Alberta-Province_new/12__ARTICLE_12000_MINIMUM_PAY_AND_REPORTING_TIME.txt"
+  },
+  {
+    "rule_text": "As an option, ten (10) hours per day, Monday to Thursday or Tuesday to Friday may be worked at straight time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_type",
+      "days_worked",
+      "hours_per_day"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Defines the 4x10 work schedule option at straight time rates.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "Employees working any shift that is outside of daywork conditions, shall receive a shift premium of four dollars and fifty cents ($4.50) per hour worked.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_type",
+      "shift_premium"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Establishes the hourly premium rate for afternoon or night shifts.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "If eight (8) hours notice is not provided then all regular hours worked on the first shift on the new schedule will be paid at time and one-half the straight time total package rate (1-1/2).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "notice_period",
+      "shift_change",
+      "penalty_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Defines the penalty rate for insufficient notice regarding shift changes.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "When an employee works beyond ten (10) hours per day they shall be entitled to a meal break and a meal supplied by the Company.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "hours_worked",
+      "meal_entitlement"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Establishes the trigger condition (10+ hours) for a provided meal and break.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "All overtime meal breaks will be thirty (30) minutes in duration and will be paid for at straight time rates.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "break_duration",
+      "pay_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Specifies the duration and pay rate for overtime meal breaks.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "When such events occur [Unscheduled Overtime], the Company shall provide the employees: ... 1) a payment of forty dollars ($40.00) as a meal allowance. ... 2) a payment of thirty (30) minutes at the straight time total package hourly rate in lieu of the meal break: and ... 3) a fifteen (15) minute rest break at the applicable rate of pay",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_type",
+      "meal_allowance_amount",
+      "pay_in_lieu"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Defines the compensation (cash, pay in lieu, and rest break) when a meal cannot be provided during unscheduled overtime.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "There shall be no meal allowance applicable to those receiving subsistence, however any reduction to the current subsistence rates will attract a meal allowance payment equivalent to the reduction.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": "LABOR_MEAL_ALLOWANCE",
+    "context_variables": [
+      "subsistence_status",
+      "meal_allowance_eligibility"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Clarifies that subsistence allowance generally replaces meal allowance entitlements.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "Employees called out between regular shifts will be entitled to a minimum of two (2) hours pay at double (2x) the straight time total package hourly rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "call_out",
+      "minimum_pay",
+      "pay_multiplier"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Sets the minimum pay and rate for call-outs between shifts.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "the employee must have eight (8) continuous hours off between regular shifts or they will be paid overtime rates for all hours worked in excess of the first eight (8) until such times as they have eight (8) continuous hours off.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "rest_period",
+      "overtime_penalty"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Mandates an 8-hour rest period or penalty overtime rates apply until the break is taken.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "5 x 8 Monday to Friday: 8 hours @ straight time, 2 hours at time and one half (1 ½), 2 hours at doubletime (2x)",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_schedule",
+      "pay_structure",
+      "overtime_tiers"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt",
+    "reasoning": "Specific pay structure for a 12-hour shift implemented on a 5x8 schedule basis.",
+    "chunk_id": 53,
+    "source_chunk": "NMA-Alberta-Province_new/15__ARTICLE_15000_WORK_HOURS_PER_DAY_OVERTIME_AND_OVERTIME_MEAL_BREAKS.txt"
+  },
+  {
+    "rule_text": "The Employer shall pay an allowance for completing the course(s) equal to that time estimate, to a maximum of eight (8) hours, at the straight time total package hourly rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "online_orientation_time",
+      "straight_time_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Establishes payment for time spent on Employer required online orientation.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "Employees will be compensated for the prescribed amount of time, at the straight time total package hourly rate, for completing any Owner / Client online orientation, onboarding or basic training courses required of an employee.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "client_orientation_time",
+      "straight_time_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Establishes payment for time spent on Client required online orientation.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "When a job call is cancelled, and employees at the direction of the Employer have completed the required course(s), this Article shall apply and those affected shall be compensated.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "job_cancellation",
+      "orientation_completion_status"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Ensures compensation for orientation time even if the job is subsequently cancelled.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "Transfer from one site to another will not trigger additional initial and terminal travel payments",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "transfer_status",
+      "travel_allowance"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Specifies a negative rule regarding travel payments during transfers.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "should an employee be required to move from one camp to another, they will be entitled to a payment of two (2) hours at the straight time rate should this occur outside of regular scheduled work hours",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "camp_move_required",
+      "move_timing",
+      "straight_time_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Defines compensation for moving between camps when transferring projects.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "Employees who cannot be contacted will receive eight (8) hours pay at the straight time total package hourly rate for reporting for work, and must be, at the Company's discretion, prepared to remain on the job.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "cancellation_notice_status",
+      "reporting_pay",
+      "straight_time_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Reporting pay entitlement when personnel requests are cancelled and employees were not contacted.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "Should an employee residing in camp accommodation be requested by the Employer or the Clients' designated camp management personnel to move to another room or camp, they are to do it during work hours and will be paid at appropriate rates or the employee shall be paid two (2) hours at the applicable straight time rate to carry out the move, if done outside work hours.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "camp_move_request",
+      "move_timing",
+      "straight_time_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Compensation for moving rooms or camps at the request of the employer/client.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "Transportation will be supplied if required.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "camp_move_request",
+      "transportation_required"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Entitlement to transportation during a required camp/room move.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "This provision will not apply where employees are required to pack their room at the end of a work cycle or to facilitate a move that will occur during the employees furlough.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "camp_move_reason",
+      "work_cycle_status"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt",
+    "reasoning": "Exclusion rule for camp move payments.",
+    "chunk_id": 56,
+    "source_chunk": "NMA-Alberta-Province_new/18__ARTICLE_18000_HIRING_AND_TRANSFER_OF_WORKERS.txt"
+  },
+  {
+    "rule_text": "The parties to this Agreement agree that the maximum of nine (9) hours shall constitute a normal days work beginning at 7:30 a.m. and ending at 5:00 p.m. (excluding a one-half hour (1/2) lunch break) may be utilized if restricted to Long Term Base Crew Employees.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_MEAL_ALLOWANCE",
+    "context_variables": [
+      "daily_hours",
+      "start_time",
+      "end_time",
+      "lunch_break_duration",
+      "employee_classification"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Defines the standard daily work hours and unpaid lunch break for Long Term Base Crew.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "the maximum normal work week shall be forty-five (45) hours beginning Monday at 7:30 a.m. and ending Friday at 5:00 p.m.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "weekly_hours",
+      "work_days",
+      "start_time",
+      "end_time"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Defines the standard work week duration and schedule.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "It is understood that when an employee is hired with the intentions of an employment term of more than a six (6) week period, that employee will be automatically on the aforementioned Compressed Work Week arrangements and be considered as a Long Term Base Crew Employee.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "employment_term",
+      "schedule_type",
+      "employee_classification"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Determines the schedule assignment based on the intended employment duration.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "During this six (6) week period, employees will be paid time and one-half (1 1/2) for the ninth (9th) hour.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "daily_hours",
+      "employment_term"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Specifies overtime rate for the ninth hour for short-term employees.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "Should the employee be employed onsite after six (6) weeks on the job, that employee will then be considered part of the Long Term Crew and paid in accordance with the Compressed Work Week payment terms",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "employment_duration",
+      "employee_classification",
+      "pay_terms"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Trigger for changing payment terms from short-term to Long Term Crew.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "Overtime payments for work on the scheduled eighteen (18) days off will be at doubletime (2x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "day_type",
+      "scheduled_days_off"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Defines overtime rate for working on scheduled EDOs.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "If an employee is asked to work their scheduled flex day off without being given forty-eight (48) hours notice, then the employee will be paid overtime at doubletime (2x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "notice_period",
+      "day_type"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Defines overtime rate for working on flex days off with insufficient notice.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "If a long term employee is terminated without having a flex EDO within the previous six (6) weeks, then an adjustment will be made to pay any regular hours worked in excess of two hundred and forty (240) hours over the previous six (6) weeks at the applicable overtime rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "termination_adjustment",
+      "hours_threshold",
+      "lookback_period",
+      "employee_classification"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Provides for a retroactive overtime adjustment upon termination if flex EDOs were not taken.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "During a period of Plant Shutdown, all employees hired with the intentions of shortterm employment shall be paid based on five (5) eight (8) hour days Monday to Friday or four (4) ten (10) hour days Monday to Thursday and or Tuesday to Friday.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_type",
+      "plant_status",
+      "employee_classification"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Defines specific work schedule for short-term employees during Plant Shutdowns.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "Those hired for the Plant Shutdown will continue to receive compensation under the terms of short term employment until the conclusion of the work even if they are on site longer than six (6) weeks.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "employment_term",
+      "pay_terms",
+      "plant_status"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Exception to the 6-week conversion rule for employees hired specifically for Plant Shutdown.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "The parties agree to \"grandfather\" the current coker shift rotation that is in place and operating at the site under the current arrangements and rules. This would apply to members of Labourers Local 92 currently involved in this rotation.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_rotation",
+      "union_local",
+      "location_area"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt",
+    "reasoning": "Preserves existing shift rotation rules for specific union members in the Coker unit.",
+    "chunk_id": 68,
+    "source_chunk": "NMA-Alberta-Province_new/30_NATIONAL_MAINTENANCE_AGREEMENT_FOR_ALBERTA_HOURS_OF_WORK_PROVISIONSSUNCOR_REFINE.txt"
+  },
+  {
+    "rule_text": "SHELL SCOTFORD, FT. SASKATCHEWAN, ALBERTA",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_location",
+      "work_week_alterations"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt",
+    "reasoning": "Identifies Shell Scotford as a specific location approved for the Work Week Alterations defined in Appendix D.",
+    "chunk_id": 69,
+    "source_chunk": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt"
+  },
+  {
+    "rule_text": "IOL STRATHCONA",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_location",
+      "work_week_alterations"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt",
+    "reasoning": "Identifies IOL Strathcona as a specific location approved for the Work Week Alterations defined in Appendix D.",
+    "chunk_id": 69,
+    "source_chunk": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt"
+  },
+  {
+    "rule_text": "(See overtime provisions below for the 9/80 Schedule)",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_provisions",
+      "9/80_schedule"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt",
+    "reasoning": "Directs that specific overtime rules apply to the 9/80 Schedule variant within these approved alterations.",
+    "chunk_id": 69,
+    "source_chunk": "NMA-Alberta-Province_new/31__APPENDIX_D_-_APPROVED_WORK_WEEK_ALTERATIONS.txt"
+  },
+  {
+    "rule_text": "It is intended for on-going work and does not operate in 'major shutdown' situations.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_type",
+      "shutdown_status",
+      "work_schedule"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "reasoning": "Defines the specific scope and restrictions for when the 9/80 schedule can be applied.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "rule_text": "The regular work week will consist of four (4) nine (9) hour straight time days Monday to Thursday and one (1) eight (8) hour straight time day on Friday in the first week.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "regular_hours",
+      "week_number",
+      "days_of_week"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "reasoning": "Establishes the standard straight-time hours for Week 1 of the schedule.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "rule_text": "The regular work week will consist of four (4) nine (9) hour straight time days Monday to Thursday in the second week. Friday is a day off.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "regular_hours",
+      "week_number",
+      "days_of_week",
+      "earned_day_off"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "reasoning": "Establishes the standard straight-time hours for Week 2 of the schedule.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "rule_text": "Week 1 Time and one half (1 ½) for the first two hours (2) worked before or after the regular nine (9) or eight (8) hours day Monday to Friday-doubletime (2x) will be paid thereafter.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "week_number",
+      "overtime_rate",
+      "hours_worked",
+      "double_time_threshold"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "reasoning": "Defines the overtime rate structure for daily overtime during the first week.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "rule_text": "Week 2 Time and one half (1 ½) for the first ten (10) hours worked on the earned Friday off all other overtime is doubletime (2x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "week_number",
+      "overtime_rate",
+      "hours_worked",
+      "earned_day_off"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "reasoning": "Defines the overtime rate structure for working on the scheduled Friday off in the second week, and sets the catch-all double time rule.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "rule_text": "those employees working more than ten (10) hours are entitled to an overtime meal and break at the ten (10) hour mark pursuant to the overtime meal articles in the agreement.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "hours_worked",
+      "meal_break_threshold"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt",
+    "reasoning": "Trigger for meal break and allowance based on hours worked in a shift.",
+    "chunk_id": 70,
+    "source_chunk": "NMA-Alberta-Province_new/32__980_WORK_SCHEDULE.txt"
+  },
+  {
+    "rule_text": "The employer, where requested by both the employee and the Business Manager of the applicable Local Union, would either: (i) guarantee or pay for the room with the lodging in place at an amount not to exceed the daily subsistence rate, until the employee receives their first pay cheque or completes the assignment, whichever occurs first.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "subsistence_rate",
+      "lodging_cost",
+      "employee_request",
+      "union_request"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/34__APPENDIX_E.txt",
+    "reasoning": "Establishes the employer's option/obligation to guarantee or pay for lodging directly as a form of subsistence assistance upon request.",
+    "chunk_id": 72,
+    "source_chunk": "NMA-Alberta-Province_new/34__APPENDIX_E.txt"
+  },
+  {
+    "rule_text": "(ii) provide the employee with \"an advance\", based on the subsistence allowance for the time period stated in (i), which will be deducted from the first pay cheque.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "subsistence_allowance",
+      "pay_period_deduction",
+      "advance_amount"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/34__APPENDIX_E.txt",
+    "reasoning": "Establishes the alternative option for the employer to provide a subsistence advance to be deducted later.",
+    "chunk_id": 72,
+    "source_chunk": "NMA-Alberta-Province_new/34__APPENDIX_E.txt"
+  },
+  {
+    "rule_text": "All requests for subsistence advances shall be confirmed in writing by the Local Union Business Manager or their designee at the time of referral.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "subsistence_advance_request",
+      "written_confirmation"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/34__APPENDIX_E.txt",
+    "reasoning": "Sets a procedural requirement for subsistence advance requests.",
+    "chunk_id": 72,
+    "source_chunk": "NMA-Alberta-Province_new/34__APPENDIX_E.txt"
+  },
+  {
+    "rule_text": "This arrangement does not apply where a camp is available.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "camp_availability"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/34__APPENDIX_E.txt",
+    "reasoning": "Defines an exclusion criteria for the subsistence assistance arrangement based on camp availability.",
+    "chunk_id": 72,
+    "source_chunk": "NMA-Alberta-Province_new/34__APPENDIX_E.txt"
+  },
+  {
+    "rule_text": "It is understood that a request herein shall not be subject to either grievance or arbitration.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "grievance_status",
+      "arbitration_status"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/34__APPENDIX_E.txt",
+    "reasoning": "Excludes subsistence assistance requests from the standard grievance or arbitration process.",
+    "chunk_id": 72,
+    "source_chunk": "NMA-Alberta-Province_new/34__APPENDIX_E.txt"
+  },
+  {
+    "rule_text": "Fort McMurray only:  Maintenance Base Rates will be set at 100% of Construction Base Rates plus 100% of appropriate benefits.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "location",
+      "base_rate",
+      "benefits"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Defines the base wage rate calculation for time worked in a specific location.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Outside of Fort McMurray: Long & Short Term Maintenance Base Rates will be set at $0.75 under Construction Base Rates plus 100% of appropriate benefits.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "location",
+      "base_rate",
+      "benefits"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Defines the base wage rate calculation for time worked outside a specific location.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Apprentice rates are calculated at the percentages provided in the Local Construction Agreement applied to Maintenance Journeyperson Rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "apprentice_rate",
+      "journeyperson_rate"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Establishes the pay rate formula for apprentices based on worked time.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Appropriate skill premiums to be paid in accordance with past maintenance jobsite practice.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "skill_premium"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Mandates the payment of skill premiums added to the hourly rate.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Compressed Work Week Rates will be calculated pursuant to Article 17.000 of the Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "compressed_work_week",
+      "rate_calculation"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "References the calculation method for rates during compressed work schedules.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Benefit Code Calculation: B Calculated on straight time and overtime hours worked.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "benefit_code",
+      "hours_worked",
+      "straight_time",
+      "overtime"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Specifies that Benefit Code B is accrued based on actual hours worked (straight and OT).",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Benefit Code Calculation: C Calculated on total hours paid.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "benefit_code",
+      "hours_paid"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Specifies that Benefit Code C is accrued based on hours paid (which may differ from hours worked due to OT multipliers).",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Benefit Code Calculation: D Calculated on total wages.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "benefit_code",
+      "total_wages"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Specifies that Benefit Code D is calculated as a percentage of gross wages earned from worked time.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Employers will make appropriate contributions to the following funds for those participating trades which have the provision contained within their respective Industrial Construction Reference Agreement: - Building Trades of Alberta - Audiometric Testing - Construction Employee Family Assistance Program (CEFAP) - Case Managed Aftercare (CMAC) - Rapid Site Access Program (RSAP) - Workforce Development Trust Fund (WFDT)",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "fund_contributions"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Lists mandatory employer fund contributions required for the labor employed.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "Benefit contributions based on hours earned in construction will be paid on hours earned in maintenance and contributions based on hours worked in construction will be paid on hours worked in maintenance.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "benefit_contributions",
+      "hours_earned",
+      "hours_worked"
+    ],
+    "doc_reference": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt",
+    "reasoning": "Harmonizes the calculation basis (earned vs worked) for benefits between construction and maintenance agreements.",
+    "chunk_id": 81,
+    "source_chunk": "NMA-Alberta-Province_new/43__TRADE_APPENDIX.txt"
+  },
+  {
+    "rule_text": "he/she will at no time be paid less than the Foreman's rate for which they qualify under Clause 25.02 (b) for a minimum of four (4) months from date of hire or transfer or until laid off if less than four (4) months.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "role",
+      "rate_class",
+      "hire_date",
+      "transfer_date"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt",
+    "reasoning": "Guarantees a specific pay rate (Foreman's rate) for a minimum duration for specific hires/transfers.",
+    "chunk_id": 123,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt"
+  },
+  {
+    "rule_text": "Where transfers are permitted above, such transfers shall be working within the jurisdiction of the Union and there shall be no interruption of the Employees' earnings while being transferred.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "transfer_status",
+      "earnings_continuity"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt",
+    "reasoning": "Ensures employees continue to accrue earnings (billable time) during the transfer process between job sites.",
+    "chunk_id": 123,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt"
+  },
+  {
+    "rule_text": "If an Employer requires an employee to complete an employer online orientation, the Employer shall estimate a reasonable amount of time to complete the orientation. The Employer shall pay an allowance for completing the course equal to the time estimated, to a maximum of four (4) hours, multiplied by the employee's base rate only and payable with the first pay period following the start of work.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "orientation_type",
+      "estimated_time",
+      "base_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt",
+    "reasoning": "Establishes a payment entitlement for time spent on online orientation, capped at 4 hours at base rate.",
+    "chunk_id": 123,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt"
+  },
+  {
+    "rule_text": "Payment for online orientation will not attract VSP or any benefit contributions.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "orientation_pay",
+      "benefits_exclusion",
+      "VSP_exclusion"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt",
+    "reasoning": "Specifies exclusions for Vacation/Statutory Pay and benefits on orientation allowances.",
+    "chunk_id": 123,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt"
+  },
+  {
+    "rule_text": "Members of the Union dispatched from the Union office reporting for work at the time and place specified by the Employer and who are not engaged by the Employer shall receive a minimum of two (2) hours locally or four (4) hours beyond 300 km reporting pay, plus travel allowance and expense, if applicable.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "reporting_pay",
+      "distance_km",
+      "travel_allowance",
+      "dispatch_status"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt",
+    "reasoning": "Defines show-up/reporting pay entitlements based on location distance when work is not provided.",
+    "chunk_id": 123,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/07__ARTICLE_SEVEN_-_HIRING.txt"
+  },
+  {
+    "rule_text": "All work performed on the following recognized holidays, and any general holiday declared by the level of government with jurisdiction, either the Federal or Provincial, shall be paid for at the rate of double time, plus any applicable shift differential",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "recognized_holidays",
+      "double_time",
+      "shift_differential"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Defines the pay rate (double time) for work performed on recognized holidays.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "Each of the general holidays listed in clause 14.01 shall be observed on the calendar date on which it occurs, premiums will apply for hours worked",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_observation",
+      "calendar_date",
+      "premiums"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Establishes that holidays are observed on their actual calendar date for premium purposes.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "No work shall be performed on Labour Day, except for the preservation of life or imminent danger to property.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "Labour_Day",
+      "work_restriction",
+      "emergency_exception"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Sets a restriction on scheduling work on a specific holiday.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "In lieu of pay for the above recognized holidays the Employer shall pay an additional 4% to the Employee's total hourly earnings each week, including overtime hours and premium time hours.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "holiday_pay_rate",
+      "total_hourly_earnings",
+      "payment_frequency"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Defines the Holiday Pay percentage and the base earnings upon which it is calculated.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "Employees annual Vacation Pay shall be 6% of the Employee's total hourly earnings. Such total hourly earnings shall be deemed to include straight time hours, overtime hours, premium time hours and shall be paid each pay period with the Employee's regular pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "vacation_pay_rate",
+      "total_hourly_earnings",
+      "payment_frequency"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Defines the Vacation Pay percentage and the base earnings upon which it is calculated.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "For the Calgary 496 jurisdiction only, for Commercial/Institutional work only, the Employer shall have the option to pay V.H.P. and S.H.P. with each pay cheque, or as follows:  at the time vacation is taken;  on the last payday prior to December 31st;  on termination.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "jurisdiction_Calgary_496",
+      "work_type_Commercial_Institutional",
+      "VHP_payment_timing",
+      "SHP_payment_timing"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Provides specific payment timing options for Vacation and Statutory Holiday Pay in a specific jurisdiction.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "New Years Day (Jan 1) | Labour Day (September) | Family Day (February) | Nat. Day for Truth &Rec. (Sept 30) | Good Friday (April) | Thanksgiving Day (October) | Victoria Day (Monday) | Remembrance Day (Nov 11) | Canada Day (July1) | Christmas Day (Dec 25) | Heritage Day (August) | Boxing Day (Dec 26)",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "recognized_holidays_list"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Explicitly lists the holidays that qualify for double time and holiday pay calculations.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "Whether the Employees receive the above noted holiday and vacation pay each pay period, or whether the vacation and holiday pay are to be retained by the Employer and paid to each Employee at the time of the Employee's vacation or on the last pay day in the calendar year ... or upon termination of the Employee's employment (whichever occurs first), shall be determined by a majority vote of the Employees of that Employer.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "payment_retention_vote",
+      "payout_timing"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt",
+    "reasoning": "Establishes the mechanism (majority vote) for determining if vacation/holiday pay is paid weekly or accrued.",
+    "chunk_id": 130,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/14__ARTICLE_FOURTEEN_-_RECOGNIZED_HOLIDAYS_AND_VACATION_WITH_PAY.txt"
+  },
+  {
+    "rule_text": "The lunch break will consist of a one-half hour unpaid break taken approximately mid-way during the regular workday.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "lunch_break_duration",
+      "paid_status"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Defines the standard duration and unpaid status of the daily lunch break.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "Should an Employee be requested to work the normally scheduled lunch break, they shall be provided time for a meal as close as possible to the regularly scheduled lunch break.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "lunch_break_schedule",
+      "worked_lunch"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Entitlement to a rescheduled meal break if the standard one is worked.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "If the lunch break is delayed such that it starts more than one-half hour after the completion of the normal lunch break, the Employee will be paid an additional one-half hour at their applicable straight time rate for the one-half hour lunch break.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "lunch_break_delay",
+      "penalty_pay",
+      "straight_time_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Specifies a penalty payment (additional 0.5h straight time) for delayed lunch breaks.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "All Employees covered by this agreement shall be permitted ten (10) minutes in the first half and ten (10) minutes in the second half of a shift for a coffee break on the job during regular working hours.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "break_duration",
+      "shift_segment"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Establishes standard paid coffee breaks during regular shifts.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "If extended overtime is required, additional coffee breaks shall be permitted during such overtime after each two (2) hours following each overtime meal break.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_hours",
+      "break_frequency"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Provides for additional breaks during extended overtime work.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "However, for INDUSTRIAL WORK ONLY and on a compressed work week scheduled pursuant to Article 17.00, Employees shall be permitted a break of fifteen (15) minutes in the first half and fifteen (15) minutes in the second half of such shifts.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "work_type",
+      "schedule_type",
+      "break_duration"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Specifies longer break durations (15 min) for specific industrial compressed schedules.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "When ten (10) hour shifts are worked, in lieu of the work breaks and lunch breaks provided herein, the Employer shall have the option of scheduling two breaks of one half (½) hour each, paid at the applicable rate, approximately equally spaced in the ten (10) hour shift.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_MEAL_ALLOWANCE",
+    "context_variables": [
+      "shift_duration",
+      "break_structure",
+      "paid_breaks"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Provides an optional alternative break structure (2 paid 30min breaks) for 10-hour shifts.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "In the event an employee is not able to take a break, the employee shall be paid at applicable overtime rates for the missed break.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "missed_break",
+      "overtime_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Mandates overtime payment for any missed breaks.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "When the hour before and the hour following the missed break are at straight tine, time and one half (1 ½ x) shall be paid for the missed break.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "missed_break",
+      "surrounding_hours_rate",
+      "penalty_multiplier"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Specifies a specific multiplier (1.5x) for missed breaks occurring during straight time segments.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "If an employer requests a worker to participate in a POCT risk assessment pursuant to 4.8.5 of the Canadian Model , and the worker provides the urine sample, and the laboratory drug test result is negative, the worker shall be paid for any time the worker would have otherwise worked while waiting for the laboratory result",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "POCT_test",
+      "waiting_time",
+      "test_result"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt",
+    "reasoning": "Ensures workers are paid for scheduled time missed while waiting for negative test results.",
+    "chunk_id": 131,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/15__ARTICLE_FIFTEEN_-_GENERAL_CONDITIONS.txt"
+  },
+  {
+    "rule_text": "The maximum of eight (8) hours shall constitute a normal day's work beginning at 8:00 AM and ending by 5:00 PM (except when one-half (½) hour lunch is taken in which case the normal day will end at 4:30 PM).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_MEAL_ALLOWANCE",
+    "context_variables": [
+      "standard_hours",
+      "start_time",
+      "end_time",
+      "lunch_duration"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Defines the standard daily hours and time boundaries for a normal shift.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "The maximum normal work week shall be forty (40) hours beginning Monday at 8:00 AM and ending Friday at 5:00 PM.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "standard_hours",
+      "work_week_start",
+      "work_week_end"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Defines the standard weekly hours and days.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "The Employer may vary the start/quit times by changing the scheduled starting time up to one hour at their option.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_variance",
+      "employer_discretion"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Allows the employer to adjust shift start times by up to one hour without penalty or mutual agreement.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "Variances beyond one (1) hour shall be agreed mutually by the Employer and the Business Representative of the Union",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_variance",
+      "union_agreement"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Establishes the requirement for union agreement for shift changes exceeding one hour.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "A change in start/quit times shall be applied consistently on the jobsite and in no circumstances shall split shifts be created, unless mutually agreed between the parties.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "split_shifts",
+      "consistency_requirement"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Prohibits split shifts and requires consistency in schedule changes.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "Forty (40) hours shall constitute a work week, Monday through Friday. All other time worked shall be considered overtime and shall be paid for at the applicable overtime rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "work_week",
+      "overtime_trigger"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Defines the baseline for overtime calculation based on weekly hours and days.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "The first two (2) hours of overtime per day, Monday through Friday inclusive, shall be paid at one and one half (1½) times the applicable rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "day_of_week",
+      "hours_worked"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Specifies the overtime rate (1.5x) for the first two hours of overtime on weekdays.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "All other overtime hours, Monday through Friday inclusive, shall be paid at two (2) times the applicable rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "day_of_week",
+      "hours_worked"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Specifies the overtime rate (2x) for weekday overtime exceeding two hours.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "All hours worked on Saturday, Sunday and Statutory Holidays shall be paid at two (2) times the applicable rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rate",
+      "day_of_week",
+      "holiday_pay"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Specifies double time pay for all work on weekends and statutory holidays.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "All hours worked in excess of eight (8) hours per day or forty (40) hours per week will be considered to be overtime hours and will be paid at the rate of one and one-half times the applicable rate of pay except for work on Sundays and Statutory Holidays which will be paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "sector_commercial_institutional",
+      "overtime_rate",
+      "daily_limit",
+      "weekly_limit"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Specific overtime rule for Commercial/Institutional sector: 1.5x generally, 2x only for Sundays/Stats.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "When an Employee is required to work prior to the commencement of their regular shift, such time shall be considered as overtime.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "pre_shift_work",
+      "overtime_trigger"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt",
+    "reasoning": "Classifies all pre-shift work as overtime.",
+    "chunk_id": 132,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/16__ARTICLE_SIXTEEN_-_HOURS_OF_WORK.txt"
+  },
+  {
+    "rule_text": "The Employer may schedule the regular work week in four (4) consecutive ten (10) hour days, at straight time rates, provided only that the four (4) ten (10) hour days are scheduled during the Monday through Thursday period unless varied by mutual consent",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_type",
+      "days_of_week",
+      "straight_time"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "reasoning": "Defines the standard billing structure (straight time) for a compressed 4x10 work week.",
+    "chunk_id": 133,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt"
+  },
+  {
+    "rule_text": "On a four (4) ten (10) schedule, when Friday is worked, the first ten hours shall be paid at one and oneha1f (1½x) times the applicable rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "hours_worked",
+      "overtime_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "reasoning": "Specifies the overtime rate for Friday work on a 4x10 compressed schedule.",
+    "chunk_id": 133,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt"
+  },
+  {
+    "rule_text": "Should an employee work on the scheduled days off, the Friday and Monday will be paid at time and one half (1½x), and the Saturday and Sunday will be paid at double time (2x).",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "schedule_type",
+      "day_of_week",
+      "overtime_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "reasoning": "Defines overtime rates for specific off-days (Fri/Mon vs Sat/Sun) when utilizing a 10-on-4-off compressed schedule.",
+    "chunk_id": 133,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt"
+  },
+  {
+    "rule_text": "Where these options are worked, all hours in excess of ten (10) hours per day Monday through Thursday, shall be paid for at two (2x) times the applicable rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "daily_hours",
+      "days_of_week",
+      "overtime_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "reasoning": "Sets the double time entitlement for hours exceeding 10 per day on standard work days.",
+    "chunk_id": 133,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt"
+  },
+  {
+    "rule_text": "Notwithstanding the foregoing, all overtime hours on Commercial/Institutional projects shall be paid for at the rate of time and one-half except for work in Local 488's jurisdiction where work on Sundays and Statutory Holidays shall be paid at double time.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_type",
+      "jurisdiction",
+      "overtime_rate",
+      "day_of_week"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "reasoning": "Provides specific overtime exceptions/rates for Commercial/Institutional projects and Local 488 jurisdiction.",
+    "chunk_id": 133,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt"
+  },
+  {
+    "rule_text": "A worker who is preauthorized to take personal time off pursuant to the above procedure, will qualify for overtime premiums for any work performed either preceding or following the normal scheduled hours of work on the day they take their personal absence regardless of whether or not they have worked the full eight or ten hours as scheduled for that shift.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "preauthorized_leave",
+      "overtime_qualification"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "reasoning": "Ensures entitlement to overtime premiums despite partial absence if the absence was preauthorized.",
+    "chunk_id": 133,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt"
+  },
+  {
+    "rule_text": "Workers who are absent from work without pre-authorization, must work the minimum normal hours as stipulated above prior to overtime premiums being paid.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "unauthorized_absence",
+      "overtime_qualification"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt",
+    "reasoning": "Imposes a penalty on overtime eligibility (must make up straight time hours) for unexcused absences.",
+    "chunk_id": 133,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/17__ARTICLE_SEVENTEEN_-_COMPRESSED_WORK_WEEK.txt"
+  },
+  {
+    "rule_text": "Employees who do not commence work shall be paid for two (2) hours at the applicable overtime rate, and any travel and transportation applicable.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "call_out_status",
+      "work_commenced",
+      "overtime_rate",
+      "travel_allowance"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt",
+    "reasoning": "Establishes minimum pay (2 hours overtime) and travel compensation for employees called out who do not start work.",
+    "chunk_id": 134,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt"
+  },
+  {
+    "rule_text": "Employees who are called in and commence work shall be paid for a minimum of three (3) hours at the applicable overtime rate and any travel and transportation applicable.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "call_out_status",
+      "work_commenced",
+      "minimum_hours",
+      "overtime_rate",
+      "travel_allowance"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt",
+    "reasoning": "Establishes minimum pay (3 hours overtime) and travel compensation for employees called out who start work.",
+    "chunk_id": 134,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt"
+  },
+  {
+    "rule_text": "Where an Employee works more than the three (3) hours set out in 18.01 (b) above, the Employee shall receive remuneration for the hours actually worked at the applicable overtime rates and any travel or transportation applicable.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "call_out_status",
+      "hours_worked",
+      "overtime_rate",
+      "travel_allowance"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt",
+    "reasoning": "Clarifies that actual hours are paid at overtime rates if the call out exceeds the minimum 3 hours, plus travel.",
+    "chunk_id": 134,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt"
+  },
+  {
+    "rule_text": "In the event that an Employee, responding to a call out does not get an eight (8) hour break, prior to the commencement of their regular workday, the Employee(s) shall be allowed an eight (8) hour rest break and be paid for a normally scheduled workday.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "rest_break_duration",
+      "call_out_timing",
+      "regular_workday_schedule",
+      "paid_break"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt",
+    "reasoning": " mandates an 8-hour rest break and payment for the scheduled day if a call out interferes with the required break before a shift.",
+    "chunk_id": 134,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt"
+  },
+  {
+    "rule_text": "To qualify for the normally scheduled days pay the Employee shall be available for work at the end of the eight (8) hour break.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "availability_status",
+      "rest_break_duration",
+      "pay_eligibility"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt",
+    "reasoning": "Sets the condition (availability after break) required to receive the payment for the normally scheduled day mentioned in the previous rule.",
+    "chunk_id": 134,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/18__ARTICLE_EIGHTEEN_-_CALL_OUTS.txt"
+  },
+  {
+    "rule_text": "Should each of the shifts outlined above not continue for a period of four (4) or five (5) consecutive working days, all hours worked shall be deemed overtime and paid at the applicable rates contained in this Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_duration",
+      "consecutive_days",
+      "retroactive_overtime"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Defines a penalty where regular shift hours are retroactively converted to overtime if the shift schedule does not last the minimum required duration (4 or 5 days).",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "Where a shift is commenced and has run for at least the four (4) or five (5) consecutive days referred to above, should the shift terminate in the middle of the week, or an Employee hires on in a week in which a shift ends, affected Employee(s) shall only be entitled to shift premium on regular hours of work.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_termination",
+      "mid_week_hire",
+      "shift_premium"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Clarifies that if the minimum duration is met, mid-week termination results in shift premium payment rather than retroactive overtime.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "By mutual agreement, shifts may be established for periods of less than four (4) or five (5) consecutive regular working days and in such an event, the deemed overtime that would otherwise be payable shall not apply.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "mutual_agreement",
+      "shift_duration",
+      "overtime_exemption"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Provides an exception to the retroactive overtime rule if the short shift duration is mutually agreed upon.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "The first shift shall work a normal shift as set out in Clause 16.01 and/or 17.01 of this Agreement, with the applicable overtime rate after eight (8) hours of work or in excess of ten (10) hours per day during a compressed work week.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "first_shift",
+      "overtime_threshold",
+      "compressed_work_week"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Establishes the overtime thresholds (8 or 10 hours) for the first/day shift.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "The hourly rate for Employees on any alternate shift(s) as outlined above shall be $4.00 per hour effective May 4 th , 2025 ($4.50 effective May 3, 2026) greater than the applicable day time rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "shift_premium_rate",
+      "alternate_shift",
+      "effective_date"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Specifies the specific dollar amount for shift premiums (differentials) based on the date.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "In no event shall this hourly rate be greater than the applicable overtime rate plus shift differential.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "rate_cap",
+      "overtime_rate",
+      "shift_differential"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Sets a cap on the total hourly rate payable for shift work.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "An Employee shall continue to receive the overtime rate, plus shift differential, after each shift until a break of eight (8) consecutive hours occurs, exclusive of travel allowance.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "rest_break",
+      "continuous_overtime",
+      "shift_differential"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Mandates continuous overtime pay if an employee does not get an 8-hour break between shifts.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "When an Employee loses a regular day through the implementation or termination of shift work, then the Employee shall be paid a regular days pay for the day lost.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "lost_day",
+      "shift_change_compensation"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Guarantees payment for a regular day if work is lost due to schedule changes related to shift work.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "Where the owner/client may require work to be done on a single shift basis at start/quit times that may be at variance with the start/quit for a regular shift, single shift operations shall be permitted subject to the payment of shift differential.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "single_shift",
+      "variable_start_time",
+      "shift_differential"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Permits single shift variances but requires shift differential payment for such shifts.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "Overtime shall be payable on all hours in excess of eight (8) hours per day, or in excess of ten (10) hours per day during a compressed work week, and forty (40) hours per week and on Saturdays, Sundays, or Statutory Holidays.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "overtime_rules",
+      "daily_limit",
+      "weekly_limit",
+      "weekend_work",
+      "holiday_work"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt",
+    "reasoning": "Defines the specific overtime triggers (daily, weekly, and weekend/holiday) for single shift operations.",
+    "chunk_id": 135,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/19__ARTICLE_NINETEEN_-_SHIFT_WORK.txt"
+  },
+  {
+    "rule_text": "Where Employees are required to work in excess of ten (10) hours in a single shift, they shall be provided immediately after ten (10) hours, with a suitable meal (hot where possible) and every four (4) hours thereafter until the shift is ended.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "shift_duration",
+      "hours_worked",
+      "meal_provision"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Establishes the requirement for the employer to provide a meal after 10 hours of work and every 4 hours thereafter.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "The cost of the meal(s) and the time consuming same shall be paid for at the straight time rates contained in this Agreement, to a maximum of one half (½) hour in duration.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "meal_cost",
+      "meal_duration",
+      "pay_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Defines the payment terms for the meal time (paid at straight time) and the cost of the meal itself.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "Where the Employer is paying subsistence, this clause shall also apply.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "subsistence_paid"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Clarifies that receiving subsistence allowance does not negate the overtime meal entitlement.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "On projects when it is impractical for the contractor to provide a meal the employee shall be paid a 15-minute paid break at the applicable rate of pay and the employer shall pay a meal allowance of $45.00 in lieu of the meal and the time to consume the meal.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "meal_provision_practicality",
+      "meal_allowance_amount",
+      "break_duration"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Provides a specific monetary allowance ($45) and break time (15 min) when providing a physical meal is impractical.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "Where a shift in excess of 10 hours but not longer than 12 hours is worked, when camp accommodations are provided and a full course hot supper is provided at the end of the shift, no meal allowance shall be payable.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "shift_duration",
+      "camp_accommodation",
+      "meal_provision"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Exempts the employer from paying meal allowance under specific camp accommodation and shift duration conditions.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "if the Contractor has not scheduled in excess of the ten (10) hour shift, the Contractor shall be granted a one (1) hour extension where the Contractor need not supply a hot meal or make payment in lieu of, however; a fifteen (15) minute rest break paid at the applicable rate will be taken at the tenth (10 th ) hour.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "scheduled_hours",
+      "actual_hours",
+      "break_duration",
+      "emergency_situation"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Allows for an emergency extension of work without a full meal provision, but mandates a 15-minute paid break at the 10th hour.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "Under no circumstance shall any Employee work more than eleven (11) hours without adherence to Clause 20.01.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "hours_worked"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Sets a hard cap of 11 hours for the emergency extension exception; beyond this, standard meal rules apply.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "Where a supervisor is required to; (i) start up to one (1) hour earlier, or (ii) finish up to one (1) hour later, or (iii) start up to one half (½) hour earlier and finish up to one half (½) hour later than the supervisor's crew... the provisions of 20.01 will not apply unless those provisions are applicable to the rest of the crew.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "role_supervisor",
+      "start_time_offset",
+      "finish_time_offset",
+      "crew_entitlement"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt",
+    "reasoning": "Exempts supervisors from overtime meal provisions for minor schedule offsets (up to 1 hour) unless the crew also qualifies.",
+    "chunk_id": 136,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/20__ARTICLE_TWENTY_-_OVERTIME_MEALS.txt"
+  },
+  {
+    "rule_text": "When an Employee reports to work at the regular starting time and such Employee is not put to work, the Employee so affected shall be entitled to a minimum of two (2) hours pay at the applicable rate of pay.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "start_time",
+      "work_assigned",
+      "minimum_pay_hours",
+      "pay_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "reasoning": "Establishes the minimum pay entitlement (2 hours) for reporting to work without work being available.",
+    "chunk_id": 137,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt"
+  },
+  {
+    "rule_text": "In order to qualify for show up time, Employees must remain on the jobsite unless otherwise directed by the Employer.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "jobsite_presence",
+      "employer_direction",
+      "eligibility"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "reasoning": "Defines the physical presence condition required to claim show up pay.",
+    "chunk_id": 137,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt"
+  },
+  {
+    "rule_text": "Where the Employee(s) are directed to remain at the jobsite for more than two (2) hours, including wait times for company supplied transportation to leave site, they shall be paid for such time at the applicable rate.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "hold_time",
+      "transportation_wait_time",
+      "pay_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "reasoning": "Specifies that holding time exceeding the minimum 2 hours is compensable, including transportation wait times.",
+    "chunk_id": 137,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt"
+  },
+  {
+    "rule_text": "Employee(s) affected shall be paid daily travel, transportation, subsistence or receive camp accommodation as is applicable.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "daily_travel",
+      "transportation",
+      "subsistence",
+      "camp_accommodation"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "reasoning": "Ensures that travel and subsistence allowances are paid even if the employee is sent home under show-up rules.",
+    "chunk_id": 137,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt"
+  },
+  {
+    "rule_text": "An Employee is not entitled to show up time if the Employer notifies the Employee that no work is available at least two (2) hours prior to the commencement of the normal workday.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "notification_lead_time",
+      "work_availability_notice",
+      "entitlement_eligibility"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "reasoning": "Sets the notification window (2 hours prior) that exempts the employer from paying show up time.",
+    "chunk_id": 137,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt"
+  },
+  {
+    "rule_text": "Employees working on a jobsite where they are accommodated in a camp facility will not be entitled to show up time if they are notified that no work is available, at breakfast time, and notices are posted on the bulletin boards in the camp kitchen.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "context_variables": [
+      "camp_accommodation",
+      "notification_time",
+      "notification_method",
+      "entitlement_eligibility"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "reasoning": "Provides a specific exemption rule for show up pay for employees housed in camps based on breakfast notification.",
+    "chunk_id": 137,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt"
+  },
+  {
+    "rule_text": "When an Employee reporting for work qualifies for show up time such time shall include the regular shift premium when applicable.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "show_up_pay",
+      "shift_premium",
+      "applicable_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt",
+    "reasoning": "Clarifies that show up pay calculations must include shift premiums if the shift would have attracted them.",
+    "chunk_id": 137,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/21__ARTICLE_TWENTY-ONE_-_SHOW_UP_TIME.txt"
+  },
+  {
+    "rule_text": "A local resident is an individual who resides within a seventy-five (75) kilometer radius of the centre of a job site which is beyond daily commuting distance from Edmonton or Calgary or other locations where a hiring hall is located and, has resided within such radius of the site for a period of not less than six months prior to being engaged on the project.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "distance_from_site",
+      "residency_duration",
+      "job_site_location"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Defines eligibility criteria (radius and duration) for Local Resident status, which dictates subsistence and travel entitlements.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "Local Residents residing within a forty-five (45) km radius of the job site shall not be entitled to receive transportation or vehicle allowance, travel allowance, initial and return travel allowance, room and board, subsistence, camp accommodations, or rotational leave provisions.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "local_resident_status",
+      "distance_from_site"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Explicit exclusion of subsistence, travel, and accommodation entitlements for residents within 45km.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "Local residents residing between a forty-five (45) km radius and a seventy-five (75) km radius of the job site shall not be entitled to receive initial and return travel allowance, room and board or subsistence, or camp accommodations, or rotational leave provisions, but shall be paid a travel allowance of thirty-three dollars ($33.00) per day worked ($36.00 per day worked effective May 4/09) to cover transportation expenses and travel allowance",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "local_resident_status",
+      "distance_from_site",
+      "days_worked",
+      "project_type"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Defines daily travel allowance amount and exclusions for Industrial projects for residents between 45km and 75km.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "if transportation is supplied by the Employer, a daily travel allowance of seventeen dollars ($17.00) ($19.00 per day worked effective May 4/09) will be paid for each day worked.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "transportation_supplied",
+      "days_worked",
+      "distance_from_site"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Specifies reduced daily travel allowance rate for residents between 45km-75km when employer provides transport.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "For the purposes of determining local residents in the Fort McMurray area, residents of Anzac and Saprae Creek will be considered to be residents of Fort McMurray for projects north of Fort McMurray and residents of Fort McKay will be considered to be residents of Fort McMurray for projects located south of Fort McMurray",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_location",
+      "residency_location"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Geographic definitions specific to Fort McMurray that alter the calculation of Local Resident radius and entitlements.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "Where a Camp Kitchen is established, and where all workers generally on the project who are not Local Residents attend at the Camp Kitchen to eat their lunches a Local Resident Employee shall be provided the same noon meal without cost to himself.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "camp_kitchen_established",
+      "local_resident_status"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Entitlement to a free noon meal for Local Residents when a camp kitchen is used by the general workforce.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "In those instances where bagged lunches are provided to camp residents and hot soup is delivered to the jobsite, local residents shall be entitled to pick up hot soup as well.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "bagged_lunches_provided",
+      "hot_soup_delivered",
+      "local_resident_status"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Specific entitlement to hot soup for Local Residents under certain catering conditions.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "Where a Local Resident Employee is required to work overtime, he shall be entitled to overtime meals in accordance with this Agreement.",
+    "primary_topic": "LABOR_MEAL_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "overtime_worked",
+      "local_resident_status"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt",
+    "reasoning": "Confirms Local Residents are eligible for standard overtime meal provisions.",
+    "chunk_id": 139,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/23__ARTICLE_TWENTY-THREE_-_LOCAL_RESIDENTS.txt"
+  },
+  {
+    "rule_text": "The minimum rate of wages for a Foreman shall be $5.50 per hour above the basic UA Journeyman Industrial rates as listed in Article 8.01 of this Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "role",
+      "sector",
+      "hourly_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Establishes the hourly wage premium for Industrial Foremen based on time worked.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "The minimum rate of wages for a General Foreman shall be $7.50 per hour, above the basic UA Journeyman Industrial rates as listed in Article 8.01 of this Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "role",
+      "sector",
+      "hourly_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Establishes the hourly wage premium for Industrial General Foremen based on time worked.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "Foremen and General Foremen who are Industrial Construction Crew Supervisor (ICCS) designated will be paid additional premiums of one ($1.50) dollar and fifty cents per hour.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "role",
+      "certification",
+      "hourly_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Establishes an additional hourly premium for ICCS designation on top of worked time rates.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "The Employer agrees that there shall be two (2) Foremen once there are fourteen (14) Journeymen on the job.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "crew_size",
+      "journeyman_count",
+      "foreman_count"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Mandates specific staffing levels (scheduling) based on crew size, impacting billable positions.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "On projects requiring a minimum of fifteen (15) Welders; there shall be a Qualified 'A' or 'B' Welder employed as a Welder Foreman when fifteen (15) welders are employed.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "welder_count",
+      "project_requirements",
+      "role"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Mandates the employment of a Welder Foreman based on the number of welders working.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "An additional Welder Foreman will be employed when twenty-five (25) welders are employed and one (1) Welder Foreman for every twenty (20) Welders employed thereafter.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "welder_count",
+      "role"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Mandates additional Welder Foreman staffing based on incremental welder headcount.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "The minimum rate of wages for a Foreman shall be $4.00 per hour and the minimum rate of wages for a General Foreman shall be $6.00 per hour, above the basic Journeyman rates as listed in Schedule 8.01 Commercial &amp; Institutional Local 488 of this Agreement.",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "role",
+      "sector",
+      "local_union",
+      "hourly_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Establishes hourly wage premiums for Commercial/Institutional Foremen and General Foremen under Local 488.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "The minimum rate of wages for a Foreman shall be $3.00 per hour and the minimum rate of wages for a General Foreman shall be $6.00 per hour, above the basic Journeyman rates as listed in Schedule 8.01 Commercial &amp; Institutional Local 496 of this Agreement",
+    "primary_topic": "LABOR_WORKED_TIME",
+    "secondary_topic": null,
+    "context_variables": [
+      "role",
+      "sector",
+      "local_union",
+      "hourly_rate"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt",
+    "reasoning": "Establishes hourly wage premiums for Commercial/Institutional Foremen and General Foremen under Local 496.",
+    "chunk_id": 141,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/25__ARTICLE_TWENTY-FIVE_-_FOREMEN.txt"
+  },
+  {
+    "rule_text": "If the project gate is beyond daily commuting distance (beyond 125 km of the city centre of either Calgary or Edmonton) the SPNA for the project shall be in the form attached as Template A.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": null,
+    "context_variables": [
+      "project_location",
+      "distance_from_city_center",
+      "Template_A"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/36_Letter_of_Understanding_re_Special_Project_Needs_Agreements_SPNA.txt",
+    "reasoning": "Defines the specific distance threshold (125km) that categorizes a project as 'beyond daily commuting distance', which dictates the applicable agreement template (Template A), typically governing subsistence and remote work entitlements.",
+    "chunk_id": 152,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/36_Letter_of_Understanding_re_Special_Project_Needs_Agreements_SPNA.txt"
+  },
+  {
+    "rule_text": "If the project gate is within daily commuting distance (within 125 km of the city centre of either Calgary, or Edmonton or within 45 km of the city centre of Red Deer) the SPNA for the project shall be in the form attached as Template B.",
+    "primary_topic": "LABOR_SUBSISTENCE_ALLOWANCE",
+    "secondary_topic": "LABOR_WORKED_TIME",
+    "context_variables": [
+      "project_location",
+      "distance_from_city_center",
+      "Template_B"
+    ],
+    "doc_reference": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/36_Letter_of_Understanding_re_Special_Project_Needs_Agreements_SPNA.txt",
+    "reasoning": "Defines the distance thresholds (125km from Calgary/Edmonton, 45km from Red Deer) that categorize a project as 'within daily commuting distance', triggering the application of Template B. This distinction is fundamental to determining whether daily travel or subsistence rules apply.",
+    "chunk_id": 152,
+    "source_chunk": "Pipefitters-Collective-Agreement_April_2025-CLEAN_updated_May-22-onfile/36_Letter_of_Understanding_re_Special_Project_Needs_Agreements_SPNA.txt"
+  }
+]

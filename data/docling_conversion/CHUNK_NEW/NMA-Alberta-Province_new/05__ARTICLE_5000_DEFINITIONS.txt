@@ -1,0 +1,11 @@
+## ARTICLE 5.000 DEFINITIONS
+
+- 5.100 All work performed by the Company on existing equipment and machinery, including all associated work in a given plant, shall be maintenance. This shall include replacement of existing individual items of machinery and equipment with new units, including all associated work. It is understood that this concept would not include replacement of an entire process system installation in a facility in order to increase production.
+
+<!-- image -->
+
+- 5.200 Addition of spare machinery or equipment may be done under the Maintenance Agreement provided it is for debottlenecking purposes. Example: There are two existing pumps. Both pumps are required to run at all times to maintain full production. A spare may be added for the purpose of having one pump down for maintenance.
+- 5.300 The word "repair" used with the terms of this Agreement and in connection with maintenance, is work requested to restore by replacement or by revamp of parts of existing facilities to efficient operating conditions.
+- 5.400 Changes to existing units for reasons of feed stock changes or fuel changes shall be maintenance.
+- 5.500 The word "renovation" used within the terms of this Agreement and in connection with maintenance, is  work required to change by replacement or by "revamp" of parts of existing facilities to efficient operating conditions.
+- 5.600 In the event a dispute arises as to whether a work operation is new work or work falling within the scope of this Agreement, the matter shall be referred to the National Maintenance Council for a final determination.

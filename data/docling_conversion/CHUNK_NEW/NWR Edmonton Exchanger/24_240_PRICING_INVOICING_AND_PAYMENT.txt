@@ -1,0 +1,20 @@
+## 24.0 PRICING, INVOICING AND PAYMENT
+
+## 24.1 Pricing and Invoicing
+
+- (a) The amounts payable by Owner to Supplier for the Work, and the terms relating to payment for same, shall be as specified in Exhibit C (Pricing and Payment) and the applicable Purchase Order.
+- (b) Supplier shall comply with the invoicing requirements set forth in Exhibit B (Pricing and Payment) and the applicable Purchase Order.
+- 24.2 Payment of Invoices
+- (a) Owner will pay only for Goods actually provided and Services actually performed in accordance with this Contract.
+- (b) In connection with any invoice, Owner will not pay any amounts which:
+
+<!-- image -->
+
+- (i) relate to Work that does not comply with this Contract or any applicable Purchase Order;
+- (ii) are disputed by Owner in good faith;
+- (iii) in Owner's opinion, relate to Work that fails to meet the standard of performance set forth in Article 4.0 (Provision of Work);
+- (iv) are based on an error in the calculation of the amount payable; or
+- (v) are not related to the Work set forth in the Purchase Order to which the invoice relates.
+- (c) Owner shall  be  entitled  to  deduct  and  retain  required  amounts  from  all  invoices  and  hold  such amounts  as  retention  monies  pursuant  to  the  terms  and  conditions  of  the  Builders'  Lien  Act (Alberta).    All  such  amounts  retained by  Owner shall be paid to Supplier in accordance with the terms and conditions of the Builders' Lien Act (Alberta); and
+- (d) Owner shall be entitled to deduct and retain all such other amounts as may be prescribed pursuant to all other Applicable Laws.
+- (e) Supplier shall not assign the rights to any amounts payable for the Work provided or to be provided pursuant to this Contract to any third party except in the case of a general assignment of Supplier's assets to a financial institution as security for a loan by such financial institution.

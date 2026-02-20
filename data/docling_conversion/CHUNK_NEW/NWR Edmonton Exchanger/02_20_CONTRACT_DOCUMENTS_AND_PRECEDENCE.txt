@@ -1,0 +1,28 @@
+## 2.0 CONTRACT DOCUMENTS AND PRECEDENCE
+
+## 2.1 Contract Documents
+
+The  following  documents,  including  all  amendments,  Change  Orders  and  Change  Requests  thereto (collectively, the ' Contract Documents ') are (i) expressly incorporated by reference into this Contract and (ii) listed in order of precedence, starting with the document having the highest precedence:
+
+- (a) Terms and Conditions;
+- (b) Change Orders to the applicable Contract Document with the most recent Change Order taking precedence;
+- (c) the applicable Purchase Order;
+- (d) Exhibit A - Scope of Work;
+- (e) Exhibit B - Engineering/Technical Specifications/Governing Documents;
+- (f) Exhibit C - Pricing and Payment;
+- (g) Exhibit D - Labour &amp; Equipment Rates;
+- (h) Exhibit E - Special Conditions for Work at Site;
+- (i) Exhibit F - Special Conditions for Transportation
+- (j) Exhibit G -Quality Assurance and Quality Control Procedures;
+- (k) Exhibit H - Key Personnel;
+- (l) Exhibit I - Key Performance Indicators (KPI) and Reporting Requirements; and
+- (m) Exhibit J - Representatives and Notices.
+
+<!-- image -->
+
+## 2.2 Precedence
+
+- (a) If  there  is  a  conflict,  ambiguity  or  discrepancy  between  any  of  the  Contract  Documents,  the provisions of the document higher in order of precedence, including the applicable amendment or Change Order thereto, shall govern and prevail to the extent of any such conflict or inconsistency.
+- (b) Attachments and addenda to any Contract Document shall be considered part of such document.
+- (c) Upon  discovery  by  either  Owner  or  Supplier  of  any  material  conflict,  ambiguity  or  discrepancy between  any  provisions  of  the  Contract  Documents,  Owner  or  Supplier,  as  applicable,  shall promptly notify the other Party and attempt to resolve such conflicts, ambiguities or discrepancies through  mutual  consultation.    In  the  event  that  such  conflict,  ambiguity  or  discrepancy  is  not resolved  through  mutual  consultation,  Supplier  shall  comply  with  Owner's  directions  and  such conflict,  ambiguity  or  discrepancy  shall  be  resolved  in  accordance  with  the  Dispute  Resolution Procedure.
+- (d) No Purchase Order shall modify, amend, or add to any of the other Contract Documents unless they are separately modified, amended or added to by duly authorized signatories of Owner and Supplier.

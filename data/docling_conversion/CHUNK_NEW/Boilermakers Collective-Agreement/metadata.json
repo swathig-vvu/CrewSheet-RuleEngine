@@ -1,0 +1,244 @@
+{
+  "source_file": "Boilermakers Collective-Agreement.md",
+  "total_chunks": 38,
+  "toc_entries": 39,
+  "learned_keywords": [
+    "APPENDIX",
+    "LETTER",
+    "ARTICLE"
+  ],
+  "numbering_types": [
+    "letter",
+    "numeric"
+  ],
+  "chunks": [
+    {
+      "chunk_num": 1,
+      "heading": "## ARTICLE 1.00 -PURPOSE",
+      "length": 1348,
+      "filename": "01_ ARTICLE 100 -PURPOSE.txt"
+    },
+    {
+      "chunk_num": 2,
+      "heading": "## ARTICLE 2.00 -RECOGNITION AND CRAFT JURISDICTION",
+      "length": 1300,
+      "filename": "02_ ARTICLE 200 -RECOGNITION AND CRAFT JURISDICTION.txt"
+    },
+    {
+      "chunk_num": 3,
+      "heading": "## ARTICLE 3.00 -MANAGEMENT RIGHTS",
+      "length": 5778,
+      "filename": "03_ ARTICLE 300 -MANAGEMENT RIGHTS.txt"
+    },
+    {
+      "chunk_num": 4,
+      "heading": "## ARTICLE 4.00 -UNION SECURITY AND DUES COLLECTION",
+      "length": 5957,
+      "filename": "04_ ARTICLE 400 -UNION SECURITY AND DUES COLLECTION.txt"
+    },
+    {
+      "chunk_num": 5,
+      "heading": "## ARTICLE 5.00 -NO STRIKES OR LOCKOUTS",
+      "length": 686,
+      "filename": "05_ ARTICLE 500 -NO STRIKES OR LOCKOUTS.txt"
+    },
+    {
+      "chunk_num": 6,
+      "heading": "## ARTICLE 6.00 -WORKING CONDITIONS, SAFEFTY MEASURES, HEALTH AND SANITATION",
+      "length": 7553,
+      "filename": "06_ ARTICLE 600 -WORKING CONDITIONS SAFEFTY MEASURES HEALTH AND SANITATION.txt"
+    },
+    {
+      "chunk_num": 7,
+      "heading": "## ARTICLE 7.00 -WELDING TESTS",
+      "length": 4545,
+      "filename": "07_ ARTICLE 700 -WELDING TESTS.txt"
+    },
+    {
+      "chunk_num": 8,
+      "heading": "## ARTICLE 8.00 -ACCESS TO JOBS",
+      "length": 467,
+      "filename": "08_ ARTICLE 800 -ACCESS TO JOBS.txt"
+    },
+    {
+      "chunk_num": 9,
+      "heading": "## ARTICLE 9.00 -JOB STEWARDS",
+      "length": 1729,
+      "filename": "09_ ARTICLE 900 -JOB STEWARDS.txt"
+    },
+    {
+      "chunk_num": 10,
+      "heading": "## ARTICLE 10.00 -GRIEVANCE PROCEDURE",
+      "length": 5959,
+      "filename": "10_ ARTICLE 1000 -GRIEVANCE PROCEDURE.txt"
+    },
+    {
+      "chunk_num": 11,
+      "heading": "## ARTICLE 11.00 -HOURS OF WORK",
+      "length": 4105,
+      "filename": "11_ ARTICLE 1100 -HOURS OF WORK.txt"
+    },
+    {
+      "chunk_num": 12,
+      "heading": "## ARTICLE 12.00 -SHIFT WORK",
+      "length": 1827,
+      "filename": "12_ ARTICLE 1200 -SHIFT WORK.txt"
+    },
+    {
+      "chunk_num": 13,
+      "heading": "## ARTICLE 13.00 -OVERTIME/OVERTIME MEAL BREAKS",
+      "length": 14539,
+      "filename": "13_ ARTICLE 1300 -OVERTIMEOVERTIME MEAL BREAKS.txt"
+    },
+    {
+      "chunk_num": 14,
+      "heading": "## ARTICLE 14.00 -RECOGNIZED HOLIDAYS",
+      "length": 5181,
+      "filename": "14_ ARTICLE 1400 -RECOGNIZED HOLIDAYS.txt"
+    },
+    {
+      "chunk_num": 15,
+      "heading": "## ARTICLE 15.00 -WAITING AND REPORTING TIME",
+      "length": 4363,
+      "filename": "15_ ARTICLE 1500 -WAITING AND REPORTING TIME.txt"
+    },
+    {
+      "chunk_num": 16,
+      "heading": "## ARTICLE 16.00 -TRAVEL AND SUBSISTENCE",
+      "length": 13016,
+      "filename": "16_ ARTICLE 1600 -TRAVEL AND SUBSISTENCE.txt"
+    },
+    {
+      "chunk_num": 17,
+      "heading": "## ARTICLE 17.00 -VACATION WITH PAY",
+      "length": 406,
+      "filename": "17_ ARTICLE 1700 -VACATION WITH PAY.txt"
+    },
+    {
+      "chunk_num": 18,
+      "heading": "## ARTICLE 18.00 -PAY DAY",
+      "length": 3613,
+      "filename": "18_ ARTICLE 1800 -PAY DAY.txt"
+    },
+    {
+      "chunk_num": 19,
+      "heading": "## ARTICLE 19.00 -WAGES",
+      "length": 1215,
+      "filename": "19_ ARTICLE 1900 -WAGES.txt"
+    },
+    {
+      "chunk_num": 20,
+      "heading": "## ARTICLE 20.00 -PARTICIPATION AGREEMENT",
+      "length": 2470,
+      "filename": "20_ ARTICLE 2000 -PARTICIPATION AGREEMENT.txt"
+    },
+    {
+      "chunk_num": 21,
+      "heading": "## ARTICLE 21.00 -TANK WORK EMPLOYEES",
+      "length": 204,
+      "filename": "21_ ARTICLE 2100 -TANK WORK EMPLOYEES.txt"
+    },
+    {
+      "chunk_num": 22,
+      "heading": "## ARTICLE 22.00 -ADMINISTRATION OF AGREEMENT",
+      "length": 1181,
+      "filename": "22_ ARTICLE 2200 -ADMINISTRATION OF AGREEMENT.txt"
+    },
+    {
+      "chunk_num": 23,
+      "heading": "## ARTICLE 23.00 -IMPLEMENTATION, DURATION AND RENEWAL OF AGREEMENT",
+      "length": 363,
+      "filename": "23_ ARTICLE 2300 -IMPLEMENTATION DURATION AND RENEWAL OF AGREEMENT.txt"
+    },
+    {
+      "chunk_num": 24,
+      "heading": "## ARTICLE 24.00 -SUBMISSION OF DUES AND OTHER CONTRIBUTIONS",
+      "length": 1855,
+      "filename": "24_ ARTICLE 2400 -SUBMISSION OF DUES AND OTHER CONTRIBUTIONS.txt"
+    },
+    {
+      "chunk_num": 25,
+      "heading": "## ARTICLE 25.00 -ENABLING CLAUSE",
+      "length": 1418,
+      "filename": "25_ ARTICLE 2500 -ENABLING CLAUSE.txt"
+    },
+    {
+      "chunk_num": 26,
+      "heading": "Tank Work Employers Letter (Referred to In Article 21.00)",
+      "length": 3993,
+      "filename": "26_Tank Work Employers Letter Referred to In Article 2100.txt"
+    },
+    {
+      "chunk_num": 27,
+      "heading": "## LETTER #2",
+      "length": 1225,
+      "filename": "27_ LETTER 2.txt"
+    },
+    {
+      "chunk_num": 28,
+      "heading": "## LETTER #3",
+      "length": 6839,
+      "filename": "28_ LETTER 3.txt"
+    },
+    {
+      "chunk_num": 29,
+      "heading": "## LETTER #4",
+      "length": 3108,
+      "filename": "29_ LETTER 4.txt"
+    },
+    {
+      "chunk_num": 30,
+      "heading": "## LETTER #5",
+      "length": 4545,
+      "filename": "30_ LETTER 5.txt"
+    },
+    {
+      "chunk_num": 31,
+      "heading": "## LETTER #6",
+      "length": 2614,
+      "filename": "31_ LETTER 6.txt"
+    },
+    {
+      "chunk_num": 32,
+      "heading": "## LETTER #7",
+      "length": 2452,
+      "filename": "32_ LETTER 7.txt"
+    },
+    {
+      "chunk_num": 33,
+      "heading": "Letter #8",
+      "length": 1753,
+      "filename": "33_Letter 8.txt"
+    },
+    {
+      "chunk_num": 34,
+      "heading": "## APPENDIX A",
+      "length": 4139,
+      "filename": "34_ APPENDIX A.txt"
+    },
+    {
+      "chunk_num": 35,
+      "heading": "## APPENDIX B",
+      "length": 2942,
+      "filename": "35_ APPENDIX B.txt"
+    },
+    {
+      "chunk_num": 36,
+      "heading": "## APPENDIX C",
+      "length": 1321,
+      "filename": "36_ APPENDIX C.txt"
+    },
+    {
+      "chunk_num": 37,
+      "heading": "## APPENDIX D -SIGNATORY EMPLOYERS",
+      "length": 34602,
+      "filename": "37_ APPENDIX D -SIGNATORY EMPLOYERS.txt"
+    },
+    {
+      "chunk_num": 38,
+      "heading": "## ADDRESSES",
+      "length": 783,
+      "filename": "38_ ADDRESSES.txt"
+    }
+  ]
+}

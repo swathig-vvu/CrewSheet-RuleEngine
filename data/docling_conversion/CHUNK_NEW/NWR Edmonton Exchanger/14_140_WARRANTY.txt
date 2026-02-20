@@ -1,0 +1,32 @@
+## 14.0 WARRANTY
+
+- 14.1 Warranty for Goods and Services - Warranty does not include normal rework for work done as per current industry standards
+- (a) Supplier represents and warrants to Owner that all Goods supplied hereunder and the delivery of all Goods shall:
+- (i) be without fault, defect or deficiency (latent or otherwise);
+- (ii) be free from Liens;
+- (iii) be of the best available design, materials, quality and workmanship;
+- (iv) be new, unless specified in the Purchase Order;
+- (v) be fit, sufficient and safe for use for their ordinary and intended purpose;
+- (vi) be in strict conformance with the Contract Documents; and
+- (vii) conform to the standard of care set forth in Article 4.0 (Provision of Work).
+
+<!-- image -->
+
+- (b) Supplier represents and warrants to Owner that all Services provided hereunder shall be:
+- (i) Material free from defects and deficiencies in workmanship and materials;
+- (ii) performed in a good and workmanlike manner in accordance with the provisions of this Contract; and
+- (iii) performed in a safe and environmentally sound manner;
+- (iv) free from Liens;
+- (c) performed in accordance with the standard of care set forth in Article 4.0 (Provision of Work).The foregoing warranties are in addition to all other warranties and conditions as may be expressed or implied  at  law  or  equity.    All  warranties  shall  remain  in  effect  notwithstanding  termination  of  this Contract or any Purchase Order.  On Owner's request, Supplier shall either assign to Owner, or enforce for its benefit, warranties granted by manufacturer or Subcontractor.
+
+## 14.2 Warranty Period
+
+Supplier's warranty for all Goods and Services provided pursuant to this Contract shall apply throughout the term of this Contract and for a period ending twenty four (24) months from the date the Goods have been delivered  and  accepted  or,  in  the  case  of  Services,  twenty  four  (24)  months  from  the  completion  of  the Services (the " Warranty Period ").
+
+## 14.3 Warranty Work
+
+- (a) If  during  the  Warranty  Period,  any  part  or  all  of  the  Goods  or  Services  are  found  not  to  be  in accordance with the warranties provided herein, Supplier shall, upon written notice from Owner, at no additional cost to Owner, promptly undertake such steps in respect of such defective work as are necessary to rectify such defect or failure (the " Warranty Work ") and any loss or damage to the Work or the Refinery caused by such defect or failure and all such costs incurred in connection therewith shall be to the account of Supplier.
+- (b) Where  Supplier,  when  requested  by  Owner,  does  not  promptly  undertake  such  steps  as  are necessary  to  rectify  the  defect  or  failure  and  any  loss  or  damage  to  the  Work  or  the  Refinery caused by the defect or failure,  then  Owner  has  the  right to  undertake such steps and Supplier shall reimburse Owner for all incurred in remedying such defect or failure and any loss or damage to the Work or the Refinery caused by such defect or failure.
+- (c) All  Warranty  Work  shall  itself  be  warranted  by  Supplier  on  terms  identical  to  those  specified  in Section 14.1 for a period ending on the later of:
+- (i) the end of the Warranty Period; and
+- (ii) two (2) years from the date that the Warranty Work was performed.

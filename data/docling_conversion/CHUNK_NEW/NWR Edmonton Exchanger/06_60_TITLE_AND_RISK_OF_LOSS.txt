@@ -1,0 +1,22 @@
+## 6.0 TITLE AND RISK OF LOSS
+
+## 6.1 Title and Risk of Loss of Goods
+
+Except as otherwise provided herein, all Goods furnished by Supplier hereunder shall become the property of Owner upon any payment therefor or upon delivery thereof, whichever occurs earlier.  Notwithstanding the  foregoing,  Supplier  shall  be  responsible  for  and  shall  bear  any  and  all  risk  of  loss  or  damage  to  the Goods until delivery thereof in accordance with the delivery provisions of this Contract.  Upon such delivery, Supplier  shall  cease  to  bear  the  risk  of  loss  or  damage,  provided  however,  that  any  loss  or  damage, whenever  occurring,  which  results  from  Supplier's  failure  to  comply  with  the  packing  and  shipping instructions set forth in the Purchase Order, shall be borne by Supplier.  Any transfer of title to the Goods shall  be  without  prejudice  to  the  Owner's  right  to  refuse  the  Goods  in  case  of  non-conformity  with  the requirements of the Contract.
+
+## 6.2 Title and Risk of Loss of Services
+
+Title to any Services rendered pursuant to this Contract shall pass to Owner upon the earlier of delivery of the Services, or the work product related thereto, to Owner or any payment by Owner therefor provided that the risk of loss of the Services, or the work product related thereto, in Supplier's possession shall remain with Supplier until the same has been delivered to Owner.
+
+## 6.3 Representation Regarding Title to the Work
+
+- (a) Supplier hereby warrants that, at the time title passes hereunder, Supplier shall:
+- (i) be the lawful owner of the Work;
+- (ii) deliver title to the Work free and clear of any defects in title or any Lien thereon; and
+- (iii) have the legal right to convey and transfer title to the Work.
+
+<!-- image -->
+
+Such warranties and obligations of Supplier shall apply regardless of whether the Work, or any component thereof, constitutes real or personal property or fixtures or mixed real and personal property.
+
+- (b) Supplier shall, at no additional expense to Owner, indemnify and hold Owner Group harmless, and warrant  and  defend  title,  against  the  claims  and  demands  of  all  Persons  arising  out  of  or  in connection with performance of provision of the Work including taking all such actions as may be required to discharge any Lien.

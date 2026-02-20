@@ -1,0 +1,222 @@
+{
+  "source_file": "NWR Edmonton Exchanger.md",
+  "total_chunks": 35,
+  "toc_entries": 33,
+  "learned_keywords": [],
+  "numbering_types": [
+    "letter",
+    "numeric"
+  ],
+  "chunks": [
+    {
+      "chunk_num": 1,
+      "heading": "1.0 DEFINITIONS",
+      "length": 11960,
+      "filename": "01_10 DEFINITIONS.txt"
+    },
+    {
+      "chunk_num": 2,
+      "heading": "2.0 CONTRACT DOCUMENTS AND PRECEDENCE",
+      "length": 2378,
+      "filename": "02_20 CONTRACT DOCUMENTS AND PRECEDENCE.txt"
+    },
+    {
+      "chunk_num": 3,
+      "heading": "3.0 TERM",
+      "length": 948,
+      "filename": "03_30 TERM.txt"
+    },
+    {
+      "chunk_num": 4,
+      "heading": "4.0 PROVISION OF WORK",
+      "length": 4352,
+      "filename": "04_40 PROVISION OF WORK.txt"
+    },
+    {
+      "chunk_num": 5,
+      "heading": "5.0 CHANGES TO THE WORK",
+      "length": 3297,
+      "filename": "05_50 CHANGES TO THE WORK.txt"
+    },
+    {
+      "chunk_num": 6,
+      "heading": "6.0 TITLE AND RISK OF LOSS",
+      "length": 2337,
+      "filename": "06_60 TITLE AND RISK OF LOSS.txt"
+    },
+    {
+      "chunk_num": 7,
+      "heading": "7.0 SUPPLIER REPRESENTATIONS",
+      "length": 1369,
+      "filename": "07_70 SUPPLIER REPRESENTATIONS.txt"
+    },
+    {
+      "chunk_num": 8,
+      "heading": "8.0 OWNERSHIP OF DOCUMENTS",
+      "length": 1765,
+      "filename": "08_80 OWNERSHIP OF DOCUMENTS.txt"
+    },
+    {
+      "chunk_num": 9,
+      "heading": "9.0 SUPPLIER'S EQUIPMENT AND MATERIALS",
+      "length": 1478,
+      "filename": "09_90 SUPPLIERS EQUIPMENT AND MATERIALS.txt"
+    },
+    {
+      "chunk_num": 10,
+      "heading": "10.0 LIENS",
+      "length": 2084,
+      "filename": "10_100 LIENS.txt"
+    },
+    {
+      "chunk_num": 11,
+      "heading": "11.0 INSURANCE",
+      "length": 7959,
+      "filename": "11_110 INSURANCE.txt"
+    },
+    {
+      "chunk_num": 12,
+      "heading": "12.0 INSPECTION AND EXPEDITING",
+      "length": 4006,
+      "filename": "12_120 INSPECTION AND EXPEDITING.txt"
+    },
+    {
+      "chunk_num": 13,
+      "heading": "13.0 LIABILITY AND INDEMNITY",
+      "length": 6201,
+      "filename": "13_130 LIABILITY AND INDEMNITY.txt"
+    },
+    {
+      "chunk_num": 14,
+      "heading": "14.0 WARRANTY",
+      "length": 3343,
+      "filename": "14_140 WARRANTY.txt"
+    },
+    {
+      "chunk_num": 15,
+      "heading": "15.0 TERMINATION",
+      "length": 5789,
+      "filename": "15_150 TERMINATION.txt"
+    },
+    {
+      "chunk_num": 16,
+      "heading": "16.0 SUSPENSION",
+      "length": 2655,
+      "filename": "16_160 SUSPENSION.txt"
+    },
+    {
+      "chunk_num": 17,
+      "heading": "17.0 INTELLECTUAL PROPERTY",
+      "length": 4301,
+      "filename": "17_170 INTELLECTUAL PROPERTY.txt"
+    },
+    {
+      "chunk_num": 18,
+      "heading": "18.0 CONFIDENTIALITY AND PUBLICITY",
+      "length": 6066,
+      "filename": "18_180 CONFIDENTIALITY AND PUBLICITY.txt"
+    },
+    {
+      "chunk_num": 19,
+      "heading": "19.0 SUBCONTRACTS",
+      "length": 1682,
+      "filename": "19_190 SUBCONTRACTS.txt"
+    },
+    {
+      "chunk_num": 20,
+      "heading": "20.0 EXCUSED NON-PERFORMANCE",
+      "length": 1349,
+      "filename": "20_200 EXCUSED NON-PERFORMANCE.txt"
+    },
+    {
+      "chunk_num": 21,
+      "heading": "21.0 ETHICAL CONDUCT",
+      "length": 691,
+      "filename": "21_210 ETHICAL CONDUCT.txt"
+    },
+    {
+      "chunk_num": 22,
+      "heading": "22.0 DISPUTE RESOLUTION PROCEDURE",
+      "length": 4566,
+      "filename": "22_220 DISPUTE RESOLUTION PROCEDURE.txt"
+    },
+    {
+      "chunk_num": 23,
+      "heading": "23.0 MATERIALS MANAGEMENT &amp; HAZARDOUS SUBSTANCES",
+      "length": 1103,
+      "filename": "23_230 MATERIALS MANAGEMENT amp HAZARDOUS SUBSTANCES.txt"
+    },
+    {
+      "chunk_num": 24,
+      "heading": "24.0 PRICING, INVOICING AND PAYMENT",
+      "length": 1905,
+      "filename": "24_240 PRICING INVOICING AND PAYMENT.txt"
+    },
+    {
+      "chunk_num": 25,
+      "heading": "25.0 TAXES",
+      "length": 5964,
+      "filename": "25_250 TAXES.txt"
+    },
+    {
+      "chunk_num": 26,
+      "heading": "26.0 WITHHOLDING OF PAYMENT",
+      "length": 1658,
+      "filename": "26_260 WITHHOLDING OF PAYMENT.txt"
+    },
+    {
+      "chunk_num": 27,
+      "heading": "27.0 SET-OFF AND BACKCHARGES",
+      "length": 641,
+      "filename": "27_270 SET-OFF AND BACKCHARGES.txt"
+    },
+    {
+      "chunk_num": 28,
+      "heading": "28.0 RIGHT TO AUDIT",
+      "length": 3789,
+      "filename": "28_280 RIGHT TO AUDIT.txt"
+    },
+    {
+      "chunk_num": 29,
+      "heading": "29.0 DELIVERY",
+      "length": 1492,
+      "filename": "29_290 DELIVERY.txt"
+    },
+    {
+      "chunk_num": 30,
+      "heading": "30.0 KEY PERSONNEL",
+      "length": 268,
+      "filename": "30_300 KEY PERSONNEL.txt"
+    },
+    {
+      "chunk_num": 31,
+      "heading": "31.0 PERFORMANCE SECURITY",
+      "length": 936,
+      "filename": "31_310 PERFORMANCE SECURITY.txt"
+    },
+    {
+      "chunk_num": 32,
+      "heading": "32.0 SECURITY",
+      "length": 949,
+      "filename": "32_320 SECURITY.txt"
+    },
+    {
+      "chunk_num": 33,
+      "heading": "33.0 GOVERNING LAW",
+      "length": 1522,
+      "filename": "33_330 GOVERNING LAW.txt"
+    },
+    {
+      "chunk_num": 34,
+      "heading": "34.0 NOTICES",
+      "length": 1364,
+      "filename": "34_340 NOTICES.txt"
+    },
+    {
+      "chunk_num": 35,
+      "heading": "35.0 MISCELLANEOUS",
+      "length": 146325,
+      "filename": "35_350 MISCELLANEOUS.txt"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+## 13.0 LIABILITY AND INDEMNITY
+
+## 13.1 Breach of Contract
+
+Supplier shall defend, indemnify, release, waive all rights of legal recourse and hold each member of Owner Group harmless from and against all Losses arising out of or related in any way to: (i) the negligence; or (ii) breach of contract; of the Supplier arising out of or incidental to the performance or non-performance of the Contract or the Work by any member of the Supplier Group.
+
+## 13.2 Supplier Group Personnel and Property
+
+Supplier shall defend, indemnify, release, waive all rights of legal recourse and hold each member of Owner Group harmless from and against all Losses  arising  out  of  or  related  in  any  way  to  the  injury,  illness  or death, or alleged injury, illness or death, of any member of Supplier Group or damage to Supplier Group property occurring in connection with this Contract, regardless of the cause, including, without limitation, the sole, joint or concurrent negligence, strict liability, breach of duty (statutory or otherwise), breach of warranty, breach of contract, or any other legal fault or responsibility of any member of Owner Group.
+
+## 13.3 Third Party Claims
+
+- (a) Supplier shall defend, indemnify, release, waive all rights of legal recourse and hold each member of Owner Group harmless from and against all Losses arising out of or related in any way to the injury,  illness  or  death  of  a  third  party  or  the  damage  to  or  loss  of  any  property  of  a  third  party occurring in connection with the Contract, to the extent caused by the fault or negligence of any member of Supplier Group, regardless of the timing or nature of such Losses or the identity of the claimant, including the third party themselves.
+- (b) Owner shall defend, indemnify, release, waive all rights of legal recourse and hold each member of Supplier Group harmless from and against all Losses arising out of or related in any way to the injury,  illness  or  death  of  a  third  party  or  the  damage  to  or  loss  of  any  property  of  a  third  party occurring in connection with the Contract, to the extent caused by the fault or negligence of any member of Owner Group regardless of the timing or nature of such Losses or the identity of the claimant, including the third party themselves.
+
+## 13.4 Indemnity for Non-Compliance with Applicable Laws
+
+Without  limiting  any  other  indemnity  provision  of  the  Contract,  Supplier  shall  be  liable  for,  and  shall indemnify,  defend,  release,  waive  all  rights  of  legal  recourse  and  hold  Owner  Group  harmless  from  all Losses suffered or  incurred  by  them  arising  directly  out  of  any  failure  by  Supplier  Group  to  comply  with Applicable Laws.
+
+## 13.5 Damage to Owner Property
+
+Supplier shall be liable for, and shall defend, indemnify, release, waive all rights of legal recourse and hold each member of Owner Group harmless from and against all Losses arising out of or related in any way to physical damage to or loss of:
+
+- (a) Owner property, whether at the Site, incorporated or not incorporated into the Refinery, in transit to the Site, or in storage on or off the Site, and including any other Owner property in respect of the Refinery (collectively, the " Owner Property ") to the extent such loss, claim or damage is caused by the fault or negligence of any member of Supplier Group, or the failure of any member of Supplier Group to properly perform the obligations of Supplier set forth in the Contract; and
+- (b) Supplier Group property, owned, leased or rented, regardless of the cause of the losses, claims and  damages,  including  the  sole,  joint  or  concurrent  negligence,  strict  liability,  breach  of  duty (statutory  or  otherwise),  breach  of  warranty,  breach  of  contract,  or  any  other  legal  fault  or responsibility of Owner.
+
+## 13.6 Hazardous Substances
+
+Supplier shall be liable for, and shall defend, indemnify, release, waive all right or legal recourse and hold each member of Owner Group harmless from and against any and all Losses (including, without limitation,
+
+<!-- image -->
+
+costs and expense in connection with control, containment, clean-up and removal of Hazardous Substances and fees, including consulting and expert fees) from the release of Hazardous Substances, to the extent contributed  to,  or  caused  by,  the  fault,  negligent  acts  or  negligent  omissions  of  any  member  of  Supplier Group.
+
+## 13.7 No Consequential Liability
+
+Consequential Damages shall mean loss of product or production, loss of revenue, loss of profits, loss of anticipated profits, loss of use, loss of business, loss of opportunity, increased costs of operation, claims of customers  or  indirect,  special  or  punitive  damages  arising  out  of  or  in  connection  with  this  Contract. Notwithstanding any other provision of this Contract, in no event shall:
+
+- (a) Owner Group be liable to Supplier Group for Consequential Damages howsoever arising; and
+- (b) Supplier Group be liable to Owner Group for Consequential Damages howsoever arising.
+
+## 13.8 Limit of Liability
+
+Supplier's total cumulative liability to Owner with respect to the Work and this Contract, excluding proceeds from Contractor's insurance required to be maintained pursuant to this Contract shall be limited to ten million dollars ($10,000,000), provided that such limit of liability shall not apply to any Losses:
+
+- (a) for personal injury, illness or death pursuant to s. 13.2 (Supplier Group Personnel and Property);
+- (b) for third party claims pursuant to s. 13.3(b) (Third Party Claims);
+- (c) for non-compliance with Applicable Laws pursuant to s. 13.4 (Indemnity for Non-Compliance with Applicable Laws);
+- (d) resulting  from  breach  of  Supplier  obligations  for  Hazardous  Substances  pursuant  to  s.  13.6 (Hazardous Substances);
+- (e) for performance of Warranty Work pursuant to s. 14.3 (Warranty Work);
+- (f) resulting from breach of third party Intellectual Property rights pursuant to Article 17.0 (Intellectual Property); or
+- (g) resulting  from  breach  of  confidentiality  obligations  pursuant  to  Article  18.0  (Confidentiality  and Publicity).

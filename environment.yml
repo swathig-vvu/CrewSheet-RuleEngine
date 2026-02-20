@@ -1,0 +1,28 @@
+name: vistavu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - numpy
+    - omegaconf
+    - opencv-python
+    - opencv-python-headless
+    - pillow
+    - timm
+    - torch
+    - torchvision
+    - transformers
+    - accelerate
+    - pymupdf
+    - google-generativeai
+    - langfuse
+    - ipykernel
+    - docling
+    - black
+    - isort
+    - flake8
+    - pytest
+    - python-dotenv
